@@ -1,7 +1,7 @@
 <OverlayData>
     <MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory name="guildname" isSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
-        <MarkerCategory name="version" isSeparator="1"  DisplayName="version: 0.1a 11.05.2022"/>
+        <MarkerCategory name="version" isSeparator="1"  DisplayName="version: 0.2a 12.05.2022"/>
         <MarkerCategory name="routes" DisplayName="Routes">
             <MarkerCategory name="easy" DisplayName="1 Star - Easy">
                 <MarkerCategory name="ascalon" DisplayName="Ascalon">    
@@ -1256,6 +1256,7 @@
         <!--Caves Easy-->
         <Trail trailData="Data/Trails/harathi_hinterland_skritt_cave_short.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.easy.kryta.harathi_hinterlands" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/hoelbrak_shelter_rock_easy.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.easy.shiverpeak_mountains.hoelbrak" fadeNear="6000" fadeFar="7000"/>
+        <Trail trailData="Data/Trails/malchor_leap_lyssa_temple.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_fyling.caves.easy.ruins_of_orr.malchors_leap" fadeNear="6000" fadeFar="7000"/>
         <!--Caves Medium-->
         <Trail trailData="Data/Trails/new_kaineng_city_sunjiang_lab.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.cantha.new_kaineng_city" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/brisban_wildland_skritt_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.maguuma_jungle.brisban_wildlands" fadeNear="6000" fadeFar="7000"/>
