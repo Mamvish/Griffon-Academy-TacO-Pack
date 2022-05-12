@@ -1252,12 +1252,16 @@
         <Trail trailData="Data/Trails/echovald_house_zu_heltzer.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.cantha.the_echovald_wilds" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
         <!--Routes Hard-->
+        <Trail trailData="Data/Trails/black_citadel_pain_route_longer_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/black_citadel_pain_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
+        <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route_incl_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
         <!--Caves Easy-->
+        <Trail trailData="crystal_oasis_destinys_gorge_kite_fight_easy.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.easy.crystal_desert.crystal_oasis" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/harathi_hinterland_skritt_cave_short.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.easy.kryta.harathi_hinterlands" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/hoelbrak_shelter_rock_easy.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.easy.shiverpeak_mountains.hoelbrak" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/malchor_leap_lyssa_temple.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_fyling.caves.easy.ruins_of_orr.malchors_leap" fadeNear="6000" fadeFar="7000"/>
         <!--Caves Medium-->
+        <Trail trailData="crystal_oasis_destinys_gorge_kite_fight_medium.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.crystal_desert.crystal_oasis" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/new_kaineng_city_sunjiang_lab.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.cantha.new_kaineng_city" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/brisban_wildland_skritt_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.maguuma_jungle.brisban_wildlands" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/harathi_hinterland_skritt_cave_long.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.kryta.harathi_hinterlands" fadeNear="6000" fadeFar="7000"/>
@@ -1266,17 +1270,21 @@
         <Trail trailData="Data/Trails/drizzlewood_caves.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.hard.shiverpeak_mountains.drizzlewood_coast" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/verdant_brink_shroom_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.heart_of_maguuma.verdant_brink" fadeNear="6000" fadeFar="7000"/>
         <!--Stunts Easy-->
+        <Trail trailData="Data/Trails/fields_of_ruin_ebonhawke_endurance_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/gendarran_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/grove_easy_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.maguuma_jungle.the_grove" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/divinity_reach_salma_district_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.kryta.divinitys_reach" fadeNear="6000" fadeFar="7000"/>
+        <Trail trailData="Data/Trails/black_citadel_pain_route_easy_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
         <!--Stunts Medium-->
         <!--Stunts Hard-->
+        <Trail trailData="Data/Trails/fields_of_ruin_ebonhawke_hard_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/auric_basin_raptor_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.hard.heart_of_maguuma.auric_basin" fadeNear="6000" fadeFar="7000"/>
         <!--Races Easy-->
         <!--Races Medium-->
         <!--Races Hard-->
     </POIs>
 </OverlayData>
+
 <!-- Overview
 #### ascalon ####
 black_citadel
