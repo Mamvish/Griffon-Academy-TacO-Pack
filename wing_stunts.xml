@@ -1,0 +1,14 @@
+<OverlayData>
+    <MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
+        <MarkerCategory name="stunts" DisplayName="Stunts">
+            <MarkerCategory name="easy" DisplayName="1 Star - Easy">
+            </MarkerCategory>
+            <MarkerCategory name="medium" DisplayName="2 Star - Medium">
+            </MarkerCategory>
+            <MarkerCategory name="hard" DisplayName="3 Star - Hard">
+            </MarkerCategory>
+            <MarkerCategory name="expert" DisplayName="4 Star - Expert">
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>

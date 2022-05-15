@@ -1,0 +1,79 @@
+#### ascalon ####
+black_citadel
+plains_of_ashford
+diessa_plateau
+fields_of_ruin
+blazeridge_steppes
+iron_marches
+fireheart_rise
+grothmar_valley
+
+#### cantha ####
+arborstone
+seitung_province
+new_kaineng_city
+the_echovald_wilds
+dragons_end
+thousand_seas_pavilion
+
+#### crystal_desert ####
+crystal_oasis
+desert_highlands
+domain_of_vabbi
+elon_riverlands
+the_desolation
+domain_of_istan
+domain_of_kourna
+dragonfall
+jahai_bluffs
+Sandswept_isles
+
+#### heart_of_maguuma ####
+dry_top
+the_silverwastes
+auric_basin
+dragons_stand
+tangled_depths
+verdant_brink
+bloodstone_fen
+draconis_mons
+ember_bay
+
+#### Kryta ####
+divinitys_reach
+lions_arch
+queensdale
+kessex_hills
+gendarran_fields
+harathi_hinterlands
+bloodtide_coast
+southsun_cove
+lake_doric
+
+#### maguuma_jungle ####
+rata_sum
+the_grove
+caledon_forest
+metrica_province
+brisban_wildlands
+sparkly_fen
+mount_maelstrom
+
+#### ruins_of_orr #### 
+straits_of_devastation
+malchors_leap
+cursed_shore
+sirens_landing
+
+#### shiverpeak_mountains ####
+hoelbrak
+wayfarer_foothills
+snowden_drifts
+lornars_pass
+dredgehaunt_cliffs
+timberline_falls
+frostgorge_sound
+bitterfrost_frontier
+thunderhead_peaks
+bjora_marches
+drizzlewood_coast
