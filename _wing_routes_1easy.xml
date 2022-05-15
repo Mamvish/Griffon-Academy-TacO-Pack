@@ -57,8 +57,9 @@
                 <MarkerCategory name="maguuma_jungle" DisplayName="Maguuma Jungle">    
                     <MarkerCategory name="rata_sum" DisplayName="Rata Sum"/>
                     <MarkerCategory name="the_grove" DisplayName="The Grove"/>
-                    <MarkerCategory name="caledon_forest" DisplayName="Caledon Forest"/>
+                    <MarkerCategory name="caledon_forest" DisplayName="Caledon Forest">
                         <MarkerCategory name="fort" DisplayName="Fort"/>
+                    </MarkerCategory>
                     <MarkerCategory name="metrica_province" DisplayName="Metrica Province"/>
                     <MarkerCategory name="brisban_wildlands" DisplayName="Brisban Wildlands"/>
                     <MarkerCategory name="sparkly_fen" DisplayName="Sparkfly Fen"/>
