@@ -1,7 +1,7 @@
 <OverlayData>
     <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory Name="guildname" IsSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
-        <MarkerCategory Name="version" IsSeparator="1"  DisplayName="version: 0.5a 16.05.2022"/>
+        <MarkerCategory Name="version" IsSeparator="1"  DisplayName="version: 0.6.1a 16.05.2022"/>
         <MarkerCategory Name="routes" displayName="Routes">
         </MarkerCategory>
         <MarkerCategory Name="stunts" DisplayName="Stunts">
