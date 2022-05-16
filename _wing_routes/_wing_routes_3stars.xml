@@ -1,5 +1,6 @@
 <OverlayData>
     <POIs>
+        <Trail trailData="Data/Trails/fields_of_ruin_ebonhawke_hard_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/black_citadel_pain_route_longer_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/black_citadel_pain_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route_incl_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>

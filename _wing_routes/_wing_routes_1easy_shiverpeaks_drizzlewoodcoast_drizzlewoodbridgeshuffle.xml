@@ -1,0 +1,26 @@
+<OverlayData>
+	<MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory name="routes" DisplayName="Routes">
+			<MarkerCategory name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
+						<MarkerCategory name="drizzlewoodbridgeshuffle" DisplayName="Drizzlewood Bridge-Shuffle">
+							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
+								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_1stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" iconFile="Data/Markers/griffon.png" fadeNear="4000" fadeFar="6000"/>
+							</MarkerCategory>
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>
+		<!--Drizzlewood Coast - Drizzlewood Bridge-Shuffle-->
+		<POI MapID="1371" xpos="236.056" ypos="92.6923" zpos="-669.676" type="griffon_flying.routes.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewoodbridgeshuffle.togglemarkers.start" iconFile="Data/Markers/wingstart_1stars.png" GUID="CBD1mDSHIUiwSxRZSRxWDw=="/>
+		<POI MapID="1371" xpos="242.703" ypos="92.9352" zpos="-670.164" type="griffon_flying.routes.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewoodbridgeshuffle.togglemarkers.griffon" iconFile="Data/Markers/griffon.png" GUID="IFg69abBVEyFugW1/ra5hQ=="/>
+		<POI MapID="1371" xpos="329.577" ypos="83.5001" zpos="-633.74" type="griffon_flying.routes.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewoodbridgeshuffle.togglemarkers.finish" iconFile="Data/Markers/wingfinish.png" GUID="f/9dBTQ9skK6rMwjDisIOA=="/>
+		<Trail GUID="Eykzh15aTkm74jlomnP6yg==" alpha="0.9" fadeNear="4000" fadeFar="5000" color="74c580" type="griffon_flying.routes.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewoodbridgeshuffle" trailData="Data/Trails/route_1star_shiverpeaks_drizzlewood_01.trl" animSpeed="0.2" texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

@@ -1,6 +1,0 @@
-<OverlayData>
-    <POIs>
-        <Trail trailData="Data/Trails/fields_of_ruin_ebonhawke_hard_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/auric_basin_raptor_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.hard.heart_of_maguuma.auric_basin" fadeNear="6000" fadeFar="7000"/>
-    </POIs>
-</OverlayData>

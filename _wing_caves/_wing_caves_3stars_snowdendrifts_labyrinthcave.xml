@@ -1,0 +1,30 @@
+<OverlayData>
+	<MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory name="caves" DisplayName="Caves">
+			<MarkerCategory name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts">
+						<MarkerCategory name="labyrinthcave" DisplayName="Labyrinth Cave">
+							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
+								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_3stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="springer" DisplayName="Toggle Springer" iconFile="Data/Markers/springer.png" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" iconFile="Data/Markers/griffon.png" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="sharpturnleft" DisplayName="SharpTurnLeft" iconFile="Data/Markers/sharpturnleft.png" fadeNear="4000" fadeFar="6000"/>
+							</MarkerCategory>
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Snowden Drifts - Labyrinth Cave-->
+		<POI MapID="31" xpos="792.888" ypos="141.591" zpos="456.164" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave.togglemarkers.start" GUID="TkXQlXLHTUqS16Jr3bMazw=="/>
+		<POI MapID="31" xpos="795.132" ypos="142.517" zpos="452.053" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave.togglemarkers.springer" GUID="HAex8bGZO0CZS3dIR3lF4w=="/>
+		<POI MapID="31" xpos="798.675" ypos="169.433" zpos="448.909" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave.togglemarkers.griffon" GUID="pOymw9n/Xkeq3zmyTFL+UA=="/>
+		<POI MapID="31" xpos="973.825" ypos="55.1112" zpos="453.786" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave.togglemarkers.sharpturnleft" GUID="jdmufBPE0EGRgV2vr6YSdQ=="/>
+		<POI MapID="31" xpos="677.086" ypos="45.9034" zpos="445.621" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave.togglemarkers.finish" GUID="HuyjHDYk30WWgQlBeTygIg=="/>
+		<Trail GUID="NozXRQUMZESpckyct97+bQ==" alpha="0.9" fadeNear="4000" fadeFar="5000" color="ff1133" trailData="Data/Trails/route_3star_shiverpeaks_snowdendrifts_01.trl" type="griffon_flying.caves.hard.shiverpeak_mountains.snowden_drifts.labyrinthcave" animSpeed="0.2" texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

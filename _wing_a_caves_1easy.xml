@@ -1,7 +1,7 @@
 <OverlayData>
     <MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory name="caves" DisplayName="Caves">
-            <MarkerCategory name="medium" DisplayName="2 Star - Medium">
+            <MarkerCategory name="easy" DisplayName="1 Star - Easy">
                 <!-- Ascalon -->
                 <MarkerCategory name="ascalon" DisplayName="Ascalon">    
                     <MarkerCategory name="black_citadel" DisplayName="Black Citadel">
@@ -38,17 +38,10 @@
                 </MarkerCategory>
                 <!-- Crystal Desert -->
                 <MarkerCategory name="crystal_desert" DisplayName="Crystal Desert">    
-                    <MarkerCategory name="crystal_oasis" DisplayName="Crystal Oasis"/>
-					<MarkerCategory name="desert_highlands" DisplayName="Desert Highlands">
-						<MarkerCategory name="palace_of_aban" DisplayName="Palace of Aban">
-							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
-								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_2stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="springer" DisplayName="Toggle Springer" iconFile="Data/Markers/springer.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" iconFile="Data/Markers/griffon.png" fadeNear="4000" fadeFar="6000"/>
-							</MarkerCategory>
-						</MarkerCategory>
-					</MarkerCategory>
+                    <MarkerCategory name="crystal_oasis" DisplayName="Crystal Oasis">
+                    </MarkerCategory>
+                    <MarkerCategory name="desert_highlands" DisplayName="Desert Highlands">
+                    </MarkerCategory>
                     <MarkerCategory name="domain_of_vabbi" DisplayName="Domain of Vabbi">
                     </MarkerCategory>
                     <MarkerCategory name="elon_riverlands" DisplayName="Elon Riverlands">
@@ -142,8 +135,8 @@
                     </MarkerCategory>
                     <MarkerCategory name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
                     </MarkerCategory>
-					<MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts">
-					</MarkerCategory>
+                    <MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts">
+                    </MarkerCategory>
                     <MarkerCategory name="lornars_pass" DisplayName="Lornar's Pass">
                     </MarkerCategory>
                     <MarkerCategory name="dredgehaunt_cliffs" DisplayName="Dredgehaunt Cliffs">
@@ -158,8 +151,15 @@
                     </MarkerCategory>
                     <MarkerCategory name="bjora_marches" DisplayName="Bjora Marches">
                     </MarkerCategory>
-                    <MarkerCategory name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
-                    </MarkerCategory>
+					<MarkerCategory name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
+						<MarkerCategory name="drizzlewoodbridgeshuffle" DisplayName="Drizzlewood Bridge-Shuffle">
+							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
+								<MarkerCategory name="start" DisplayName="Toggle Start" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
+								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" fadeNear="4000" fadeFar="6000"/>
+							</MarkerCategory>
+						</MarkerCategory>
+					</MarkerCategory>
                 </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>

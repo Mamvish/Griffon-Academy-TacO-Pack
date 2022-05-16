@@ -134,14 +134,6 @@
                     <MarkerCategory name="hoelbrak" DisplayName="Hoelbrak"/>
                     <MarkerCategory name="wayfarer_foothills" DisplayName="Wayfarer Foothills"/>
 					<MarkerCategory name="snowdendrifts" DisplayName="Frostgorge Sound">
-						<MarkerCategory name="waterygrave" DisplayName="Watery Grave">
-							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
-								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_4stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="springer" DisplayName="Toggle Springer" iconFile="Data/Markers/springer.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="sharpturnright" DisplayName="SharpTurnRight" iconFile="Data/Markers/sharpturnright.png" fadeNear="4000" fadeFar="6000"/>
-							</MarkerCategory>
-						</MarkerCategory>
 					</MarkerCategory>
                     <MarkerCategory name="lornars_pass" DisplayName="Lornar's Pass">
                     </MarkerCategory>

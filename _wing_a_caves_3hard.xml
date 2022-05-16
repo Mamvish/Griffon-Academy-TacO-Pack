@@ -114,15 +114,6 @@
                     <MarkerCategory name="brisban_wildlands" DisplayName="Brisban Wildlands">
                     </MarkerCategory>
 					<MarkerCategory name="sparkly_fen" DisplayName="Sparkfly Fen">
-						<MarkerCategory name="cauliflowercave" DisplayName="Cauliflower Cave">
-							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
-								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_3stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="springer" DisplayName="Toggle Springer" iconFile="Data/Markers/springer.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" iconFile="Data/Markers/griffon.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="sharpturnleft" DisplayName="SharpTurnLeft" iconFile="Data/Markers/sharpturnleft.png" fadeNear="4000" fadeFar="6000"/>
-							</MarkerCategory>
-						</MarkerCategory>
 					</MarkerCategory>
                     <MarkerCategory name="mount_maelstrom" DisplayName="Mount Maelstrom">
                     </MarkerCategory>
@@ -145,15 +136,6 @@
                     <MarkerCategory name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
                     </MarkerCategory>
 					<MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts">
-						<MarkerCategory name="labyrinthcave" DisplayName="Labyrinth Cave">
-							<MarkerCategory name="togglemarkers" DisplayName="Toggle Markers">
-								<MarkerCategory name="start" DisplayName="Toggle Start" iconFile="Data/Markers/wingstart_3stars.png" iconSize="1.5" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="finish" DisplayName="Toggle Finish" iconFile="Data/Markers/wingfinish.png" iconSize="1.8" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="springer" DisplayName="Toggle Springer" iconFile="Data/Markers/springer.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="griffon" DisplayName="Toggle Griffon" iconFile="Data/Markers/griffon.png" fadeNear="4000" fadeFar="6000"/>
-								<MarkerCategory name="sharpturnleft" DisplayName="SharpTurnLeft" iconFile="Data/Markers/sharpturnleft.png" fadeNear="4000" fadeFar="6000"/>
-							</MarkerCategory>
-						</MarkerCategory>
 					</MarkerCategory>
                     <MarkerCategory name="lornars_pass" DisplayName="Lornar's Pass">
                     </MarkerCategory>
