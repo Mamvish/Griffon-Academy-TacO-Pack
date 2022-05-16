@@ -1,0 +1,9 @@
+<OverlayData>
+	<POIs>
+		<!--Drizzlewood Coast - Drizzlewood Bridge-Shuffle-->
+		<POI MapID="1371" xpos="236.056" ypos="92.6923" zpos="-669.676" type="griffon_flying.caves.easy.shiverpeak_mountains.drizzlewood_coast.labyrinthcave.togglemarkers.start" GUID="CBD1mDSHIUiwSxRZSRxWDw=="/>
+		<POI MapID="1371" xpos="242.703" ypos="92.9352" zpos="-670.164" type="griffon_flying.caves.easy.shiverpeak_mountains.drizzlewood_coast.labyrinthcave.togglemarkers.griffon" GUID="IFg69abBVEyFugW1/ra5hQ=="/>
+		<POI MapID="1371" xpos="329.577" ypos="83.5001" zpos="-633.74" type="griffon_flying.caves.easy.shiverpeak_mountains.drizzlewood_coast.labyrinthcave.togglemarkers.finish" GUID="f/9dBTQ9skK6rMwjDisIOA=="/>
+		<Trail GUID="Eykzh15aTkm74jlomnP6yg==" alpha="0.9" fadeNear="4000" fadeFar="5000" color="74c580" trailData="Data/Trails/route_1star_shiverpeaks_drizzlewood_01.trl" animSpeed="0.2" texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

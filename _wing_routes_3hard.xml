@@ -2,175 +2,159 @@
     <MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory name="routes" DisplayName="Routes">
             <MarkerCategory name="hard" DisplayName="3 Star - Hard">
+                <!-- Ascalon -->
                 <MarkerCategory name="ascalon" DisplayName="Ascalon">    
-                    <MarkerCategory name="black_citadel" DisplayName="Black Citadel"/>
-                    <MarkerCategory name="plains_of_ashford" DisplayName="Plains of Ashford"/>
-                    <MarkerCategory name="diessa_plateau" DisplayName="Diessa Plateau"/>
-                    <MarkerCategory name="fields_of_ruin" DisplayName="Fields of Ruin"/>
-                    <MarkerCategory name="blazeridge_steppes" DisplayName="Blazeridge Steppes"/>
-                    <MarkerCategory name="iron_marches" DisplayName="Iron Marches"/>
-                    <MarkerCategory name="fireheart_rise" DisplayName="Fireheart Rise"/>
-                    <MarkerCategory name="grothmar_valley" DisplayName="Grothmar Valley"/>
+                    <MarkerCategory name="black_citadel" DisplayName="Black Citadel">
+                    </MarkerCategory>
+                    <MarkerCategory name="plains_of_ashford" DisplayName="Plains of Ashford">
+                    </MarkerCategory>
+                    <MarkerCategory name="diessa_plateau" DisplayName="Diessa Plateau">
+                    </MarkerCategory>
+                    <MarkerCategory name="fields_of_ruin" DisplayName="Fields of Ruin">
+                    </MarkerCategory>
+                    <MarkerCategory name="blazeridge_steppes" DisplayName="Blazeridge Steppes">
+                    </MarkerCategory>
+                    <MarkerCategory name="iron_marches" DisplayName="Iron Marches">
+                    </MarkerCategory>
+                    <MarkerCategory name="fireheart_rise" DisplayName="Fireheart Rise">
+                    </MarkerCategory>
+                    <MarkerCategory name="grothmar_valley" DisplayName="Grothmar Valley">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Cantha -->
                 <MarkerCategory name="cantha" DisplayName="Cantha"> 
-                    <MarkerCategory name="arborstone" DisplayName="Arborstone"/>
-                    <MarkerCategory name="seitung_province" DisplayName="Seitung Province"/>
-                    <MarkerCategory name="new_kaineng_city" DisplayName="New Kaineng City"/>
-                    <MarkerCategory name="the_echovald_wilds" DisplayName="The Echovald Wilds"/>
-                    <MarkerCategory name="dragons_end" DisplayName="Dragon's End"/>
-                    <MarkerCategory name="thousand_seas_pavilion" DisplayName="Thousand Seas Pavilion"/>
+                    <MarkerCategory name="arborstone" DisplayName="Arborstone">
+                    </MarkerCategory>
+                    <MarkerCategory name="seitung_province" DisplayName="Seitung Province">
+                    </MarkerCategory>
+                    <MarkerCategory name="new_kaineng_city" DisplayName="New Kaineng City">
+                    </MarkerCategory>
+                    <MarkerCategory name="the_echovald_wilds" DisplayName="The Echovald Wilds">
+                    </MarkerCategory>
+                    <MarkerCategory name="dragons_end" DisplayName="Dragon's End">
+                    </MarkerCategory>
+                    <MarkerCategory name="thousand_seas_pavilion" DisplayName="Thousand Seas Pavilion">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Crystal Desert -->
                 <MarkerCategory name="crystal_desert" DisplayName="Crystal Desert">    
-                    <MarkerCategory name="crystal_oasis" DisplayName="Crystal Oasis"/>
-                    <MarkerCategory name="desert_highlands" DisplayName="Desert Highlands"/>
-                    <MarkerCategory name="domain_of_vabbi" DisplayName="Domain of Vabbi"/>
-                    <MarkerCategory name="elon_riverlands" DisplayName="Elon Riverlands"/>
-                    <MarkerCategory name="the_desolation" DisplayName="The Desolation"/>
-                    <MarkerCategory name="domain_of_istan" DisplayName="Domain of Istan"/>
-                    <MarkerCategory name="domain_of_kourna" DisplayName="Domain of Kourna"/>
-                    <MarkerCategory name="dragonfall" DisplayName="Dragonfall"/>
-                    <MarkerCategory name="jahai_bluffs" DisplayName="Jahai Bluffs"/>
-                    <MarkerCategory name="Sandswept_isles" DisplayName="Sandswept Isles"/>
+                    <MarkerCategory name="crystal_oasis" DisplayName="Crystal Oasis">
+                    </MarkerCategory>
+                    <MarkerCategory name="desert_highlands" DisplayName="Desert Highlands">
+                    </MarkerCategory>
+                    <MarkerCategory name="domain_of_vabbi" DisplayName="Domain of Vabbi">
+                    </MarkerCategory>
+                    <MarkerCategory name="elon_riverlands" DisplayName="Elon Riverlands">
+                    </MarkerCategory>
+                    <MarkerCategory name="the_desolation" DisplayName="The Desolation">
+                    </MarkerCategory>
+                    <MarkerCategory name="domain_of_istan" DisplayName="Domain of Istan">
+                    </MarkerCategory>
+                    <MarkerCategory name="domain_of_kourna" DisplayName="Domain of Kourna">
+                    </MarkerCategory>
+                    <MarkerCategory name="dragonfall" DisplayName="Dragonfall">
+                    </MarkerCategory>
+                    <MarkerCategory name="jahai_bluffs" DisplayName="Jahai Bluffs">
+                    </MarkerCategory>
+                    <MarkerCategory name="Sandswept_isles" DisplayName="Sandswept Isles">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Heart of Maguuma -->
                 <MarkerCategory name="heart_of_maguuma" DisplayName="Heart of Maguuma"> 
-                    <MarkerCategory name="dry_top" DisplayName="Dry Top"/>
-                    <MarkerCategory name="the_silverwastes" DisplayName="The Silverwastes"/>
-                    <MarkerCategory name="auric_basin" DisplayName="Auric Basin"/>
-                    <MarkerCategory name="dragons_stand" DisplayName="Dragon's Stand"/>
-                    <MarkerCategory name="tangled_depths" DisplayName="Tangled Depths"/>
-                    <MarkerCategory name="verdant_brink" DisplayName="Verdant Brink"/>
-                    <MarkerCategory name="bloodstone_fen" DisplayName="Bloodstone Fen"/>
-                    <MarkerCategory name="draconis_mons" DisplayName="Draconis Mons"/>
-                    <MarkerCategory name="ember_bay" DisplayName="Ember Bay"/>
+                    <MarkerCategory name="dry_top" DisplayName="Dry Top">
+                    </MarkerCategory>
+                    <MarkerCategory name="the_silverwastes" DisplayName="The Silverwastes">
+                    </MarkerCategory>
+                    <MarkerCategory name="auric_basin" DisplayName="Auric Basin">
+                    </MarkerCategory>
+                    <MarkerCategory name="dragons_stand" DisplayName="Dragon's Stand">
+                    </MarkerCategory>
+                    <MarkerCategory name="tangled_depths" DisplayName="Tangled Depths">
+                    </MarkerCategory>
+                    <MarkerCategory name="verdant_brink" DisplayName="Verdant Brink">
+                    </MarkerCategory>
+                    <MarkerCategory name="bloodstone_fen" DisplayName="Bloodstone Fen">
+                    </MarkerCategory>
+                    <MarkerCategory name="draconis_mons" DisplayName="Draconis Mons">
+                    </MarkerCategory>
+                    <MarkerCategory name="ember_bay" DisplayName="Ember Bay">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Kryta -->
                 <MarkerCategory name="kryta" DisplayName="Kryta"> 
-                    <MarkerCategory name="divinitys_reach" DisplayName="Divinity's Reach"/>
-                    <MarkerCategory name="lions_arch" DisplayName="Lion's Arch"/>
-                    <MarkerCategory name="queensdale" DisplayName="Queensdale"/>
-                    <MarkerCategory name="kessex_hills" DisplayName="Kessex Hills"/>
-                    <MarkerCategory name="gendarran_fields" DisplayName="Gendarran Fields"/>
-                    <MarkerCategory name="harathi_hinterlands" DisplayName="Harathi Hinterlands"/>
-                    <MarkerCategory name="bloodtide_coast" DisplayName="Bloodtide Coast"/>
-                    <MarkerCategory name="southsun_cove" DisplayName="Southsun Cove"/>
-                    <MarkerCategory name="lake_doric" DisplayName="Lake Doric"/>
+                    <MarkerCategory name="divinitys_reach" DisplayName="Divinity's Reach">
+                    </MarkerCategory>
+                    <MarkerCategory name="lions_arch" DisplayName="Lion's Arch">
+                    </MarkerCategory>
+                    <MarkerCategory name="queensdale" DisplayName="Queensdale">
+                    </MarkerCategory>
+                    <MarkerCategory name="kessex_hills" DisplayName="Kessex Hills">
+                    </MarkerCategory>
+                    <MarkerCategory name="gendarran_fields" DisplayName="Gendarran Fields">
+                    </MarkerCategory>
+                    <MarkerCategory name="harathi_hinterlands" DisplayName="Harathi Hinterlands">
+                    </MarkerCategory>
+                    <MarkerCategory name="bloodtide_coast" DisplayName="Bloodtide Coast">
+                    </MarkerCategory>
+                    <MarkerCategory name="southsun_cove" DisplayName="Southsun Cove">
+                    </MarkerCategory>
+                    <MarkerCategory name="lake_doric" DisplayName="Lake Doric">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Maguuma Jungle -->
                 <MarkerCategory name="maguuma_jungle" DisplayName="Maguuma Jungle">    
-                    <MarkerCategory name="rata_sum" DisplayName="Rata Sum"/>
-                    <MarkerCategory name="the_grove" DisplayName="The Grove"/>
-                    <MarkerCategory name="caledon_forest" DisplayName="Caledon Forest"/>
-                    <MarkerCategory name="metrica_province" DisplayName="Metrica Province"/>
-                    <MarkerCategory name="brisban_wildlands" DisplayName="Brisban Wildlands"/>
-                    <MarkerCategory name="sparkly_fen" DisplayName="Sparkfly Fen"/>
-                    <MarkerCategory name="mount_maelstrom" DisplayName="Mount Maelstrom"/>
+                    <MarkerCategory name="rata_sum" DisplayName="Rata Sum">
+                    </MarkerCategory>
+                    <MarkerCategory name="the_grove" DisplayName="The Grove">
+                    </MarkerCategory>
+                    <MarkerCategory name="caledon_forest" DisplayName="Caledon Forest">
+                    </MarkerCategory>
+                    <MarkerCategory name="metrica_province" DisplayName="Metrica Province">
+                    </MarkerCategory>
+                    <MarkerCategory name="brisban_wildlands" DisplayName="Brisban Wildlands">
+                    </MarkerCategory>
+					<MarkerCategory name="sparkly_fen" DisplayName="Sparkfly Fen">
+					</MarkerCategory>
+                    <MarkerCategory name="mount_maelstrom" DisplayName="Mount Maelstrom">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Ruins of Orr -->
                 <MarkerCategory name="ruins_of_orr" DisplayName="Ruins of Orr"> 
-                    <MarkerCategory name="straits_of_devastation" DisplayName="Straits of Devastation"/>
-                    <MarkerCategory name="malchors_leap" DisplayName="Malchor's Leap"/>
-                    <MarkerCategory name="cursed_shore" DisplayName="Cursed Shore"/>
-                    <MarkerCategory name="sirens_landing" DisplayName="Siren's Landing"/>
+                    <MarkerCategory name="straits_of_devastation" DisplayName="Straits of Devastation">
+                    </MarkerCategory>
+                    <MarkerCategory name="malchors_leap" DisplayName="Malchor's Leap">
+                    </MarkerCategory>
+                    <MarkerCategory name="cursed_shore" DisplayName="Cursed Shore">
+                    </MarkerCategory>
+                    <MarkerCategory name="sirens_landing" DisplayName="Siren's Landing">
+                    </MarkerCategory>
                 </MarkerCategory>
+                <!-- Shiverpeak Mountains -->
                 <MarkerCategory name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">    
-                    <MarkerCategory name="hoelbrak" DisplayName="Hoelbrak"/>
-                    <MarkerCategory name="wayfarer_foothills" DisplayName="Wayfarer Foothills"/>
-                    <MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts"/>
-                    <MarkerCategory name="lornars_pass" DisplayName="Lornar's Pass"/>
-                    <MarkerCategory name="dredgehaunt_cliffs" DisplayName="Dredgehaunt Cliffs"/>
-                    <MarkerCategory name="timberline_falls" DisplayName="Timberline Falls"/>
-                    <MarkerCategory name="frostgorge_sound" DisplayName="Frostgorge Sound"/>
-                    <MarkerCategory name="bitterfrost_frontier" DisplayName="Bitterfrost Frontier"/>
-                    <MarkerCategory name="thunderhead_peaks" DisplayName="Thunderhead Peaks"/>
-                    <MarkerCategory name="bjora_marches" DisplayName="Bjora Marches"/>
-                    <MarkerCategory name="drizzlewood_coast" DisplayName="Drizzlewood Coast"/>
+                    <MarkerCategory name="hoelbrak" DisplayName="Hoelbrak">
+                    </MarkerCategory>
+                    <MarkerCategory name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
+                    </MarkerCategory>
+					<MarkerCategory name="snowden_drifts" DisplayName="Snowden Drifts">
+					</MarkerCategory>
+                    <MarkerCategory name="lornars_pass" DisplayName="Lornar's Pass">
+                    </MarkerCategory>
+                    <MarkerCategory name="dredgehaunt_cliffs" DisplayName="Dredgehaunt Cliffs">
+                    </MarkerCategory>
+                    <MarkerCategory name="timberline_falls" DisplayName="Timberline Falls">
+                    </MarkerCategory>
+                    <MarkerCategory name="frostgorge_sound" DisplayName="Frostgorge Sound">
+                    </MarkerCategory>
+                    <MarkerCategory name="bitterfrost_frontier" DisplayName="Bitterfrost Frontier">
+                    </MarkerCategory>
+                    <MarkerCategory name="thunderhead_peaks" DisplayName="Thunderhead Peaks">
+                    </MarkerCategory>
+                    <MarkerCategory name="bjora_marches" DisplayName="Bjora Marches">
+                    </MarkerCategory>
+                    <MarkerCategory name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
+                    </MarkerCategory>
                 </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>
     </MarkerCategory>
-    <POIs>
-        <Trail trailData="Data/Trails/black_citadel_pain_route_longer_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/black_citadel_pain_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.ascalon.black_citadel" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route_incl_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.hard.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
-    </POIs>
 </OverlayData>
-
-<!-- Overview
-#### ascalon ####
-black_citadel
-plains_of_ashford
-diessa_plateau
-fields_of_ruin
-blazeridge_steppes
-iron_marches
-fireheart_rise
-grothmar_valley
-
-#### cantha ####
-arborstone
-seitung_province
-new_kaineng_city
-the_echovald_wilds
-dragons_end
-thousand_seas_pavilion
-
-#### crystal_desert ####
-crystal_oasis
-desert_highlands
-domain_of_vabbi
-elon_riverlands
-the_desolation
-domain_of_istan
-domain_of_kourna
-dragonfall
-jahai_bluffs
-Sandswept_isles
-
-#### heart_of_maguuma ####
-dry_top
-the_silverwastes
-auric_basin
-dragons_stand
-tangled_depths
-verdant_brink
-bloodstone_fen
-draconis_mons
-ember_bay
-
-#### Kryta ####
-divinitys_reach
-lions_arch
-queensdale
-kessex_hills
-gendarran_fields
-harathi_hinterlands
-bloodtide_coast
-southsun_cove
-lake_doric
-
-#### maguuma_jungle ####
-rata_sum
-the_grove
-caledon_forest
-metrica_province
-brisban_wildlands
-sparkly_fen
-mount_maelstrom
-
-#### ruins_of_orr #### 
-straits_of_devastation
-malchors_leap
-cursed_shore
-sirens_landing
-
-#### shiverpeak_mountains ####
-hoelbrak
-wayfarer_foothills
-snowden_drifts
-lornars_pass
-dredgehaunt_cliffs
-timberline_falls
-frostgorge_sound
-bitterfrost_frontier
-thunderhead_peaks
-bjora_marches
-drizzlewood_coast
-
--->

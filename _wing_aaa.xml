@@ -1,13 +1,13 @@
 <OverlayData>
     <MarkerCategory name="griffon_flying" DisplayName="Griffon Flying">
-        <MarkerCategory name="guildname" isSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
-        <MarkerCategory name="version" isSeparator="1"  DisplayName="version: 0.3a 15.05.2022"/>
+        <MarkerCategory name="guildname" IsSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
+        <MarkerCategory name="version" IsSeparator="1"  DisplayName="version: 0.4a 16.05.2022"/>
         <MarkerCategory name="routes" DisplayName="Routes">
         </MarkerCategory>
         <MarkerCategory name="stunts" DisplayName="Stunts">
         </MarkerCategory>
         <MarkerCategory name="caves" DisplayName="Caves">
         </MarkerCategory>
-        <MarkerCategory name="discord" isSeparator="1"  DisplayName="discord.gg/the-griffon-academy"/>
+        <MarkerCategory name="discord" IsSeparator="1"  DisplayName="discord.gg/the-griffon-academy"/>
     </MarkerCategory>
 </OverlayData>
