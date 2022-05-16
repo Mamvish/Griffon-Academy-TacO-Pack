@@ -3,5 +3,6 @@
         <Trail trailData="Data/Trails/grove_medium_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.maguuma_jungle.the_grove" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/echovald_house_zu_heltzer.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.cantha.the_echovald_wilds" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
+        <Trail trailData="Data/Trails/gendarran_fields_vigil_keep_route_2.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.medium.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
     </POIs>
 </OverlayData>
