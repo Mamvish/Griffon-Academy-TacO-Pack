@@ -5,11 +5,6 @@
 				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
 					<MarkerCategory Name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
 						<MarkerCategory Name="drizzlewood_bridge_shuffle" DisplayName="Drizzlewood Bridge-Shuffle">
-							<MarkerCategory Name="toggle_markers" DisplayName="Toggle Markers">
-								<MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
-								<MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
-								<MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
-							</MarkerCategory>
 						</MarkerCategory>
 					</MarkerCategory>
 				</MarkerCategory>
@@ -18,9 +13,9 @@
 	</MarkerCategory>
 	<POIs>
 		<!--Drizzlewood Coast - Drizzlewood Bridge-Shuffle-->
-		<POI MapID="1371" XPos="236.056" YPos="92.6923" ZPos="-669.676" Type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_bridge_shuffle.toggle_markers.start" GUID="CBD1mDSHIUiwSxRZSRxWDw=="/>
-		<POI MapID="1371" XPos="242.703" YPos="92.9352" ZPos="-670.164" Type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_bridge_shuffle.toggle_markers.griffon" GUID="IFg69abBVEyFugW1/ra5hQ=="/>
-		<POI MapID="1371" XPos="329.577" YPos="83.5001" ZPos="-633.74" Type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_bridge_shuffle.toggle_markers.finish" GUID="f/9dBTQ9skK6rMwjDisIOA=="/>
-		<Trail GUID="Eykzh15aTkm74jlomnP6yg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png" Type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_bridge_shuffle" TrailData="Data/Trails/stunts/stunts_1star_shiverpeakmountains_drizzlewoodcoast_drizzlewoodbridgeshuffle.trl"/>
+		<POI MapID="1371" XPos="236.056" YPos="92.6923" ZPos="-669.676" Type="griffon_flying.stunts.easy.shiverpeak_mountains.start" GUID="CBD1mDSHIUiwSxRZSRxWDw=="/>
+		<POI MapID="1371" XPos="242.703" YPos="92.9352" ZPos="-670.164" Type="griffon_flying.stunts.easy.shiverpeak_mountains.griffon" GUID="IFg69abBVEyFugW1/ra5hQ=="/>
+		<POI MapID="1371" XPos="329.577" YPos="83.5001" ZPos="-633.74" Type="griffon_flying.stunts.easy.shiverpeak_mountains.finish" GUID="f/9dBTQ9skK6rMwjDisIOA=="/>
+		<Trail TrailData="Data/Trails/stunts/stunts_1star_shiverpeakmountains_drizzlewoodcoast_drizzlewoodbridgeshuffle.trl" Type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_bridge_shuffle" GUID="Eykzh15aTkm74jlomnP6yg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

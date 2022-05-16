@@ -5,10 +5,6 @@
 				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
 					<MarkerCategory Name="auric_basin" DisplayName="Auric Basin">
 						<MarkerCategory Name="weeping_glade" DisplayName="Weeping Glade">
-							<MarkerCategory Name="toggle_markers" DisplayName="Toggle Markers">
-								<MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_medium.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
-								<MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
-							</MarkerCategory>
 						</MarkerCategory>
 					</MarkerCategory>
 				</MarkerCategory>
@@ -17,8 +13,8 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Auric Basin - Weeping Glade-->
-		<POI MapID="1043" XPos="587.433" YPos="364.765" ZPos="-231.19" Type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.weeping_glade.toggle_markers.start" GUID="bW9rkP+QjUmf1ulYqdLHQA=="/>
-		<POI MapID="1043" XPos="478.296" YPos="352.061" ZPos="-191.564" Type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.weeping_glade.toggle_markers.finish" GUID="eiCCKjRj1kGKp8t6GoVSIA=="/>
-		<Trail GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png" Type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.weeping_glade" TrailData="Data/Trails/stunts/stunts_2star_heartofmaguuma_auricbasin_weepingglade.trl"/>
+		<POI MapID="1043" XPos="587.433" YPos="364.765" ZPos="-231.19" Type="griffon_flying.stunts.medium.heart_of_maguuma.start" GUID="bW9rkP+QjUmf1ulYqdLHQA=="/>
+		<POI MapID="1043" XPos="478.296" YPos="352.061" ZPos="-191.564" Type="griffon_flying.stunts.medium.heart_of_maguuma.finish" GUID="eiCCKjRj1kGKp8t6GoVSIA=="/>
+		<Trail TrailData="Data/Trails/stunts/stunts_2star_heartofmaguuma_auricbasin_weepingglade.trl" Type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.weeping_glade" GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

@@ -2,7 +2,7 @@
     <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory Name="stunts" DisplayName="Stunts">
             <MarkerCategory Name="expert" DisplayName="4 Star - Expert">
-                <!-- Ascalon -->
+                <!--Ascalon -->
                 <MarkerCategory Name="ascalon" DisplayName="Ascalon">    
                     <MarkerCategory Name="black_citadel" DisplayName="Black Citadel">
                     </MarkerCategory>
@@ -20,6 +20,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="grothmar_valley" DisplayName="Grothmar Valley">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Cantha -->
                 <MarkerCategory Name="cantha" DisplayName="Cantha"> 
@@ -35,6 +42,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="thousand_seas_pavilion" DisplayName="Thousand Seas Pavilion">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Crystal Desert -->
                 <MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">    
@@ -58,6 +72,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="Sandswept_isles" DisplayName="Sandswept Isles">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Heart of Maguuma -->
                 <MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma"> 
@@ -79,6 +100,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="ember_bay" DisplayName="Ember Bay">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Kryta -->
                 <MarkerCategory Name="kryta" DisplayName="Kryta"> 
@@ -100,6 +128,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="lake_doric" DisplayName="Lake Doric">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Maguuma Jungle -->
                 <MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">    
@@ -117,6 +152,13 @@
 					</MarkerCategory>
                     <MarkerCategory Name="mount_maelstrom" DisplayName="Mount Maelstrom">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Ruins of Orr -->
                 <MarkerCategory Name="ruins_of_orr" DisplayName="Ruins of Orr"> 
@@ -128,6 +170,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="sirens_landing" DisplayName="Siren's Landing">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
                 <!-- Shiverpeak Mountains -->
                 <MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">    
@@ -135,8 +184,8 @@
                     </MarkerCategory>
                     <MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
                     </MarkerCategory>
-					<MarkerCategory Name="snowden_drifts" DisplayName="Snowden Drifts">
-					</MarkerCategory>
+                    <MarkerCategory Name="snowden_drifts" DisplayName="Snowden Drifts">
+                    </MarkerCategory>
                     <MarkerCategory Name="lornars_pass" DisplayName="Lornar's Pass">
                     </MarkerCategory>
                     <MarkerCategory Name="dredgehaunt_cliffs" DisplayName="Dredgehaunt Cliffs">
@@ -153,6 +202,13 @@
                     </MarkerCategory>
                     <MarkerCategory Name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
                     </MarkerCategory>
+                    <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_right" DisplayName="Sharp Turn Right" IconFile="Data/Markers/sharpturnright.png" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="sharp_turn_left" DisplayName="Toggle Sharp Turn Left" IconFile="Data/Markers/sharpturnleft.png" FadeNear="4000" FadeFar="6000"/>
                 </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>

@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="stunts" DisplayName="Stunts">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
+						<MarkerCategory Name="drizzlewood_test" DisplayName="Drizzlewood Test"/>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>
+		<!--Drizzlewood Coast - Drizzlewood Test-->
+		<POI MapID="1371" xpos="-117.788" ypos="152.336" zpos="-1096.11" type="griffon_flying.stunts.easy.shiverpeak_mountains.start" GUID="pG+vjzc9YEqw+lQrkHHjIA=="/>
+		<POI MapID="1371" xpos="-160.181" ypos="151.593" zpos="-1115.12" type="griffon_flying.stunts.easy.shiverpeak_mountains.finish" GUID="pIq722U4+kKwJkNBkKX9Tg=="/>
+		<Trail trailData="Data/Trails/stunts/stunts_1star_shiverpeakmountains_drizzlewoodcoast_drizzlewoodtest.trl" type="griffon_flying.stunts.easy.shiverpeak_mountains.drizzlewood_coast.drizzlewood_test" GUID="NcV7ZecdSkCdZDiffP4SXQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
