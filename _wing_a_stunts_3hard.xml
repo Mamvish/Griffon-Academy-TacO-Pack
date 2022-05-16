@@ -21,7 +21,7 @@
                     <MarkerCategory Name="grothmar_valley" DisplayName="Grothmar Valley">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -43,7 +43,7 @@
                     <MarkerCategory Name="thousand_seas_pavilion" DisplayName="Thousand Seas Pavilion">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -73,7 +73,7 @@
                     <MarkerCategory Name="Sandswept_isles" DisplayName="Sandswept Isles">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -101,7 +101,7 @@
                     <MarkerCategory Name="ember_bay" DisplayName="Ember Bay">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -129,7 +129,7 @@
                     <MarkerCategory Name="lake_doric" DisplayName="Lake Doric">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -153,7 +153,7 @@
                     <MarkerCategory Name="mount_maelstrom" DisplayName="Mount Maelstrom">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -171,7 +171,7 @@
                     <MarkerCategory Name="sirens_landing" DisplayName="Siren's Landing">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>
@@ -203,7 +203,7 @@
                     <MarkerCategory Name="drizzlewood_coast" DisplayName="Drizzlewood Coast">
                     </MarkerCategory>
                     <MarkerCategory Name="toggle_markers" IsSeparator="1" DisplayName="Toggle Markers"/>
-                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_easy.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
+                    <MarkerCategory Name="start" DisplayName="Toggle Start" IconFile="Data/Markers/wingstart_3star.png" IconSize="1.5" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="finish" DisplayName="Toggle Finish" IconFile="Data/Markers/wingfinish.png" IconSize="1.8" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="griffon" DisplayName="Toggle Griffon" IconFile="Data/Markers/griffon.png" FadeNear="4000" FadeFar="6000"/>
                     <MarkerCategory Name="springer" DisplayName="Toggle Springer" IconFile="Data/Markers/springer.png" FadeNear="4000" FadeFar="6000"/>

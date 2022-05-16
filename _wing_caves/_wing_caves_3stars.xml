@@ -1,6 +1,5 @@
 <OverlayData>
     <POIs>
-        <Trail trailData="Data/Trails/drizzlewood_caves.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.hard.shiverpeak_mountains.drizzlewood_coast" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/verdant_brink_shroom_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.hard.heart_of_maguuma.verdant_brink" fadeNear="6000" fadeFar="7000"/>
     </POIs>
 </OverlayData>
