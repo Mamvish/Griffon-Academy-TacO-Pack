@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
+					<MarkerCategory Name="brisban_wildlands" DisplayName="Brisban Wildlands">
+						<MarkerCategory Name="skritt_cave" DisplayName="Skritt Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Brisban Wildlands - Skritt Cave-->
+		<POI MapID="54" xpos="145.95" ypos="170.967" zpos="223.925" type="griffon_flying.caves.hard.maguuma_jungle.start" GUID="qtFt4qNRGU2+kvbJGAQPJw=="/>
+		<POI MapID="54" xpos="143.191" ypos="169.777" zpos="223.094" type="griffon_flying.caves.hard.maguuma_jungle.springer" GUID="UTM5mc77IEOc7cn93oLb8g=="/>
+		<POI MapID="54" xpos="333.198" ypos="133.573" zpos="-285.907" type="griffon_flying.caves.hard.maguuma_jungle.finish" GUID="9p4lHbu6OEa2x9pAZ4hDWg=="/>
+		<Trail trailData="Data/Trails/caves/caves_3star_maguumajungle_brisbanwildlands_skrittcave.trl" Type="griffon_flying.caves.hard.maguuma_jungle.brisban_wildlands.skritt_cave" GUID="s15ii3gYt060A3ys74LIVA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
+	</POIs>
+</OverlayData>
