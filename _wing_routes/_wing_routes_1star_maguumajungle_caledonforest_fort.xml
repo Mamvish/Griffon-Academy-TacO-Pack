@@ -16,6 +16,6 @@
 		<POI MapID="34" xpos="332.179" ypos="49.0585" zpos="968.616" type="griffon_flying.routes.easy.maguuma_jungle.start" GUID="dtRgWHPuDEWoarrP73/+0A=="/>
 		<POI MapID="34" xpos="335.949" ypos="48.4373" zpos="968.693" type="griffon_flying.routes.easy.maguuma_jungle.springer" GUID="7WjUjzTXoEaJdJAARFH8rA=="/>
 		<POI MapID="34" xpos="479.704" ypos="66.9259" zpos="1052.36" type="griffon_flying.routes.easy.maguuma_jungle.finish" GUID="GQkeT5O+b0emuKJgEqv7zQ=="/>
-		<Trail TrailData="Data/Trails/routes/routes_1star_maguumajungle_caledonforest_fort.trl" Type="griffon_flying.routes.medium.maguuma_jungle.caledon_forest.fort" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<Trail TrailData="Data/Trails/routes/routes_1star_maguumajungle_caledonforest_fort.trl" Type="griffon_flying.routes.easy.maguuma_jungle.caledon_forest.fort" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>
