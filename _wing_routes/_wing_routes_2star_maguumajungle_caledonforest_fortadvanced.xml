@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
+					<MarkerCategory Name="caledon_forest" DisplayName="Caledon Forest">
+						<MarkerCategory Name="fort_advanced" DisplayName="Fort Advanced">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Caledon Forest - Fort Advanced - Creator: Ray-->
+		<POI MapID="34" xpos="331.883" ypos="49.4689" zpos="966.252" type="griffon_flying.routes.medium.maguuma_jungle.start" GUID="6IaeCBkDOEyS0gopmn6PZg=="/>
+		<POI MapID="34" xpos="335.839" ypos="48.4756" zpos="966.26" type="griffon_flying.routes.medium.maguuma_jungle.springer" GUID="6OU04VWIWUmi+ZWBf3453w=="/>
+		<POI MapID="34" xpos="329.068" ypos="58.804" zpos="938.147" type="griffon_flying.routes.medium.maguuma_jungle.finish" GUID="goK45F+V1kyR8rZXDQ887w=="/>
+		<Trail TrailData="Data/Trails/routes/routes_2star_maguumajungle_caledonforest_fortadvanced.trl" Type="griffon_flying.routes.medium.maguuma_jungle.caledon_forest.fort_advanced" GUID="nNZxOXRwbEyb/lFwgdSFFQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
