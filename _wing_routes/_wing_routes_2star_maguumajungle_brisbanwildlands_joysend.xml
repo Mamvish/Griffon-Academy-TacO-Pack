@@ -15,6 +15,6 @@
 		<!--Brisban Wildlands - Joy's End-->
 		<POI MapID="54" xpos="948.485" ypos="196.82" zpos="-716.636" type="griffon_flying.routes.medium.maguuma_jungle.start" GUID="nskHGXK360C+ULJeZjZC9g=="/>
 		<POI MapID="54" xpos="434.202" ypos="116.328" zpos="-557.989" type="griffon_flying.routes.medium.maguuma_jungle.finish" GUID="ktMHiHPR6EiFzdzsaqqB0g=="/>
-		<Trail trailData=".\POIs\Data\Trails\routes\routes_2star_maguumajungle_brisbanwildlands_joysend.trl" type="griffon_flying.routes.medium.maguuma_jungle" GUID="8micamo2eUqZEfSxfzZh4w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<Trail trailData="Data/Trails/routes/routes_2star_maguumajungle_brisbanwildlands_joysend.trl" type="griffon_flying.routes.medium.maguuma_jungle" GUID="8micamo2eUqZEfSxfzZh4w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

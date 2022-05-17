@@ -2,7 +2,6 @@
     <POIs>
         <Trail trailData="Data/Trails/crystal_oasis_destinys_gorge_kite_fight_medium.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.crystal_desert.crystal_oasis" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/new_kaineng_city_sunjiang_lab.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.cantha.new_kaineng_city" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/brisban_wildland_skritt_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.maguuma_jungle.brisban_wildlands" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/harathi_hinterland_skritt_cave_long.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.kryta.harathi_hinterlands" fadeNear="6000" fadeFar="7000"/>
         <Trail trailData="Data/Trails/bitterfrost_frontier_grawl_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.shiverpeak_mountains.bitterfrost_frontier" fadeNear="6000" fadeFar="7000"/>
     </POIs>
