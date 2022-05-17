@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>		
-		<!--Frostgorge Sound - Watery Grave-->
+		<!--Frostgorge Sound - Watery Grave - Creator: Falkna-->
 		<POI MapID="30" XPos="234.624" YPos="122.306" ZPos="257.158" Type="griffon_flying.caves.expert.shiverpeak_mountains.start" GUID="BChr9iuy5EOtvH/dAnuX+Q=="/>
 		<POI MapID="30" XPos="234.567" YPos="123.247" ZPos="251.551" Type="griffon_flying.caves.expert.shiverpeak_mountains.springer" GUID="wolS4C/7wEO4yEApMQpfLg=="/>
 		<POI MapID="30" XPos="136.462" YPos="-0.0494008" ZPos="120.338" Type="griffon_flying.caves.expert.shiverpeak_mountains.sharp_turn_right" GUID="2P5HhYOJGECIOoXZ/hRr6g=="/>

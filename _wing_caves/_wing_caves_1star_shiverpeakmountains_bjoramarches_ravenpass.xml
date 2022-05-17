@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
-		<!--Bjora Marches - Raven Pass-->
+		<!--Bjora Marches - Raven Pass - Creator: Nilsibus-->
 		<POI MapID="1343" XPos="-2.78444" YPos="284.328" ZPos="-54.4651" Type="griffon_flying.caves.easy.shiverpeak_mountains.start" GUID="NGaXH+R6/0O0/tIqhuuITg=="/>
 		<POI MapID="1343" XPos="-2.85874" YPos="283.681" ZPos="-59.3446" Type="griffon_flying.caves.easy.shiverpeak_mountains.springer" GUID="o6CyaG4cp0OAGhW6pEXTOA=="/>
 		<POI MapID="1343" XPos="140.393" YPos="203.335" ZPos="-345.783" Type="griffon_flying.caves.easy.shiverpeak_mountains.sharp_turn_left" GUID="FtNhsHXiqkWJozgpeMPN0Q=="/>
