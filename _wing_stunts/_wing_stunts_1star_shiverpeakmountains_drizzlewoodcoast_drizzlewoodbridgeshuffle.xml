@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
-		<!--Drizzlewood Coast - Drizzlewood Bridge-Shuffle-->
+		<!--Drizzlewood Coast - Drizzlewood Bridge-Shuffle - Creator: Nilsibus-->
 		<POI MapID="1371" XPos="236.056" YPos="92.6923" ZPos="-669.676" Type="griffon_flying.stunts.easy.shiverpeak_mountains.start" GUID="CBD1mDSHIUiwSxRZSRxWDw=="/>
 		<POI MapID="1371" XPos="242.703" YPos="92.9352" ZPos="-670.164" Type="griffon_flying.stunts.easy.shiverpeak_mountains.griffon" GUID="IFg69abBVEyFugW1/ra5hQ=="/>
 		<POI MapID="1371" XPos="329.577" YPos="83.5001" ZPos="-633.74" Type="griffon_flying.stunts.easy.shiverpeak_mountains.finish" GUID="f/9dBTQ9skK6rMwjDisIOA=="/>

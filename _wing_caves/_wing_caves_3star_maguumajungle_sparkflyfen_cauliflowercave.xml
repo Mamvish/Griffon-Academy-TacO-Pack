@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>		
-		<!--Sparkfly Fen - Cauliflower Cave-->
+		<!--Sparkfly Fen - Cauliflower Cave - Creator: Yuzik-->
 		<POI MapID="53" XPos="-569.43" YPos="148.243" ZPos="475.439" Type="griffon_flying.caves.hard.maguuma_jungle.start" GUID="azpjcAT+30+/9WcYQtJYSQ=="/>
 		<POI MapID="53" XPos="-571.003" YPos="148.394" ZPos="478.716" Type="griffon_flying.caves.hard.maguuma_jungle.springer" GUID="1QjW1ZMY80y2OyWDfbwc0g=="/>
 		<POI MapID="53" XPos="-470.862" YPos="60.4667" ZPos="637.358" Type="griffon_flying.caves.hard.maguuma_jungle.finish" GUID="GQoEXsrW0kK7T9xonC1Heg=="/>

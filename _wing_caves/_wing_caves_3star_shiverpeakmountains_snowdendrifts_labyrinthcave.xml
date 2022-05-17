@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>		
-		<!--Snowden Drifts - Labyrinth Cave-->
+		<!--Snowden Drifts - Labyrinth Cave - Creator: Asnar-->
 		<POI MapID="31" XPos="792.888" YPos="141.591" ZPos="456.164" Type="griffon_flying.caves.hard.shiverpeak_mountains.start" GUID="TkXQlXLHTUqS16Jr3bMazw=="/>
 		<POI MapID="31" XPos="795.132" YPos="142.517" ZPos="452.053" Type="griffon_flying.caves.hard.shiverpeak_mountains.springer" GUID="HAex8bGZO0CZS3dIR3lF4w=="/>
 		<POI MapID="31" XPos="798.675" YPos="169.433" ZPos="448.909" Type="griffon_flying.caves.hard.shiverpeak_mountains.griffon" GUID="pOymw9n/Xkeq3zmyTFL+UA=="/>

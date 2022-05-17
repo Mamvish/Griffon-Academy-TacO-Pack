@@ -12,7 +12,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>		
-		<!--Frostgorge Sound - Blue Ice Shining-->
+		<!--Frostgorge Sound - Blue Ice Shining - Creator: Yuzik-->
 		<POI MapID="30" XPos="-516.421" YPos="107.601" ZPos="-271.757" Type="griffon_flying.routes.hard.shiverpeak_mountains.start" GUID="lD0JCqKt10ijTStwy17NDQ=="/>
 		<POI MapID="30" XPos="-517.476" YPos="107.601" ZPos="-275.242" Type="griffon_flying.routes.hard.shiverpeak_mountains.springer" GUID="MIopavpZPEivUOPuAWR/lg=="/>
 		<POI MapID="30" XPos="-565.673" YPos="47.5445" ZPos="-427.42" Type="griffon_flying.routes.hard.shiverpeak_mountains.finish" GUID="qfcBLVPQHESxhFXEnjgayQ=="/>

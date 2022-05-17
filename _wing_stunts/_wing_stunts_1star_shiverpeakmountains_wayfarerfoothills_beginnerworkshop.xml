@@ -11,7 +11,7 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
-		<!--Wayfarer Foothills - Beginner Workshop-->
+		<!--Wayfarer Foothills - Beginner Workshop - Creator: PenguinPaladin-->
 		<POI MapID="28" xpos="393.132" ypos="100.689" zpos="-134.827" type="griffon_flying.stunts.easy.shiverpeak_mountains.start" GUID="HnEdPrGtG060vLZl9rRjIw=="/>
 		<POI MapID="28" xpos="392.862" ypos="101.609" zpos="-127.119" type="griffon_flying.stunts.medium.shiverpeak_mountains.start" GUID="lRRQkW/xUUSHK0TjwvR0Rg=="/>
 		<POI MapID="28" xpos="192.038" ypos="141.893" zpos="74.3379" type="griffon_flying.stunts.hard.shiverpeak_mountains.start" GUID="h2pntGmb0EyKsZqh3aRIag=="/>
