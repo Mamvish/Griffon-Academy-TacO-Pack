@@ -1,0 +1,22 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="desert_highlands" DisplayName="Desert Highlands">
+						<MarkerCategory Name="ooze_cave" DisplayName="Ooze Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Desert Highlands - Ooze Cave - Creator: Nilsibus-->
+		<POI MapID="1211" xpos="-53.155" ypos="338.423" zpos="567.198" type="griffon_flying.caves.easy.crystal_desert.start" GUID="Z8MlOOPTzEu/uRhV++ZIlQ=="/>
+		<POI MapID="1211" xpos="-57.8341" ypos="337.845" zpos="565.539" type="griffon_flying.caves.easy.crystal_desert.springer" GUID="fItL1X2djk+Lw91gNwkXog=="/>
+		<POI MapID="1211" xpos="-376.394" ypos="334.399" zpos="519.779" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="WsDw2FkbvUuNAr1Ge5MNhw=="/>
+		<Trail GUID="c/xK0MRpk0yXN/gt/F23ag==" trailData=".\POIs\Data\Trails\caves\caves_1star_crystaldesert_deserthighlands_oozecave.trl"/>
+		<Trail TrailData="Data/Trails/caves/caves_1star_crystaldesert_deserthighlands_oozecave.trl" Type="griffon_flying.caves.easy.crystal_desert.desert_highlands.oozecave" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
