@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="the_desolation" DisplayName="The Desolation">
+						<MarkerCategory Name="djinn_shuffle" DisplayName="Djinn Shuffle">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--The Desolation - Djinn Shuffle - Creator: Willow-->
+		<POI MapID="1226" xpos="-380.709" ypos="432.254" zpos="-1136.34" type="griffon_flying.routes.hard.crystal_desert.start" GUID="mYrY3uk0c0+8tKmxZnnfNA=="/>
+		<POI MapID="1226" xpos="-384.323" ypos="432.109" zpos="-1132.42" type="griffon_flying.routes.hard.crystal_desert.griffon" GUID="i+d0ZFke1EqIkG8vzpSAgQ=="/>
+		<POI MapID="1226" xpos="-303.685" ypos="284.102" zpos="-1185.88" type="griffon_flying.routes.hard.crystal_desert.finish" GUID="KBTVggNRSkWW1WJpOfVf+A=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_djinnshuffle.trl" Type="griffon_flying.routes.hard.crystal_desert.the_desolation.djinn_shuffle" GUID="xjAUzeZV6kiklPQNqV5G7w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

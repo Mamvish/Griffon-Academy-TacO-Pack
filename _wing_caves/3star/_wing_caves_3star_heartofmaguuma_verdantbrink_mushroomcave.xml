@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
+					<MarkerCategory Name="verdant_brink" DisplayName="Verdant Brink">
+						<MarkerCategory Name="mushroom_cave" DisplayName="Mushroom Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Verdant Brink - Mushroom Cave - Creator: Kampfhase-->
+		<POI MapID="1052" xpos="626.088" ypos="390.779" zpos="362.165" type="griffon_flying.caves.hard.heart_of_maguuma.start" GUID="CuScL6wnnkav/9sXnr6WPw=="/>
+		<POI MapID="1052" xpos="621.815" ypos="390.536" zpos="361.727" type="griffon_flying.caves.hard.heart_of_maguuma.springer" GUID="TPOKz34JE02oIAIbSZI4XQ=="/>
+		<POI MapID="1052" xpos="587.709" ypos="403.194" zpos="389.736" type="griffon_flying.caves.hard.heart_of_maguuma.finish" GUID="RJyYXB2LHUCKn6TOqjOJYw=="/>
+		<Trail trailData="Data/Trails/caves/3star/caves_3star_heartofmaguuma_verdantbrink_mushroomcave.trl" Type="griffon_flying.caves.hard.heart_of_maguuma.verdant_brink.mushroom_cave" GUID="73/ssN0HykG1xLw+QRnbSA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
+	</POIs>
+</OverlayData>

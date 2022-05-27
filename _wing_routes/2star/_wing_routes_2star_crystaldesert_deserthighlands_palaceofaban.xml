@@ -1,0 +1,22 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="desert_highlands" DisplayName="Desert Highlands">
+						<MarkerCategory Name="palace_of_aban" DisplayName="Palace of Aban">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Desert Highlands - Palace of Aban - Creator: Hunny_B-->
+		<POI MapID="1211" XPos="-1232.86" YPos="442.359" ZPos="-138.45" Type="griffon_flying.routes.medium.crystal_desert.start" GUID="5xZXilIDkESbq5QCaBhUcg=="/>
+		<POI MapID="1211" XPos="-1309.71" YPos="413.86" ZPos="-233.88" Type="griffon_flying.routes.medium.crystal_desert.finish" GUID="kDJkekBwpE+PS7kuYkZwig=="/>
+		<POI MapID="1211" XPos="-1230.86" YPos="442.193" ZPos="-142.516" Type="griffon_flying.routes.medium.crystal_desert.springer" GUID="DQ2YWtizNk6ox1JqSPy/MQ=="/>
+		<POI MapID="1211" XPos="-1229.14" YPos="459.585" ZPos="-146.103" Type="griffon_flying.routes.medium.crystal_desert.griffon" GUID="F4zIcjRUCU+a/R18knXwaw=="/>
+		<Trail TrailData="Data/Trails/routes/2star/routes_2star_crystaldesert_deserthighlands_palaceofaban.trl" Type="griffon_flying.routes.medium.crystal_desert.desert_highlands.palace_of_aban" GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="kryta" DisplayName="Kryta">
+					<MarkerCategory Name="gendarran_fields" DisplayName="Gendarran Fields">
+						<MarkerCategory Name="centaur_refugee_camp" DisplayName="Centaur Refugee Camp">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Gendarran Fields - Centaur Refugee Camp - Creator: Mozzy-->
+		<POI MapID="24" xpos="-378.223" ypos="92.1147" zpos="117.958" type="griffon_flying.routes.hard.kryta.start" GUID="c5XYQBU8fkCSr0r2aO+LkA=="/>
+		<POI MapID="24" xpos="-383.073" ypos="93.0338" zpos="117.988" type="griffon_flying.routes.hard.kryta.springer" GUID="R7rntwSoskW8Tq6SQak+tw=="/>
+		<POI MapID="24" xpos="-1140.17" ypos="36.5985" zpos="324.956" type="griffon_flying.routes.hard.kryta.finish" GUID="5HcwYYeqFUKLX4OYInoGrw=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_kryta_gendarranfields_centaurrefugeecamp.trl" Type="griffon_flying.routes.hard.kryta.gendarran_fields.centaur_refugee_camp" GUID="fQIhyRIkVkarKhiTNLPEsg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

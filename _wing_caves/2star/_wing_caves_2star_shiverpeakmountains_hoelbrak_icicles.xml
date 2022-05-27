@@ -1,0 +1,20 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="hoelbrak" DisplayName="Hoelbrak">
+						<MarkerCategory Name="icicles" DisplayName="Icicles">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Hoelbrak - Icicles - Creator: Mozzy-->
+		<POI MapID="326" xpos="418.541" ypos="327.92" zpos="167.266" type="griffon_flying.caves.medium.shiverpeak_mountains.start" GUID="2yHiMG8xSEa0RP7qhZfFKw=="/>
+		<POI MapID="326" xpos="522.124" ypos="294.765" zpos="66.5533" type="griffon_flying.caves.medium.shiverpeak_mountains.finish" GUID="qVSLU5fhikSyDS2x1sIr+Q=="/>
+		<Trail TrailData="Data/Trails/caves/2star/caves_2star_shiverpeakmountains_hoelbrak_icicles.trl" Type="griffon_flying.caves.medium.shiverpeak_mountains.hoelbrak.icicles" GUID="PEt93jNoB0aaJIlhILQeug==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

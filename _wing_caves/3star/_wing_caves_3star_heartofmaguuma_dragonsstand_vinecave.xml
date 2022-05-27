@@ -1,0 +1,22 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
+					<MarkerCategory Name="dragons_stand" DisplayName="Dragon's Stand">
+						<MarkerCategory Name="vine_cave" DisplayName="Vine Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Dragon's Stand - Vine Cave - Creator: Kat DreXed-->
+		<POI MapID="1041" xpos="700.765" ypos="165.525" zpos="709.324" type="griffon_flying.caves.hard.heart_of_maguuma.start" GUID="QQeUyAlWQ06gtJqrOITMFw=="/>
+		<POI MapID="1041" xpos="704.148" ypos="167.146" zpos="706.928" type="griffon_flying.caves.hard.heart_of_maguuma.springer" GUID="pNCFGpcrekSfmCwvrGTH3w=="/>
+		<POI MapID="1041" xpos="741.015" ypos="50.7028" zpos="388.721" type="griffon_flying.caves.hard.heart_of_maguuma.sharp_turn_left" GUID="NPWJqGd3AkiFAKBYGBVIYg=="/>
+		<POI MapID="1041" xpos="808.377" ypos="123.747" zpos="250.933" type="griffon_flying.caves.hard.heart_of_maguuma.finish" GUID="w8Z/fvLsS0yMRu13aoIuEA=="/>
+		<Trail trailData="Data/Trails/caves/3star/caves_3star_maguumajungle_dragonsstand_vinecave.trl" Type="griffon_flying.caves.hard.heart_of_maguuma.dragons_stand.vine_cave" GUID="EdwX6geSo02wu76LcB3mTA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
+	</POIs>
+</OverlayData>

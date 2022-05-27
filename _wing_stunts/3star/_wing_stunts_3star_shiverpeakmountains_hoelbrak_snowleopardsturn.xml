@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="stunts" DisplayName="Stunts">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="hoelbrak" DisplayName="Hoelbrak">
+						<MarkerCategory Name="snow_leopards_turn" DisplayName="Snow Leopard's Turn">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Hoelbrak - Snow Leopard's Turn - Creator: Mozzy-->
+        <POI MapID="326" xpos="219.526" ypos="310.413" zpos="-77.0992" type="griffon_flying.stunts.medium.shiverpeak_mountains.start" GUID="dwPJgXQzq0eTgUuOUh5fzw=="/>
+		<POI MapID="326" xpos="221.274" ypos="312.428" zpos="-74.7639" type="griffon_flying.stunts.medium.shiverpeak_mountains.springer" GUID="PEz3gSjNpEmu+UcPtStrLA=="/>
+		<POI MapID="326" xpos="228.649" ypos="310.9" zpos="-76.108" type="griffon_flying.stunts.medium.shiverpeak_mountains.finish" GUID="XCpMG3qYS0+P9a7uY4qYug=="/>
+		<Trail TrailData="Data/Trails/stunts/3star/stunts_3star_shiverpeakmountains_hoelbrak_snowleopardsturn.trl" Type="griffon_flying.stunts.medium.shiverpeak_mountains.hoelbrak.snow_leopards_turn" GUID="hKuHVuRcZ0+Fvf3DRAp6GA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

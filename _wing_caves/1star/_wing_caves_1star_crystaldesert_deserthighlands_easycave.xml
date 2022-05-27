@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="desert_highlands" DisplayName="Desert Highlands">
+						<MarkerCategory Name="easy_cave" DisplayName="Easy Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Desert Highlands - Easy Cave - Creator: Nilsibus-->
+		<POI MapID="1211" xpos="207.448" ypos="182.634" zpos="-620.521" type="griffon_flying.caves.easy.crystal_desert.start" GUID="6bUQpfJn90q51U7qRI/0CQ=="/>
+		<POI MapID="1211" xpos="206.685" ypos="181.836" zpos="-616.576" type="griffon_flying.caves.easy.crystal_desert.springer" GUID="T/kx3SJJJEeShvWGQhHuTg=="/>
+		<POI MapID="1211" xpos="-357.451" ypos="91.6193" zpos="-547.885" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="CpLjw5bSm0WbdP8mC9IPtg=="/>
+		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_deserthighlands_easycave.trl" Type="griffon_flying.caves.easy.crystal_desert.desert_highlands.easycave" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

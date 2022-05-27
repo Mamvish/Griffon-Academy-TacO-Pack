@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
+					<MarkerCategory Name="the_grove" DisplayName="The Grove">
+						<MarkerCategory Name="mother_tree" DisplayName="Mother Tree">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--The Grove - Mother Tree - Creator: Kat DreXed-->
+		<POI MapID="91" xpos="68.3721" ypos="112.249" zpos="4.28248" type="griffon_flying.routes.hard.maguuma_jungle.start" GUID="8ogimQ+2vUiYQl7wZJoeRw=="/>
+		<POI MapID="91" xpos="72.4719" ypos="111.779" zpos="1.70032" type="griffon_flying.routes.hard.maguuma_jungle.springer" GUID="8OTFe2Q5iUeZkfjPaFvzyw=="/>
+		<POI MapID="91" xpos="35.927" ypos="66.7729" zpos="43.1109" type="griffon_flying.routes.hard.maguuma_jungle.finish" GUID="Dsj9TetePUSYSHdDbxpljw=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl" Type="griffon_flying.routes.hard.maguuma_jungle.the_grove.mother_tree" GUID="+VfofgWhAEyS4yTey5BIeQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

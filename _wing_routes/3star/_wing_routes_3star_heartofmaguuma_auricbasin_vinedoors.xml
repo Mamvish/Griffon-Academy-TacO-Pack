@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
+					<MarkerCategory Name="auric_basin" DisplayName="Auric Basin">
+						<MarkerCategory Name="vinedoors" DisplayName="Vinedoors">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Auric Basin - Vinedoors - Creator: Mozzy-->
+        <POI MapID="1043" xpos="95.6399" ypos="461.029" zpos="567.412" type="griffon_flying.routes.hard.heart_of_maguuma.start" GUID="DHjYhxbhoEKhvK012oycVA=="/>
+		<POI MapID="1043" xpos="91.715" ypos="461.522" zpos="567.167" type="griffon_flying.routes.expert.heart_of_maguuma.griffon" GUID="Qkf2fYYqtEOWFt2DCHCPZQ=="/>
+		<POI MapID="1043" xpos="524.885" ypos="351.704" zpos="130.926" type="griffon_flying.routes.hard.heart_of_maguuma.finish" GUID="YX1Q2F8cqEeFiGFHeGE6vQ=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_heartofmaguuma_auricbasin_vinedoors.trl" Type="griffon_flying.routes.hard.heart_of_maguuma.auric_basin.vinedoors" GUID="jUQVXFEtGh+Mldnym54p8g==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

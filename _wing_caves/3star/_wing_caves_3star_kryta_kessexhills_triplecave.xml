@@ -1,0 +1,24 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="kryta" DisplayName="Kryta">
+					<MarkerCategory Name="kessex_hills" DisplayName="Kessex Hills">
+						<MarkerCategory Name="triple_cave" DisplayName="Triple Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Kessex Hills - Triple Cave - Creator: Boogie-->
+		<POI MapID="23" xpos="1060.57" ypos="152.911" zpos="-139.744" type="griffon_flying.caves.hard.kryta.start" GUID="Q60G7r/LJEqoSNz9kmjCcw=="/>
+		<POI MapID="23" xpos="1059.99" ypos="153.407" zpos="-143.616" type="griffon_flying.caves.hard.kryta.springer" GUID="B5cTGKGwXEm9jVPOjeR56w=="/>
+		<POI MapID="23" xpos="988.636" ypos="85.4154" zpos="-285.959" type="griffon_flying.caves.hard.kryta.sharp_turn_right" GUID="SRrY+gFwLUitIkGN6JSlSA=="/>
+		<POI MapID="23" xpos="839.008" ypos="32.6755" zpos="-303.447" type="griffon_flying.caves.hard.kryta.sharp_turn_right" GUID="ZWxJ0z3XFUepXkCTx5DRrg=="/>
+		<POI MapID="23" xpos="971.398" ypos="54.57" zpos="25.3758" type="griffon_flying.caves.hard.kryta.sharp_turn_right" GUID="kwxz6g8a30yW07OFRZU4qg=="/>
+		<POI MapID="23" xpos="1120.65" ypos="85.9098" zpos="21.9783" type="griffon_flying.caves.hard.kryta.finish" GUID="9IdvJJ6SfEOmTKkCapAWxA=="/>
+		<Trail trailData="Data/Trails/caves/3star/caves_3star_kryta_kessexhills_triplecave.trl" Type="griffon_flying.caves.hard.kryta.kessex_hills.triple_cave" GUID="3Z1XbLmvvECSoFcDnkzQdw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
+	</POIs>
+</OverlayData>
