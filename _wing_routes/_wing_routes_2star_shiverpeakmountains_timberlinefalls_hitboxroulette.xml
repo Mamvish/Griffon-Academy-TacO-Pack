@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="timberline_falls" DisplayName="Timberline Falls">
+						<MarkerCategory Name="hitbox_roulette" DisplayName="Hitbox Roulette">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Timberline Falls - Hitbox Roulette - Creator: Mozzy-->
+
+		<Trail TrailData="Data/Trails/routes/routes_2stars_shiverpeakmountains_timberlinefalls_hitboxroulette.trl" Type="griffon_flying.routes.medium.shiverpeak_mountains.timberline_falls.hitbox_roulette" GUID="WkBmeBTDeEOxd1Fj01Urhg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
