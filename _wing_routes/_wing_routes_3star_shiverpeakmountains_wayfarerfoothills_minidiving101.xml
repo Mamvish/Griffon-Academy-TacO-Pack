@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
+						<MarkerCategory Name="mini_diving_101" DisplayName="Mini Diving 101">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Wayfarer Foothills - Mini Diving 101 - Creator: Mozzy-->
+		<POI MapID="28" xpos="189.935" ypos="140.695" zpos="76.5442" type="griffon_flying.routes.hard.shiverpeak_mountains.start" GUID="fw9DUGz08EWslPUpv3vD5w=="/>
+		<POI MapID="28" xpos="192.753" ypos="140.746" zpos="76.1687" type="griffon_flying.routes.hard.shiverpeak_mountains.springer" GUID="iqH2kAjgeEydBifvg55frw=="/>
+		<POI MapID="28" xpos="297.424" ypos="65.7164" zpos="91.6222" type="griffon_flying.routes.hard.shiverpeak_mountains.finish" GUID="gdprDPlCjEyEFOandmrCVg=="/>
+		<Trail TrailData="Data/Trails/routes/routes_3star_shiverpeakmountains_wayfarerfoothills_minidiving101.trl" Type="griffon_flying.routes.hard.shiverpeak_mountains.wayfarer_foothills.mini_diving_101" GUID="IIzsCqg5dEuDntT+rWtjwQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

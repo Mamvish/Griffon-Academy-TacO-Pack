@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="kryta" DisplayName="Kryta">
+					<MarkerCategory Name="lions_arch" DisplayName="Lion's Arch">
+						<MarkerCategory Name="follow_the_river" DisplayName="Follow The River">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Lion's Arch - Follow The River - Creator: Mozzy-->
+        <POI MapID="50" xpos="-316.061" ypos="159.464" zpos="-376.216" type="griffon_flying.routes.hard.kryta.start" GUID="dI4So6qM20WZ0xBv5tWMDA=="/>
+		<POI MapID="50" xpos="-320.006" ypos="159.299" zpos="-375.743" type="griffon_flying.routes.hard.kryta.springer" GUID="oaQ+1yxYo0K5zQMnCEC5XA=="/>
+		<POI MapID="50" xpos="586.916" ypos="80.3421" zpos="40.4" type="griffon_flying.routes.hard.kryta.finish" GUID="NSInWzWi5kCC96Uhw385jw=="/>
+		<Trail TrailData="Data/Trails/routes/routes_3star_kryta_lionsarch_followtheriver.trl" Type="griffon_flying.routes.hard.kryta.lions_arch.follow_the_river" GUID="jUQVXnoaPk+Mldnym54p8g==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
