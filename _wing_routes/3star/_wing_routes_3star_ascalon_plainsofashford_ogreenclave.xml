@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="ascalon" DisplayName="Ascalon">
+					<MarkerCategory Name="plains_of_ashford" DisplayName="Plains of Ashford">
+						<MarkerCategory Name="ogre_enclave" DisplayName="Ogre Enclave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Plains of Ashford - Ogre Enclave - Creator: Mozzy-->
+    	<POI MapID="19" xpos="1146.04" ypos="72.4538" zpos="146.653" type="griffon_flying.routes.hard.ascalon.finish" GUID="o0XYFCd9r069ZA5x3/63Gg=="/>
+		<POI MapID="19" xpos="1202.19" ypos="98.1255" zpos="382.368" type="griffon_flying.routes.hard.ascalon.start" GUID="vPCP4nxqxUq7TwXpEyZaeg=="/>
+		<POI MapID="19" xpos="1197.94" ypos="95.6135" zpos="388.181" type="griffon_flying.routes.hard.ascalon.springer" GUID="0Gwrl5+92UaqITT4eSYZZA=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ascalon_plainsofashford_ogreenclave.trl" Type="griffon_flying.routes.hard.ascalon.plains_of_ashford.ogre_enclave" GUID="wk94FKN89kqgBuyI2FeEdQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
