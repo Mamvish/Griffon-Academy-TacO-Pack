@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="crystal_oasis" DisplayName="Crystal Oasis">
+						<MarkerCategory Name="amnoon_bay_splash" DisplayName="Amnoon Bay Splash">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Crystal Oasis - Amnoon Bay Splash - Creator: Smof-->
+		
+		<Trail TrailData="Data/Trails/_gramr/routes_2star_crystaldesert_crystaloasis_amnoonbaysplash.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.amnoon_bay_splash" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

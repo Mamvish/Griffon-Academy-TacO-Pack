@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
+					<MarkerCategory Name="auric_basin" DisplayName="Auric Basin">
+						<MarkerCategory Name="the_burnisher_run" DisplayName="The Burnisher Run">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Auric Basin - The Burnisher Run - Creator: Falkna-->
+		
+		<Trail trailData="Data/Trails/caves/caves_3star_heartofmaguuma_auricbasin_theburnisherrun.trl" Type="griffon_flying.caves.hard.heart_of_maguuma.auric_basin.the_burnisher_run" GUID="EdwX6geSo02wu76LcB3mTA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
+	</POIs>
+</OverlayData>

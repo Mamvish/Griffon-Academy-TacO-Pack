@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="the_desolation" DisplayName="The Desolation">
+						<MarkerCategory Name="toxic_pipe_cleaner" DisplayName="Toxic Pipe Cleaner">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--The Desolation - Toxic Pipe Cleaner - Creator: Yuzik-->
+		
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_toxicpipecleaner.trl" Type="griffon_flying.routes.hard.crystal_desert.the_desolation.toxic_pipe_cleaner" GUID="xjAUzeZV6kiklPQNqV5G7w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

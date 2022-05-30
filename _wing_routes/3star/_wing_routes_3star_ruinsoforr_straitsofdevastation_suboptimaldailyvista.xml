@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="ruins_of_orr" DisplayName="Ruins of Orr">
+					<MarkerCategory Name="straits_of_devastation" DisplayName="Straits of Devastation">
+						<MarkerCategory Name="suboptimal_daily_vista" DisplayName="Sub-optimal Daily Vista">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Straits of Devastation - Sub-optimal Daily Vista - Creator: Yuzik-->
+		
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ruins_of_orr_gendarranfields_suboptimaldailyvista.trl" Type="griffon_flying.routes.hard.ruins_of_orr.straits_of_devastation.suboptimal_daily_vista" GUID="fQIhyRIkVkarKhiTNLPEsg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

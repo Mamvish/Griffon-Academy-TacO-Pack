@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="timberline_falls" DisplayName="Timberline Falls">
+						<MarkerCategory Name="tight_cave" DisplayName="Tight Cave">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Timberline Falls - Tight Cave - Creator: Nemain-->
+		
+		<Trail TrailData="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_snowdendrifts_tightcave.trl" Type="griffon_flying.caves.hard.shiverpeak_mountains.timberline_falls.tight_cave" GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
