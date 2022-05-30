@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Crystal Oasis - Talatat Quarry Extended - Creator: Smof-->
-		
-		<Trail TrailData="Data/Trails/_gramr/routes_2star_crystaldesert_crystaloasis_NAME.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.beyond_the_quicksand" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1210" xpos="-847.02" ypos="86.2906" zpos="340.165" type="griffon_flying.routes.medium.crystal_desert.finish" GUID="A2w5mDlSJkKosalJLQat9w=="/>
+		<POI MapID="1210" xpos="526.258" ypos="264.001" zpos="515.709" type="griffon_flying.routes.medium.crystal_desert.start" GUID="SpKkrvvCZ0OoB7QLn5QLgQ=="/>
+		<POI MapID="1210" xpos="522.464" ypos="261.308" zpos="519.404" type="griffon_flying.routes.medium.crystal_desert.griffon" GUID="1MhluErdHEiBjIiM7bLQyg=="/>
+		<Trail TrailData="Data/Trails/routes/2star/routes_2star_crystaldesert_crystaloasis_beyondthequicksand.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.beyond_the_quicksand" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

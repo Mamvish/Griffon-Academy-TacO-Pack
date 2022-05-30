@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Crystal Oasis - Griffon Is Your Destiny - Creator: Nilsibus-->
-		
-		<Trail TrailData="Data/Trails/_gramr/routes_1star_crystaldesert_crystaloasis_griffonisyourdestiny.trl" Type="griffon_flying.routes.easy.crystal_desert.crystal_oasis.griffon_is_your_destiny" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1210" xpos="1054.65" ypos="22.6255" zpos="-543.324" type="griffon_flying.routes.easy.crystal_desert.finish" GUID="74b3gzoc6UaJrKGng6Q8KQ=="/>
+		<POI MapID="1210" xpos="980.065" ypos="181.456" zpos="-449.531" type="griffon_flying.routes.easy.crystal_desert.start" GUID="B/7n1Cb7d0G3UL18nmD/eA=="/>
+		<POI MapID="1210" xpos="980.304" ypos="180.317" zpos="-443.263" type="griffon_flying.routes.easy.crystal_desert.griffon" GUID="Jzr69PR+K0WYDhHXpfs3Ig=="/>
+		<Trail TrailData="Data/Trails/routes/1star/routes_1star_crystaldesert_crystaloasis_griffonisyourdestiny.trl" Type="griffon_flying.routes.easy.crystal_desert.crystal_oasis.griffon_is_your_destiny" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

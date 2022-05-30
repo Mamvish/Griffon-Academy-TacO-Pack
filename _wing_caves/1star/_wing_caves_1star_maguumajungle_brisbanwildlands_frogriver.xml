@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Brisban Wildlands - Frog River - Creator: LeafSong-->
-		
-		<Trail TrailData="Data/Trails/_gramr/caves_1star_crystaldesert_crystaloasis_frogriver.trl" Type="griffon_flying.caves.easy.maguuma_jungle.brisban_wildlands.frog_river" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="54" xpos="125.889" ypos="122.751" zpos="130.093" type="griffon_flying.caves.easy.maguuma_jungle.start" GUID="rAK9j49zN0qhCW3VWakuNQ=="/>
+		<POI MapID="54" xpos="126.128" ypos="123.078" zpos="124.966" type="griffon_flying.caves.easy.maguuma_jungle.griffon" GUID="nkk4lRthSkWO1EtraQDOtw=="/>
+		<POI MapID="54" xpos="121.706" ypos="119.543" zpos="124.289" type="griffon_flying.caves.easy.maguuma_jungle.finish" GUID="8Ia06qzoJ0KKDuCekBIomg=="/>
+		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_frogriver.trl" Type="griffon_flying.caves.easy.maguuma_jungle.brisban_wildlands.frog_river" GUID="OrKv3UNzGU+ZEUfXNlWcTg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

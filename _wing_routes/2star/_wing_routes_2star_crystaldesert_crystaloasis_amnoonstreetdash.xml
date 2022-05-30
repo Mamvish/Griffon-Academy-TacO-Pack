@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Crystal Oasis - Amnoon Street Dash - Creator: Smof-->
-		
-		<Trail TrailData="Data/Trails/_gramr/routes_2star_crystaldesert_crystaloasis_amnoonstreetdash.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.amnoon_street_dash" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1210" xpos="-642.772" ypos="97.6963" zpos="-289.587" type="griffon_flying.routes.medium.crystal_desert.start" GUID="nWWuS4j4FkS8gOCBGZGBww=="/>
+		<POI MapID="1210" xpos="-642.584" ypos="97.7696" zpos="-295.473" type="griffon_flying.routes.medium.crystal_desert.springer" GUID="qxFRcWIj6EyJLQnWimGhkw=="/>
+		<POI MapID="1210" xpos="-642.984" ypos="97.6785" zpos="-283.885" type="griffon_flying.routes.medium.crystal_desert.finish" GUID="x944C47cmEOsjRbXP6PtNQ=="/>
+		<Trail TrailData="Data/Trails/routes/2star/routes_2star_crystaldesert_crystaloasis_amnoonstreetdash.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.amnoon_street_dash" GUID="q8BRiLe3aEO/ZsGvyqEW8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

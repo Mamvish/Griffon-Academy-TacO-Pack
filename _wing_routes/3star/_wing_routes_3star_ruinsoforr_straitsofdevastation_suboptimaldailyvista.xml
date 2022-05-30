@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Straits of Devastation - Sub-optimal Daily Vista - Creator: Yuzik-->
-		
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ruins_of_orr_gendarranfields_suboptimaldailyvista.trl" Type="griffon_flying.routes.hard.ruins_of_orr.straits_of_devastation.suboptimal_daily_vista" GUID="fQIhyRIkVkarKhiTNLPEsg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="51" xpos="717.248" ypos="101.298" zpos="51.2307" type="griffon_flying.routes.hard.ruins_of_orr.start" GUID="W+d6kpp9aUe0wMT7qaS0+w=="/>
+		<POI MapID="51" xpos="718.351" ypos="103.63" zpos="47.6953" type="griffon_flying.routes.hard.ruins_of_orr.griffon" GUID="mlNd1pdgKUCWEed9ji3SbQ=="/>
+		<POI MapID="51" xpos="491.715" ypos="38.0703" zpos="123.865" type="griffon_flying.routes.hard.ruins_of_orr.finish" GUID="dxQZhZsSp0+OQbsQwyeLkA=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ruinsoforr_straitsofdevastation_suboptimaldailyvista.trl" Type="griffon_flying.routes.hard.ruins_of_orr.straits_of_devastation.suboptimal_daily_vista" GUID="kChczWamlUu1do/+jFuCGQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

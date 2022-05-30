@@ -13,7 +13,9 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Timberline Falls - Tight Cave - Creator: Nemain-->
-		
-		<Trail TrailData="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_snowdendrifts_tightcave.trl" Type="griffon_flying.caves.hard.shiverpeak_mountains.timberline_falls.tight_cave" GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="29" xpos="342.768" ypos="113.934" zpos="-529.515" type="griffon_flying.caves.hard.shiverpeak_mountains.springer" GUID="OsLFjAMXJk2VbGbJf0FqaA=="/>
+		<POI MapID="29" xpos="338.357" ypos="113.672" zpos="-529.273" type="griffon_flying.caves.hard.shiverpeak_mountains.start" GUID="8kXZDgHwE06nBMz/pH6Ruw=="/>
+		<POI MapID="29" xpos="534.518" ypos="46.1628" zpos="-560.563" type="griffon_flying.caves.hard.shiverpeak_mountains.finish" GUID="qBR3gi6rEUStI0AVF9MnZg=="/>
+		<Trail TrailData="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_timberlinefalls_tightcave.trl" Type="griffon_flying.caves.hard.shiverpeak_mountains.timberline_falls.tight_cave" GUID="nJvrhzDrnkeAMIQX3a8hzg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>
