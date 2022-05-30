@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="crystal_oasis" DisplayName="Crystal Oasis">
+						<MarkerCategory Name="talatat_quarry_extended" DisplayName="Talatat Quarry Extended">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Crystal Oasis - Talatat Quarry Extended - Creator: Yuzik-->
+		<POI MapID="1210" xpos="-474.469" ypos="137.479" zpos="679.917" type="griffon_flying.routes.medium.crystal_desert.start" GUID="NAiKjEGLW0GRdw6n0MEkdQ=="/>
+		<POI MapID="1210" xpos="-480.563" ypos="137.082" zpos="680.075" type="griffon_flying.routes.medium.crystal_desert.springer" GUID="vbsiB6p6/E2cLmlLOJ3Oiw=="/>
+		<POI MapID="1210" xpos="-618.801" ypos="68.8892" zpos="666.601" type="griffon_flying.routes.medium.crystal_desert.finish" GUID="E82E29U900CgQ09/FZLPRA=="/>
+		<Trail TrailData="Data/Trails/routes/2star/routes_2star_crystaldesert_crystaloasis_talatatquarryextended.trl" Type="griffon_flying.routes.medium.crystal_desert.crystal_oasis.talatat_quarry_extended" GUID="9YVP9C7gGEy2CEokouO1cQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

@@ -1,0 +1,21 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="stunts" DisplayName="Stunts">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
+					<MarkerCategory Name="brisban_wildlands" DisplayName="Brisban Wildlands">
+						<MarkerCategory Name="thaumagate" DisplayName="Thaumagate">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Brisban Wildlands - Thaumagate - Creator: Smof-->
+		<POI MapID="54" xpos="-683.699" ypos="128.462" zpos="-315.32" type="griffon_flying.stunts.easy.maguuma_jungle.springer" GUID="DTNoBKo29kGXM/j+srvQRA=="/>
+		<POI MapID="54" xpos="-686.477" ypos="126.796" zpos="-315.308" type="griffon_flying.stunts.easy.maguuma_jungle.start" GUID="UqTMhAx6pk+pB1nXNeh9Og=="/>
+		<POI MapID="54" xpos="-690.746" ypos="135.223" zpos="-310.423" type="griffon_flying.stunts.easy.maguuma_jungle.finish" GUID="5/BTM8QeMkCLzhu+8LZACg=="/>
+		<Trail TrailData="Data/Trails/stunts/1star/stunts_1star_maguumajungle_brisbanwildlands_thaumagate.trl" Type="griffon_flying.stunts.easy.maguuma_jungle.brisban_wildlands.thaumagate" GUID="ZqYrMsD68Umqev14Oz7YGQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
