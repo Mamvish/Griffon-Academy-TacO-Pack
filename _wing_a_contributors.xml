@@ -1,0 +1,22 @@
+<OverlayData>
+    <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+        <MarkerCategory Name="contributors" DisplayName="Contributors">
+            <MarkerCategory Name="kampfhase" DisplayName="Dev | Kampfhase">
+            </MarkerCategory>
+            <MarkerCategory Name="gramr" DisplayName="Dev | Gramr">
+            </MarkerCategory>
+            <MarkerCategory Name="metallis" DisplayName="Dev | Metallis">
+            </MarkerCategory>
+            <MarkerCategory Name="kat_drexed" DisplayName="Recorder | Kat Drexed">
+            </MarkerCategory>
+            <MarkerCategory Name="nilsibus" DisplayName="Recorder | Nilsibus">
+            </MarkerCategory>
+            <MarkerCategory Name="max" DisplayName="Recorder | Max">
+            </MarkerCategory>
+            <MarkerCategory Name="zeph" DisplayName="Recorder | Zeph">
+            </MarkerCategory>
+            <MarkerCategory Name="mozzy" DisplayName="Recorder | Mozzy">
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>

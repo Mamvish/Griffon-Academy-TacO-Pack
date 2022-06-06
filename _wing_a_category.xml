@@ -1,7 +1,7 @@
 <OverlayData>
     <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
         <MarkerCategory Name="guildname" IsSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
-        <MarkerCategory Name="version" IsSeparator="1"  DisplayName="version: 0.7.1a 27.05.2022"/>
+        <MarkerCategory Name="version" IsSeparator="1"  DisplayName="version: 0.7.2a 06.06.2022"/>
         <MarkerCategory Name="tutorial" displayName="Tutorial">
         </MarkerCategory>
         <MarkerCategory Name="routes" displayName="Routes">
@@ -10,6 +10,9 @@
         </MarkerCategory>
         <MarkerCategory Name="caves" DisplayName="Caves">
         </MarkerCategory>
-        <MarkerCategory Name="discord" IsSeparator="1"  DisplayName="discord.gg/the-griffon-academy"/>
+        <MarkerCategory Name="discord" IsSeparator="1"  DisplayName="Click for Discord invite!" copy="https://discord.gg/the-griffon-academy" copy-message="Discord invite copied!">
+        </MarkerCategory>
+        <MarkerCategory Name="contributors" DisplayName="Contributors">
+        </MarkerCategory>
     </MarkerCategory>
 </OverlayData>
