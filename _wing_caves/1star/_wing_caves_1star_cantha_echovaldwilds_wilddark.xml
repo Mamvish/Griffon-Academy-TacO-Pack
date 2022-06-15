@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="cantha" DisplayName="Cantha">
+					<MarkerCategory Name="echovald_wilds" DisplayName="Echovald Wilds">
+						<MarkerCategory Name="wild_dark" DisplayName="Wild Dark">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Echovald Wilds - Wild Dark - Creator: Nilsibus-->
+		
+		<Trail TrailData="Data\Trails\_gramr\caves_1star_cantha_echovaldwilds_wilddark.trl" Type="griffon_flying.caves.easy.cantha.echovald_wilds.wild_dark" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

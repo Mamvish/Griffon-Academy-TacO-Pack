@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
+						<MarkerCategory Name="elementals_hideout" DisplayName="Elementals Hideout">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Wayfarer Foothills - Elementals Hideout - Creator: Mozzy-->
+		
+		<Trail TrailData="Data\Trails\_gramr\routes_1star_shiverpeakmountains_wayfarerfoothills_elementalshideout.trl" Type="griffon_flying.routes.easy.shiverpeak_mountains.wayfarer_foothills.elementals_hideout" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

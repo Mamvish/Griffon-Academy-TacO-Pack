@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="desert_highlands" DisplayName="Desert Highlands">
+						<MarkerCategory Name="sacrificial_dive" DisplayName="Sacrificial Dive">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Desert Highlands - Sacrificial Dive - Creator: Hunny_B-->
+		
+		<Trail TrailData="Data\Trails\_gramr\routes_1star_crystaldesert_deserthighlands_sacrificaldive.trl" Type="griffon_flying.routes.easy.crystal_desert.desert_highlands.sacrificial_dive" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

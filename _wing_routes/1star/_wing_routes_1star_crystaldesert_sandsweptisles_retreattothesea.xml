@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="sandswept_isles" DisplayName="Sandswept Isles">
+						<MarkerCategory Name="retreat_to_the_sea" DisplayName="Retreat to the sea">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Sandswept Isles - Retreat to the sea - Creator: Ash-->
+		
+		<Trail TrailData="Data\Trails\_gramr\routes_1star_crystaldesert_sandsweptisles_retreattothesea.trl" Type="griffon_flying.routes.easy.crystal_desert.sandswept_isles.retreat_to_the_sea" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

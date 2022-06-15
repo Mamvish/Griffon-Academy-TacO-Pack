@@ -3,8 +3,8 @@
 		<MarkerCategory Name="stunts" DisplayName="Stunts">
 			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
 				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
-					<MarkerCategory Name="brisban_wildlands" DisplayName="Brisban Wildlands">
-						<MarkerCategory Name="root_gate" DisplayName="Root Gate">
+					<MarkerCategory Name="caledon_forest" DisplayName="Caledon Forest">
+						<MarkerCategory Name="drift_on_winds" DisplayName="Drift On Winds">
 						</MarkerCategory>
 					</MarkerCategory>
 				</MarkerCategory>
@@ -12,11 +12,9 @@
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>		
-		<!--Brisban Wildlands - Root Gate - Creator: Smof-->
-		<POI MapID="54" xpos="-765.95" ypos="76.6789" zpos="-588.079" type="griffon_flying.stunts.easy.maguuma_jungle.start" GUID="69tDODs7LESnpsmIOhkK7Q=="/>
-		<POI MapID="54" xpos="-759.823" ypos="75.9409" zpos="-588.037" type="griffon_flying.stunts.easy.maguuma_jungle.springer" GUID="2EMncXww40qwXAMX6z8pwg=="/>
-		<POI MapID="54" xpos="-565.868" ypos="81.2744" zpos="-364.343" type="griffon_flying.stunts.easy.maguuma_jungle.finish" GUID="rC31RQwac0y+dj2cvvcm1w=="/>
-		<Trail GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" trailData=".\POIs\Data\Trails\stunts\1star\stunts_1star_maguumajungle_brisbanwildlands_rootgate.trl"/>
-		<Trail TrailData="Data/Trails/stunts/1star/stunts_1star_maguumajungle_brisbanwildlands_rootgate.trl" Type="griffon_flying.stunts.easy.maguuma_jungle.brisban_wildlands.root_gate" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<!--Caledon Forest - Drift On Winds - Creator: Yuzik-->
+		
+		
+		<Trail TrailData="Data\Trails\_gramr\stunt_1star_maguumajungle_caledonforest_driftonwinds.trl" Type="griffon_flying.stunts.easy.maguuma_jungle.caledon_forest.drift_on_winds" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

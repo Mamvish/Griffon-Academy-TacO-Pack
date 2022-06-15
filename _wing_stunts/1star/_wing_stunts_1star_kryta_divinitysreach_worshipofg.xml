@@ -1,0 +1,19 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="stunts" DisplayName="Stunts">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="kryta" DisplayName="Kryta">
+					<MarkerCategory Name="divinitys_reach" DisplayName="Divinity's Reach">
+						<MarkerCategory Name="worship_of_g" DisplayName="Worship of G">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Divinity's Reach - Worship of G - Creator: Mozzy-->
+		
+		<Trail TrailData="Data\Trails\_gramr\stunts_1star_kryta_divinitysreach_worshipofg.trl" Type="griffon_flying.stunts.easy.kryta.divinitys_reach.worship_of_g" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
