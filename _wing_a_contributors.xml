@@ -15,8 +15,6 @@
             </MarkerCategory>
             <MarkerCategory Name="zeph" DisplayName="Recorder | Zeph">
             </MarkerCategory>
-            <MarkerCategory Name="mozzy" DisplayName="Recorder | Mozzy">
-            </MarkerCategory>
         </MarkerCategory>
     </MarkerCategory>
 </OverlayData>
