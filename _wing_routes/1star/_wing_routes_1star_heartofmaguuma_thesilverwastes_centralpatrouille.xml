@@ -1,0 +1,20 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="routes" DisplayName="Routes">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
+					<MarkerCategory Name="the_silverwastes" DisplayName="The Silverwastes">
+						<MarkerCategory Name="central_patrouille" DisplayName="Central Patrouille">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--The Silverwastes - Central Patrouille - Creator: Mozzy-->
+		<POI MapID="1015" xpos="101.165" ypos="557.1" zpos="-66.2755" type="griffon_flying.routes.easy.heart_of_maguuma.start" GUID="m9CwAiPb5Ui4zKyXE+l3Bw=="/>
+		<POI MapID="1015" xpos="75.2094" ypos="488.029" zpos="15.1694" type="griffon_flying.routes.easy.heart_of_maguuma.finish" GUID="ZkYdCAAHFUC4W5rKxuu4Pg=="/>
+		<Trail TrailData="Data\Trails\routes\1star\routes_1star_heartofmaguuma_thesilverwastes_centralpatrouille.trl" Type="griffon_flying.routes.easy.heart_of_maguuma.the_silverwastes.central_patrouille" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

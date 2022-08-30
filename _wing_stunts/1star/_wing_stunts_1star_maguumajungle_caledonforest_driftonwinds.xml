@@ -1,0 +1,20 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="stunts" DisplayName="Stunts">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
+					<MarkerCategory Name="caledon_forest" DisplayName="Caledon Forest">
+						<MarkerCategory Name="drift_on_winds" DisplayName="Drift On Winds">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Caledon Forest - Drift On Winds - Creator: Yuzik-->
+		
+		
+		<Trail TrailData="Data\Trails\_gramr\stunt_1star_maguumajungle_caledonforest_driftonwinds.trl" Type="griffon_flying.stunts.easy.maguuma_jungle.caledon_forest.drift_on_winds" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

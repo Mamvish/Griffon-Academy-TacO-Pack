@@ -1,0 +1,22 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
+					<MarkerCategory Name="jahai_bluffs" DisplayName="Jahai Bluffs">
+						<MarkerCategory Name="stormy_underpass" DisplayName="Stormy Underpass">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>		
+		<!--Jahai Bluffs - Stormy Underpass - Creator: Nilsibus-->
+		<POI MapID="1301" xpos="773.805" ypos="218.88" zpos="495.315" type="griffon_flying.caves.easy.crystal_desert.start" GUID="deDTJHDFXEqLf7LcjweK2g=="/>
+		<POI MapID="1301" xpos="772.835" ypos="218.599" zpos="501.193" type="griffon_flying.caves.easy.crystal_desert.springer" GUID="Ml+rWtAdc0e7ofzu2Fnf5Q=="/>
+		<POI MapID="1301" xpos="771.948" ypos="243.577" zpos="502.922" type="griffon_flying.caves.easy.crystal_desert.griffon" GUID="zfB7iEwNHkWAVtzwoGeITg=="/>
+		<POI MapID="1301" xpos="372.456" ypos="205.399" zpos="653.521" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="wXCfrRxwckuHofPBbQ76Xg=="/>
+		<Trail TrailData="Data\Trails\caves\1star\caves_1star_crystaldesert_jahaibluffs_stormyunderpass.trl" Type="griffon_flying.caves.easy.crystal_desert.jahai_bluffs.stormy_underpass" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>

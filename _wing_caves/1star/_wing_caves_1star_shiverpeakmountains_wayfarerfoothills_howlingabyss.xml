@@ -1,0 +1,22 @@
+<OverlayData>
+	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+		<MarkerCategory Name="caves" DisplayName="Caves">
+			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
+				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
+						<MarkerCategory Name="howling_abyss" DisplayName="Howling Abyss">
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>
+		<!--Wayfarer Foothills - Howling Abyss - Creator: Mozzy-->
+		<POI MapID="28" xpos="32.9656" ypos="63.122" zpos="-1126.92" type="griffon_flying.caves.easy.shiverpeak_mountains.start" GUID="F/sck9Rrl062G9esPGW2EA=="/>
+		<POI MapID="28" xpos="39.791" ypos="63.4838" zpos="-1123.6" type="griffon_flying.caves.easy.shiverpeak_mountains.springer" GUID="8nOOhRxLLkGepkGkmRWkMw=="/>
+		<POI MapID="28" xpos="41.5542" ypos="89.4091" zpos="-1122.2" type="griffon_flying.caves.easy.shiverpeak_mountains.griffon" GUID="juYyOuZT7kuTsS84dnPSZQ=="/>
+		<POI MapID="28" xpos="358.12" ypos="40.8818" zpos="-1023.57" type="griffon_flying.caves.easy.shiverpeak_mountains.finish" GUID="x5RHGNi7uUKgp0Z9R2ZyiA=="/>
+		<Trail TrailData="Data\Trails\caves\1star\caves_1star_shiverpeakmountains_wayfarerfoothills_howlingabyss.trl" Type="griffon_flying.caves.easy.shiverpeak_mountains.wayfarer_foothills.howling_abyss" GUID="qmBxVii230ixqQGhSapF1Q==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+	</POIs>
+</OverlayData>
