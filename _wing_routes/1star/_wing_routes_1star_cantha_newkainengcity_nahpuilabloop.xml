@@ -13,7 +13,8 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--New Kaineng City - Nahpui Lab Loop - Creator: Yuzik-->
-		
+		<POI MapID="1438" xpos="409.258" ypos="236.601" zpos="674.308" type="griffon_flying.routes.easy.cantha.start" GUID="uwhkZ1LFak2AQpgN8mju+w=="/>
+		<POI MapID="1438" xpos="452.081" ypos="159.116" zpos="628.554" type="griffon_flying.routes.hard.ruins_of_orr.finish" GUID="kxxHw38oKUup8ItEa+AGoA=="/>
 		<Trail TrailData="Data\Trails\_gramr\routes_1star_cantha_newkainengcity_nahpuilabloop.trl" Type="griffon_flying.routes.easy.cantha.new_kaineng_city.nahpui_lab_loop" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

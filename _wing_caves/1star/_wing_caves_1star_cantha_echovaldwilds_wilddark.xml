@@ -13,7 +13,10 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Echovald Wilds - Wild Dark - Creator: Nilsibus-->
-		
-		<Trail TrailData="Data\Trails\_gramr\caves_1star_cantha_echovaldwilds_wilddark.trl" Type="griffon_flying.caves.easy.cantha.echovald_wilds.wild_dark" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1452" xpos="398.047" ypos="112.154" zpos="-333.216" type="griffon_flying.caves.easy.cantha.start" GUID="x/G3ZxE+5Uuj8+Z5HqsWAQ=="/>
+		<POI MapID="1452" xpos="396.452" ypos="113" zpos="-330.668" type="griffon_flying.caves.easy.cantha.springer" GUID="4K/hD38OP0G5bRnTp7OKWA=="/>
+		<POI MapID="1452" xpos="396.361" ypos="139.065" zpos="-329.168" type="griffon_flying.caves.easy.cantha.griffon" GUID="o38154J1uUS7oqQp7COFkg=="/>
+		<POI MapID="1452" xpos="713.672" ypos="74.4549" zpos="-385.838" type="griffon_flying.caves.easy.cantha.finish" GUID="7a8zd+zvY0a0di8Mxn3k+w=="/>
+		<Trail TrailData="Data\Trails\caves\1star\caves_1star_cantha_echovaldwilds_wilddark.trl" Type="griffon_flying.caves.easy.cantha.echovald_wilds.wild_dark" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

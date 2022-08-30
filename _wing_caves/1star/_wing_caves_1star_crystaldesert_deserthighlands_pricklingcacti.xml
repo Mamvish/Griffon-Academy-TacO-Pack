@@ -13,7 +13,7 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Desert Highlands - Prickling Cacti - Creator: Riym9-->
-		
-		<Trail TrailData="Data\Trails\_gramr\caves_1star_crystaldesert_deserthighlands_pricklingcacti.trl" Type="griffon_flying.caves.easy.crystal_desert.desert_highlands.pricklingcacti" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+
+		<Trail TrailData="Data\Trails\caves\1star\caves_1star_crystaldesert_deserthighlands_pricklingcacti.trl" Type="griffon_flying.caves.easy.crystal_desert.desert_highlands.pricklingcacti" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

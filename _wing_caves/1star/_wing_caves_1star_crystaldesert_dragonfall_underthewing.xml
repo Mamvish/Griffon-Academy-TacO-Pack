@@ -13,7 +13,10 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Dragonfall - Under the wing - Creator: Nilsibus-->
-		
-		<Trail TrailData="Data\Trails\_gramr\caves_1star_crystaldesert_dragonfall_underthewing.trl" Type="griffon_flying.caves.easy.crystal_desert.dragonfall.under_the_wing" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1317" xpos="-512.545" ypos="193.554" zpos="-123.018" type="griffon_flying.caves.easy.crystal_desert.start" GUID="H1x+adCDEk64fH/hZvhroQ=="/>
+		<POI MapID="1317" xpos="-508.028" ypos="192.742" zpos="-121.574" type="griffon_flying.caves.easy.crystal_desert.springer" GUID="FHXjPNx9E0aalvTdHYNT+g=="/>
+		<POI MapID="1317" xpos="-507.538" ypos="218.587" zpos="-121.185" type="griffon_flying.caves.easy.crystal_desert.griffon" GUID="obtstqLkgUmONWCBdbwKQg=="/>
+		<POI MapID="1317" xpos="341.198" ypos="136.493" zpos="277.001" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="ERWMz1rjFEukhnKxXWyd8w=="/>
+		<Trail TrailData="Data\Trails\caves\1star\caves_1star_crystaldesert_dragonfall_underthewing.trl" Type="griffon_flying.caves.easy.crystal_desert.dragonfall.under_the_wing" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

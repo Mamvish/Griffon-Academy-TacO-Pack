@@ -13,7 +13,8 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Desert Highlands - Sacrificial Dive - Creator: Hunny_B-->
-		
-		<Trail TrailData="Data\Trails\_gramr\routes_1star_crystaldesert_deserthighlands_sacrificaldive.trl" Type="griffon_flying.routes.easy.crystal_desert.desert_highlands.sacrificial_dive" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1211" xpos="-423.992" ypos="276.905" zpos="-63.8261" type="griffon_flying.caves.easy.crystal_desert.start" GUID="CvbDOdKD4USBS5YFKpAUpQ=="/>
+		<POI MapID="1211" xpos="-633" ypos="217.181" zpos="-310.424" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="6VMZHuIoJEWUK20tlwv5Uw=="/>
+		<Trail TrailData="Data\Trails\routes\1star\routes_1star_crystaldesert_deserthighlands_sacrificaldive.trl" Type="griffon_flying.routes.easy.crystal_desert.desert_highlands.sacrificial_dive" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

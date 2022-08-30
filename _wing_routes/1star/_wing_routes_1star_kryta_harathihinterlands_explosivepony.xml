@@ -13,7 +13,8 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Harathi Hinterlands - Explosive Pony - Creator: Nilsibus-->
-		
-		<Trail TrailData="Data\Trails\_gramr\routes_1star_kryta_harathihinterlands_explosivepony.trl" Type="griffon_flying.routes.easy.kryta.harathi_hinterlands.explosive_pony" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="17" xpos="250.47" ypos="127.458" zpos="-355.236" type="griffon_flying.routes.easy.kryta.start" GUID="4KCzp3ENGUGtieeT9fj1sA=="/>
+		<POI MapID="17" xpos="568.6" ypos="79.841" zpos="-410.849" type="griffon_flying.routes.easy.kryta.finish" GUID="rqMAjqP/o0e0DbNZI452Hw=="/>
+		<Trail TrailData="Data\Trails\routes\1star\routes_1star_kryta_harathihinterlands_explosivepony.trl" Type="griffon_flying.routes.easy.kryta.harathi_hinterlands.explosive_pony" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

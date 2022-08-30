@@ -13,7 +13,8 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Domain of Kourna - Kourna's Vine Doors - Creator: Campion-->
-		
-		<Trail TrailData="Data\Trails\_gramr\stunts_1star_crystaldesert_domainofkourna_kournasvinedoors.trl" Type="griffon_flying.stunts.easy.crystal_desert.domain_of_kourna.kournas_vine_doors" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="1288" xpos="-287.667" ypos="119.724" zpos="281.248" type="griffon_flying.stunts.easy.crystal_desert.start" GUID="J7w2+zolnEqhERqfSJByaw=="/>
+		<POI MapID="1288" xpos="-369.958" ypos="94.9538" zpos="231.435" type="griffon_flying.stunts.easy.crystal_desert.finish" GUID="EG8RxQN8QkmXTbnEt8wtKQ=="/>
+		<Trail TrailData="Data\Trails\stunts\1star\stunts_1star_crystaldesert_domainofkourna_kournasvinedoors.trl" Type="griffon_flying.stunts.easy.crystal_desert.domain_of_kourna.kournas_vine_doors" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>

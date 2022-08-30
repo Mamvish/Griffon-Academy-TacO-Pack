@@ -13,7 +13,10 @@
 	</MarkerCategory>
 	<POIs>		
 		<!--Plains of Ashford - Flaming Chink - Creator: Mozzy-->
-		
-		<Trail TrailData="Data\Trails\_gramr\routes_1star_ascalon_plainsofashford_flamingchink.trl" Type="griffon_flying.routes.easy.ascalon.plains_of_ashford.flaming_chink" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+		<POI MapID="19" xpos="-497.489" ypos="120.335" zpos="-129.213" type="griffon_flying.routes.easy.ascalon.start" GUID="k3rq5uLlmkCZ2JkKXx00oQ=="/>
+		<POI MapID="19" xpos="-496.722" ypos="120.335" zpos="-132.664" type="griffon_flying.routes.easy.ascalon.springer" GUID="Vd0kpFS/Jk6QaYmd3duUXw=="/>
+		<POI MapID="19" xpos="-495.992" ypos="145.493" zpos="-134.236" type="griffon_flying.routes.easy.ascalon.griffon" GUID="6WhHlZuYak+IDTWbOeMj/g=="/>
+		<POI MapID="19" xpos="-436.33" ypos="97.3354" zpos="-487.069" type="griffon_flying.routes.easy.ascalon.finish" GUID="STaXCEsMd0WYKANi1PuW2Q=="/>
+		<Trail TrailData="Data\Trails\routes\1star\routes_1star_ascalon_plainsofashford_flamingchink.trl" Type="griffon_flying.routes.easy.ascalon.plains_of_ashford.flaming_chink" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
 	</POIs>
 </OverlayData>
