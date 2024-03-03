@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
-					<MarkerCategory Name="brisban_wildlands" DisplayName="Brisban Wildlands">
-						<MarkerCategory Name="frog_river" DisplayName="Frog River">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="maguuma_jungle" displayname="Maguuma Jungle">
+					<markercategory name="brisban_wildlands" displayname="Brisban Wildlands">
+						<markercategory name="frog_river" displayname="Frog River">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Brisban Wildlands - Frog River - Creator: LeafSong-->
-		<POI MapID="54" xpos="125.889" ypos="122.751" zpos="130.093" type="griffon_flying.caves.easy.maguuma_jungle.start" GUID="rAK9j49zN0qhCW3VWakuNQ=="/>
-		<POI MapID="54" xpos="126.128" ypos="123.078" zpos="124.966" type="griffon_flying.caves.easy.maguuma_jungle.griffon" GUID="nkk4lRthSkWO1EtraQDOtw=="/>
-		<POI MapID="54" xpos="121.706" ypos="119.543" zpos="124.289" type="griffon_flying.caves.easy.maguuma_jungle.finish" GUID="8Ia06qzoJ0KKDuCekBIomg=="/>
-		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_frogriver.trl" Type="griffon_flying.caves.easy.maguuma_jungle.brisban_wildlands.frog_river" GUID="OrKv3UNzGU+ZEUfXNlWcTg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="54" xpos="125.889" ypos="122.751" zpos="130.093" type="griffon_flying.caves.easy.maguuma_jungle.start" guid="rAK9j49zN0qhCW3VWakuNQ=="/>
+		<poi mapid="54" xpos="126.128" ypos="123.078" zpos="124.966" type="griffon_flying.caves.easy.maguuma_jungle.griffon" guid="nkk4lRthSkWO1EtraQDOtw=="/>
+		<poi mapid="54" xpos="121.706" ypos="119.543" zpos="124.289" type="griffon_flying.caves.easy.maguuma_jungle.finish" guid="8Ia06qzoJ0KKDuCekBIomg=="/>
+		<trail traildata="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_frogriver.trl" type="griffon_flying.caves.easy.maguuma_jungle.brisban_wildlands.frog_river" guid="OrKv3UNzGU+ZEUfXNlWcTg==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

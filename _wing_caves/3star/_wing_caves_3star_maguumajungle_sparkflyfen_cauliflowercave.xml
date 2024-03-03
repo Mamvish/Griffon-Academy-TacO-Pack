@@ -1,23 +1,24 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
-					<MarkerCategory Name="sparkfly_fen" DisplayName="Sparkfly Fen">
-						<MarkerCategory Name="cauliflower_cave" DisplayName="Cauliflower Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="maguuma_jungle" displayname="Maguuma Jungle">
+					<markercategory name="sparkfly_fen" displayname="Sparkfly Fen">
+						<markercategory name="cauliflower_cave" displayname="Cauliflower Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Sparkfly Fen - Cauliflower Cave - Creator: Yuzik-->
-		<POI MapID="53" XPos="-569.43" YPos="148.243" ZPos="475.439" Type="griffon_flying.caves.hard.maguuma_jungle.start" GUID="azpjcAT+30+/9WcYQtJYSQ=="/>
-		<POI MapID="53" XPos="-571.003" YPos="148.394" ZPos="478.716" Type="griffon_flying.caves.hard.maguuma_jungle.springer" GUID="1QjW1ZMY80y2OyWDfbwc0g=="/>
-		<POI MapID="53" XPos="-470.862" YPos="60.4667" ZPos="637.358" Type="griffon_flying.caves.hard.maguuma_jungle.finish" GUID="GQoEXsrW0kK7T9xonC1Heg=="/>
-		<POI MapID="53" XPos="-572.585" YPos="171.167" ZPos="483.965" Type="griffon_flying.caves.hard.maguuma_jungle.griffon" GUID="1pERocKH7EuPfGsaSEb5dw=="/>
-		<POI MapID="53" XPos="-562.479" YPos="47.4465" ZPos="693.464" Type="griffon_flying.caves.hard.maguuma_jungle.sharp_turn_left" GUID="/ZdtnINjiEG14CFPRTJUyQ=="/>
-		<Trail TrailData="Data/Trails/caves/3star/caves_3star_maguumajungle_sparkflyfen_cauliflowercave.trl" Type="griffon_flying.caves.hard.maguuma_jungle.sparkfly_fen.cauliflower_cave" GUID="NozXRQUMZESpckyct97+bQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="53" xpos="-569.43" ypos="148.243" zpos="475.439" type="griffon_flying.caves.hard.maguuma_jungle.start" guid="azpjcAT+30+/9WcYQtJYSQ=="/>
+		<poi mapid="53" xpos="-571.003" ypos="148.394" zpos="478.716" type="griffon_flying.caves.hard.maguuma_jungle.springer" guid="1QjW1ZMY80y2OyWDfbwc0g=="/>
+		<poi mapid="53" xpos="-470.862" ypos="60.4667" zpos="637.358" type="griffon_flying.caves.hard.maguuma_jungle.finish" guid="GQoEXsrW0kK7T9xonC1Heg=="/>
+		<poi mapid="53" xpos="-572.585" ypos="171.167" zpos="483.965" type="griffon_flying.caves.hard.maguuma_jungle.griffon" guid="1pERocKH7EuPfGsaSEb5dw=="/>
+		<poi mapid="53" xpos="-562.479" ypos="47.4465" zpos="693.464" type="griffon_flying.caves.hard.maguuma_jungle.sharp_turn_left" guid="/ZdtnINjiEG14CFPRTJUyQ=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3star_maguumajungle_sparkflyfen_cauliflowercave.trl" type="griffon_flying.caves.hard.maguuma_jungle.sparkfly_fen.cauliflower_cave" guid="NozXRQUMZESpckyct97+bQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

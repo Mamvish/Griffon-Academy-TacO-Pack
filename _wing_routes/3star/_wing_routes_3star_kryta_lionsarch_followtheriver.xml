@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="kryta" DisplayName="Kryta">
-					<MarkerCategory Name="lions_arch" DisplayName="Lion's Arch">
-						<MarkerCategory Name="follow_the_river" DisplayName="Follow The River">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="kryta" displayname="Kryta">
+					<markercategory name="lions_arch" displayname="Lion's Arch">
+						<markercategory name="follow_the_river" displayname="Follow The River">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Lion's Arch - Follow The River - Creator: Mozzy-->
-        <POI MapID="50" xpos="-316.061" ypos="159.464" zpos="-376.216" type="griffon_flying.routes.hard.kryta.start" GUID="dI4So6qM20WZ0xBv5tWMDA=="/>
-		<POI MapID="50" xpos="-320.006" ypos="159.299" zpos="-375.743" type="griffon_flying.routes.hard.kryta.springer" GUID="oaQ+1yxYo0K5zQMnCEC5XA=="/>
-		<POI MapID="50" xpos="586.916" ypos="80.3421" zpos="40.4" type="griffon_flying.routes.hard.kryta.finish" GUID="NSInWzWi5kCC96Uhw385jw=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_kryta_lionsarch_followtheriver.trl" Type="griffon_flying.routes.hard.kryta.lions_arch.follow_the_river" GUID="jUQVXnoaPk+Mldnym54p8g==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+        <poi mapid="50" xpos="-316.061" ypos="159.464" zpos="-376.216" type="griffon_flying.routes.hard.kryta.start" guid="dI4So6qM20WZ0xBv5tWMDA=="/>
+		<poi mapid="50" xpos="-320.006" ypos="159.299" zpos="-375.743" type="griffon_flying.routes.hard.kryta.springer" guid="oaQ+1yxYo0K5zQMnCEC5XA=="/>
+		<poi mapid="50" xpos="586.916" ypos="80.3421" zpos="40.4" type="griffon_flying.routes.hard.kryta.finish" guid="NSInWzWi5kCC96Uhw385jw=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_kryta_lionsarch_followtheriver.trl" type="griffon_flying.routes.hard.kryta.lions_arch.follow_the_river" guid="jUQVXnoaPk+Mldnym54p8g==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

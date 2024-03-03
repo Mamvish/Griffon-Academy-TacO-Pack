@@ -1,9 +1,10 @@
-<OverlayData>
-    <POIs>
-        <Trail trailData="Data/Trails/fields_of_ruin_ebonhawke_endurance_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/gendarran_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.kryta.gendarran_fields" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/grove_easy_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.maguuma_jungle.the_grove" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/divinity_reach_salma_district_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.kryta.divinitys_reach" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/black_citadel_pain_route_easy_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.ascalon.black_citadel.pain_route_easy" fadeNear="6000" fadeFar="7000"/>
-    </POIs>
-</OverlayData>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <pois>
+        <trail traildata="Data/Trails/fields_of_ruin_ebonhawke_endurance_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.ascalon.fields_of_ruin" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/gendarran_low_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ffffffff" alpha="1" type="griffon_flying.stunts.easy.kryta.gendarran_fields" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/grove_easy_route.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.maguuma_jungle.the_grove" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/divinity_reach_salma_district_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.kryta.divinitys_reach" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/black_citadel_pain_route_easy_version.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.stunts.easy.ascalon.black_citadel.pain_route_easy" fadenear="6000" fadefar="7000"/>
+    </pois>
+</overlaydata>

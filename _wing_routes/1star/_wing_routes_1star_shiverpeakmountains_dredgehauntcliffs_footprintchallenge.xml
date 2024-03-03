@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="dredgehaunt_cliffs" DisplayName="Dredgehaunt Cliffs">
-						<MarkerCategory Name="footprint_challenge" DisplayName="Footprint Challenge">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="dredgehaunt_cliffs" displayname="Dredgehaunt Cliffs">
+						<markercategory name="footprint_challenge" displayname="Footprint Challenge">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Dredgehaunt Cliffs - Footprint Challenge - Creator: Nilsibus-->
-		<POI MapID="26" xpos="383.892" ypos="183.526" zpos="133.339" type="griffon_flying.routes.easy.shiverpeak_mountains.start" GUID="64mWTJv96kyh2YPqz4Dt/w=="/>
-		<POI MapID="26" xpos="379.589" ypos="184.02" zpos="137.815" type="griffon_flying.routes.easy.shiverpeak_mountains.springer" GUID="bprNdMEuG0aeI/bK2WxGDA=="/>
-		<POI MapID="26" xpos="378.845" ypos="210.758" zpos="138.863" type="griffon_flying.routes.easy.shiverpeak_mountains.griffon" GUID="7lioHrMjtEWJfEeBr7RVIw=="/>
-		<POI MapID="26" xpos="233.224" ypos="147.726" zpos="169.645" type="griffon_flying.routes.easy.shiverpeak_mountains.finish" GUID="WuxtLx6Gr0uvEokbZ4R4Ug=="/>
-		<Trail TrailData="Data\Trails\routes\1star\routes_1star_shiverpeakmountains_dredgehauntcliffs_footprintchallenge.trl" Type="griffon_flying.routes.easy.shiverpeak_mountains.dredgehaunt_cliffs.footprint_challenge" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="26" xpos="383.892" ypos="183.526" zpos="133.339" type="griffon_flying.routes.easy.shiverpeak_mountains.start" guid="64mWTJv96kyh2YPqz4Dt/w=="/>
+		<poi mapid="26" xpos="379.589" ypos="184.02" zpos="137.815" type="griffon_flying.routes.easy.shiverpeak_mountains.springer" guid="bprNdMEuG0aeI/bK2WxGDA=="/>
+		<poi mapid="26" xpos="378.845" ypos="210.758" zpos="138.863" type="griffon_flying.routes.easy.shiverpeak_mountains.griffon" guid="7lioHrMjtEWJfEeBr7RVIw=="/>
+		<poi mapid="26" xpos="233.224" ypos="147.726" zpos="169.645" type="griffon_flying.routes.easy.shiverpeak_mountains.finish" guid="WuxtLx6Gr0uvEokbZ4R4Ug=="/>
+		<trail traildata="Data\Trails\routes\1star\routes_1star_shiverpeakmountains_dredgehauntcliffs_footprintchallenge.trl" type="griffon_flying.routes.easy.shiverpeak_mountains.dredgehaunt_cliffs.footprint_challenge" guid="iYaM8dVxuU2N8YoiIfk9OQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="9de26b" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

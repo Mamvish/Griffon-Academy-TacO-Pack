@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="cantha" DisplayName="Cantha">
-					<MarkerCategory Name="echovald_wilds" DisplayName="Echovald Wilds">
-						<MarkerCategory Name="village_cave" DisplayName="Village Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="cantha" displayname="Cantha">
+					<markercategory name="echovald_wilds" displayname="Echovald Wilds">
+						<markercategory name="village_cave" displayname="Village Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Echovald Wilds - Village Cave - Creator: Nilsibus-->
-		<POI MapID="1452" xpos="-495.547" ypos="277.478" zpos="195.684" type="griffon_flying.caves.medium.cantha.start" GUID="K4+dZ3gOIE6anX2ZetSkww=="/>
-		<POI MapID="1452" xpos="-497.789" ypos="276.428" zpos="194.536" type="griffon_flying.caves.medium.cantha.springer" GUID="4F8AFd0arEOV/br3FxjKvg=="/>
-		<POI MapID="1452" xpos="-753.085" ypos="174.917" zpos="-27.6218" type="griffon_flying.caves.medium.cantha.finish" GUID="vFo+NkvI4ECBelNF28Onqw=="/>
-		<Trail trailData="Data/Trails/caves/2star/caves_2stars_cantha_echovaldwilds_villagecave.trl" Type="griffon_flying.caves.hard.cantha.echovald_wilds.village_cave" GUID="chg88Aqc40Gx8WaAO/vd8w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1452" xpos="-495.547" ypos="277.478" zpos="195.684" type="griffon_flying.caves.medium.cantha.start" guid="K4+dZ3gOIE6anX2ZetSkww=="/>
+		<poi mapid="1452" xpos="-497.789" ypos="276.428" zpos="194.536" type="griffon_flying.caves.medium.cantha.springer" guid="4F8AFd0arEOV/br3FxjKvg=="/>
+		<poi mapid="1452" xpos="-753.085" ypos="174.917" zpos="-27.6218" type="griffon_flying.caves.medium.cantha.finish" guid="vFo+NkvI4ECBelNF28Onqw=="/>
+		<trail traildata="Data/Trails/caves/2star/caves_2stars_cantha_echovaldwilds_villagecave.trl" type="griffon_flying.caves.hard.cantha.echovald_wilds.village_cave" guid="chg88Aqc40Gx8WaAO/vd8w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

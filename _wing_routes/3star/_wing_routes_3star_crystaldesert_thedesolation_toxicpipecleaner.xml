@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="the_desolation" DisplayName="The Desolation">
-						<MarkerCategory Name="toxic_pipe_cleaner" DisplayName="Toxic Pipe Cleaner">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="the_desolation" displayname="The Desolation">
+						<markercategory name="toxic_pipe_cleaner" displayname="Toxic Pipe Cleaner">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--The Desolation - Toxic Pipe Cleaner - Creator: Yuzik-->
-		<POI MapID="1226" xpos="-712.968" ypos="168.351" zpos="735.13" type="griffon_flying.routes.hard.crystal_desert.start" GUID="BbSqm3osVkqPpB2KeZGGQw=="/>
-		<POI MapID="1226" xpos="-718.492" ypos="167.776" zpos="738.021" type="griffon_flying.routes.hard.crystal_desert.griffon" GUID="7wqsWyQjBkSC+BvPY04uwg=="/>
-		<POI MapID="1226" xpos="-871.141" ypos="76.9785" zpos="891.246" type="griffon_flying.routes.hard.crystal_desert.finish" GUID="UyR4g/YgZkGH3iGkSq7S6Q=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_toxicpipecleaner.trl" Type="griffon_flying.routes.hard.crystal_desert.the_desolation.toxic_pipe_cleaner" GUID="UrKOYBwq5UO1JqGaC83kLQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1226" xpos="-712.968" ypos="168.351" zpos="735.13" type="griffon_flying.routes.hard.crystal_desert.start" guid="BbSqm3osVkqPpB2KeZGGQw=="/>
+		<poi mapid="1226" xpos="-718.492" ypos="167.776" zpos="738.021" type="griffon_flying.routes.hard.crystal_desert.griffon" guid="7wqsWyQjBkSC+BvPY04uwg=="/>
+		<poi mapid="1226" xpos="-871.141" ypos="76.9785" zpos="891.246" type="griffon_flying.routes.hard.crystal_desert.finish" guid="UyR4g/YgZkGH3iGkSq7S6Q=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_toxicpipecleaner.trl" type="griffon_flying.routes.hard.crystal_desert.the_desolation.toxic_pipe_cleaner" guid="UrKOYBwq5UO1JqGaC83kLQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

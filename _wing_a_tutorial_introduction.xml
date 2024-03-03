@@ -1,12 +1,13 @@
-<OverlayData>
-    <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-        <MarkerCategory Name="tutorial" displayName="Tutorial">
-            <MarkerCategory Name="introduction" DisplayName="Introduction">
-            </MarkerCategory>
-            <MarkerCategory Name="spiral_dive" DisplayName="Spiral Dive">
-            </MarkerCategory>
-            <MarkerCategory Name="precise_pullup" DisplayName="Precise Pull-up">
-            </MarkerCategory>
-        </MarkerCategory>
-    </MarkerCategory>
-</OverlayData>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <markercategory name="griffon_flying" displayname="Griffon Flying">
+        <markercategory name="tutorial" displayname="Tutorial">
+            <markercategory name="introduction" displayname="Introduction">
+            </markercategory>
+            <markercategory name="spiral_dive" displayname="Spiral Dive">
+            </markercategory>
+            <markercategory name="precise_pullup" displayname="Precise Pull-up">
+            </markercategory>
+        </markercategory>
+    </markercategory>
+</overlaydata>

@@ -1,20 +1,21 @@
-<OverlayData>
-    <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-        <MarkerCategory Name="contributors" DisplayName="Contributors">
-            <MarkerCategory Name="kampfhase" DisplayName="Dev | Kampfhase">
-            </MarkerCategory>
-            <MarkerCategory Name="gramr" DisplayName="Dev | Gramr">
-            </MarkerCategory>
-            <MarkerCategory Name="metallis" DisplayName="Dev | Metallis">
-            </MarkerCategory>
-            <MarkerCategory Name="kat_drexed" DisplayName="Recorder | Kat Drexed">
-            </MarkerCategory>
-            <MarkerCategory Name="nilsibus" DisplayName="Recorder | Nilsibus">
-            </MarkerCategory>
-            <MarkerCategory Name="max" DisplayName="Recorder | Max">
-            </MarkerCategory>
-            <MarkerCategory Name="zeph" DisplayName="Recorder | Zeph">
-            </MarkerCategory>
-        </MarkerCategory>
-    </MarkerCategory>
-</OverlayData>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <markercategory name="griffon_flying" displayname="Griffon Flying">
+        <markercategory name="contributors" displayname="Contributors">
+            <markercategory name="kampfhase" displayname="Dev | Kampfhase">
+            </markercategory>
+            <markercategory name="gramr" displayname="Dev | Gramr">
+            </markercategory>
+            <markercategory name="metallis" displayname="Dev | Metallis">
+            </markercategory>
+            <markercategory name="kat_drexed" displayname="Recorder | Kat Drexed">
+            </markercategory>
+            <markercategory name="nilsibus" displayname="Recorder | Nilsibus">
+            </markercategory>
+            <markercategory name="max" displayname="Recorder | Max">
+            </markercategory>
+            <markercategory name="zeph" displayname="Recorder | Zeph">
+            </markercategory>
+        </markercategory>
+    </markercategory>
+</overlaydata>

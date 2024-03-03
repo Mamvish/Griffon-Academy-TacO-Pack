@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="timberline_falls" DisplayName="Timberline Falls">
-						<MarkerCategory Name="tight_cave" DisplayName="Tight Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="timberline_falls" displayname="Timberline Falls">
+						<markercategory name="tight_cave" displayname="Tight Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Timberline Falls - Tight Cave - Creator: Nemain-->
-		<POI MapID="29" xpos="342.768" ypos="113.934" zpos="-529.515" type="griffon_flying.caves.hard.shiverpeak_mountains.springer" GUID="OsLFjAMXJk2VbGbJf0FqaA=="/>
-		<POI MapID="29" xpos="338.357" ypos="113.672" zpos="-529.273" type="griffon_flying.caves.hard.shiverpeak_mountains.start" GUID="8kXZDgHwE06nBMz/pH6Ruw=="/>
-		<POI MapID="29" xpos="534.518" ypos="46.1628" zpos="-560.563" type="griffon_flying.caves.hard.shiverpeak_mountains.finish" GUID="qBR3gi6rEUStI0AVF9MnZg=="/>
-		<Trail TrailData="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_timberlinefalls_tightcave.trl" Type="griffon_flying.caves.hard.shiverpeak_mountains.timberline_falls.tight_cave" GUID="nJvrhzDrnkeAMIQX3a8hzg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="29" xpos="342.768" ypos="113.934" zpos="-529.515" type="griffon_flying.caves.hard.shiverpeak_mountains.springer" guid="OsLFjAMXJk2VbGbJf0FqaA=="/>
+		<poi mapid="29" xpos="338.357" ypos="113.672" zpos="-529.273" type="griffon_flying.caves.hard.shiverpeak_mountains.start" guid="8kXZDgHwE06nBMz/pH6Ruw=="/>
+		<poi mapid="29" xpos="534.518" ypos="46.1628" zpos="-560.563" type="griffon_flying.caves.hard.shiverpeak_mountains.finish" guid="qBR3gi6rEUStI0AVF9MnZg=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_timberlinefalls_tightcave.trl" type="griffon_flying.caves.hard.shiverpeak_mountains.timberline_falls.tight_cave" guid="nJvrhzDrnkeAMIQX3a8hzg==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

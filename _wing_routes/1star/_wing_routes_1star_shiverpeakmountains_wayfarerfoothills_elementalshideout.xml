@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
-						<MarkerCategory Name="elementals_hideout" DisplayName="Elementals Hideout">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="wayfarer_foothills" displayname="Wayfarer Foothills">
+						<markercategory name="elementals_hideout" displayname="Elementals Hideout">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Wayfarer Foothills - Elementals Hideout - Creator: Mozzy-->
-		<POI MapID="28" xpos="37.4323" ypos="217.09" zpos="1062.17" type="griffon_flying.routes.easy.shiverpeak_mountains.start" GUID="cTf8n4I830yeU5G4pBDXuA=="/>
-		<POI MapID="28" xpos="37.5466" ypos="217.49" zpos="1065.11" type="griffon_flying.routes.easy.shiverpeak_mountains.springer" GUID="Fk494FaP9USQ17YJe8UK+Q=="/>
-		<POI MapID="28" xpos="35.5504" ypos="242.935" zpos="1065.8" type="griffon_flying.routes.easy.shiverpeak_mountains.griffon" GUID="MG+17TXxDUuIuIpa4RIbcg=="/>
-		<POI MapID="28" xpos="61.4526" ypos="191.68" zpos="528.265" type="griffon_flying.routes.easy.shiverpeak_mountains.finish" GUID="ch1vXlt1dUqa/sh8jNyUfA=="/>
-		<Trail TrailData="Data\Trails\routes\1star\routes_1star_shiverpeakmountains_wayfarerfoothills_elementalshideout.trl" Type="griffon_flying.routes.easy.shiverpeak_mountains.wayfarer_foothills.elementals_hideout" GUID="iYaM8dVxuU2N8YoiIfk9OQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="9de26b" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="28" xpos="37.4323" ypos="217.09" zpos="1062.17" type="griffon_flying.routes.easy.shiverpeak_mountains.start" guid="cTf8n4I830yeU5G4pBDXuA=="/>
+		<poi mapid="28" xpos="37.5466" ypos="217.49" zpos="1065.11" type="griffon_flying.routes.easy.shiverpeak_mountains.springer" guid="Fk494FaP9USQ17YJe8UK+Q=="/>
+		<poi mapid="28" xpos="35.5504" ypos="242.935" zpos="1065.8" type="griffon_flying.routes.easy.shiverpeak_mountains.griffon" guid="MG+17TXxDUuIuIpa4RIbcg=="/>
+		<poi mapid="28" xpos="61.4526" ypos="191.68" zpos="528.265" type="griffon_flying.routes.easy.shiverpeak_mountains.finish" guid="ch1vXlt1dUqa/sh8jNyUfA=="/>
+		<trail traildata="Data\Trails\routes\1star\routes_1star_shiverpeakmountains_wayfarerfoothills_elementalshideout.trl" type="griffon_flying.routes.easy.shiverpeak_mountains.wayfarer_foothills.elementals_hideout" guid="iYaM8dVxuU2N8YoiIfk9OQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="9de26b" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

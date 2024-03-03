@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
-					<MarkerCategory Name="mount_maelstrom" DisplayName="Mount Maelstrom">
-						<MarkerCategory Name="volcano_cave" DisplayName="Volcano Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="maguuma_jungle" displayname="Maguuma Jungle">
+					<markercategory name="mount_maelstrom" displayname="Mount Maelstrom">
+						<markercategory name="volcano_cave" displayname="Volcano Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Mount Maelstrom - Volcano Cave - Creator: Nilsibus-->
-		<POI MapID="39" xpos="-710.53" ypos="30.145" zpos="46.9926" type="griffon_flying.routes.medium.heart_of_maguuma.finish" GUID="2Jh1cSSbHEWplseKNk2EqQ=="/>
-		<POI MapID="39" xpos="-502.036" ypos="160.065" zpos="-56.1619" type="griffon_flying.caves.hard.maguuma_jungle.start" GUID="ingW6eJgeEOKOHDu4EkzfA=="/>
-		<POI MapID="39" xpos="-504.807" ypos="158.046" zpos="-51.8434" type="griffon_flying.caves.hard.maguuma_jungle.springer" GUID="VbppCLgYX0i0mGzwDLlZrA=="/>
-		<POI MapID="39" xpos="-172.039" ypos="91.0245" zpos="-559.699" type="griffon_flying.caves.hard.maguuma_jungle.finish" GUID="WAkv8EbRxkugt590TswXiQ=="/>
-		<Trail trailData="Data/Trails/caves/3star/caves_3stars_maguumajungle_mountmaelstrom_volcanocave.trl" Type="griffon_flying.caves.hard.maguuma_jungle.mount_maelstrom.volcano_cave" GUID="pCVNYICFI0S6vN2MB2UJjA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="39" xpos="-710.53" ypos="30.145" zpos="46.9926" type="griffon_flying.routes.medium.heart_of_maguuma.finish" guid="2Jh1cSSbHEWplseKNk2EqQ=="/>
+		<poi mapid="39" xpos="-502.036" ypos="160.065" zpos="-56.1619" type="griffon_flying.caves.hard.maguuma_jungle.start" guid="ingW6eJgeEOKOHDu4EkzfA=="/>
+		<poi mapid="39" xpos="-504.807" ypos="158.046" zpos="-51.8434" type="griffon_flying.caves.hard.maguuma_jungle.springer" guid="VbppCLgYX0i0mGzwDLlZrA=="/>
+		<poi mapid="39" xpos="-172.039" ypos="91.0245" zpos="-559.699" type="griffon_flying.caves.hard.maguuma_jungle.finish" guid="WAkv8EbRxkugt590TswXiQ=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3stars_maguumajungle_mountmaelstrom_volcanocave.trl" type="griffon_flying.caves.hard.maguuma_jungle.mount_maelstrom.volcano_cave" guid="pCVNYICFI0S6vN2MB2UJjA==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

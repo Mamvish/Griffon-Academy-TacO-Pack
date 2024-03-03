@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="ascalon" DisplayName="Ascalon">
-					<MarkerCategory Name="plains_of_ashford" DisplayName="Plains of Ashford">
-						<MarkerCategory Name="flaming_chink" DisplayName="Flaming Chink">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="ascalon" displayname="Ascalon">
+					<markercategory name="plains_of_ashford" displayname="Plains of Ashford">
+						<markercategory name="flaming_chink" displayname="Flaming Chink">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Plains of Ashford - Flaming Chink - Creator: Mozzy-->
-		<POI MapID="19" xpos="-497.489" ypos="120.335" zpos="-129.213" type="griffon_flying.routes.easy.ascalon.start" GUID="k3rq5uLlmkCZ2JkKXx00oQ=="/>
-		<POI MapID="19" xpos="-496.722" ypos="120.335" zpos="-132.664" type="griffon_flying.routes.easy.ascalon.springer" GUID="Vd0kpFS/Jk6QaYmd3duUXw=="/>
-		<POI MapID="19" xpos="-495.992" ypos="145.493" zpos="-134.236" type="griffon_flying.routes.easy.ascalon.griffon" GUID="6WhHlZuYak+IDTWbOeMj/g=="/>
-		<POI MapID="19" xpos="-436.33" ypos="97.3354" zpos="-487.069" type="griffon_flying.routes.easy.ascalon.finish" GUID="STaXCEsMd0WYKANi1PuW2Q=="/>
-		<Trail TrailData="Data\Trails\routes\1star\routes_1star_ascalon_plainsofashford_flamingchink.trl" Type="griffon_flying.routes.easy.ascalon.plains_of_ashford.flaming_chink" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="19" xpos="-497.489" ypos="120.335" zpos="-129.213" type="griffon_flying.routes.easy.ascalon.start" guid="k3rq5uLlmkCZ2JkKXx00oQ=="/>
+		<poi mapid="19" xpos="-496.722" ypos="120.335" zpos="-132.664" type="griffon_flying.routes.easy.ascalon.springer" guid="Vd0kpFS/Jk6QaYmd3duUXw=="/>
+		<poi mapid="19" xpos="-495.992" ypos="145.493" zpos="-134.236" type="griffon_flying.routes.easy.ascalon.griffon" guid="6WhHlZuYak+IDTWbOeMj/g=="/>
+		<poi mapid="19" xpos="-436.33" ypos="97.3354" zpos="-487.069" type="griffon_flying.routes.easy.ascalon.finish" guid="STaXCEsMd0WYKANi1PuW2Q=="/>
+		<trail traildata="Data\Trails\routes\1star\routes_1star_ascalon_plainsofashford_flamingchink.trl" type="griffon_flying.routes.easy.ascalon.plains_of_ashford.flaming_chink" guid="7U9C72b7Nk+ycDp1gTKNKw==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

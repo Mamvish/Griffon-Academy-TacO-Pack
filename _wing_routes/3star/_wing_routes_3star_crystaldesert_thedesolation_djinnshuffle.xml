@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="the_desolation" DisplayName="The Desolation">
-						<MarkerCategory Name="djinn_shuffle" DisplayName="Djinn Shuffle">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="the_desolation" displayname="The Desolation">
+						<markercategory name="djinn_shuffle" displayname="Djinn Shuffle">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--The Desolation - Djinn Shuffle - Creator: Willow-->
-		<POI MapID="1226" xpos="-380.709" ypos="432.254" zpos="-1136.34" type="griffon_flying.routes.hard.crystal_desert.start" GUID="mYrY3uk0c0+8tKmxZnnfNA=="/>
-		<POI MapID="1226" xpos="-384.323" ypos="432.109" zpos="-1132.42" type="griffon_flying.routes.hard.crystal_desert.griffon" GUID="i+d0ZFke1EqIkG8vzpSAgQ=="/>
-		<POI MapID="1226" xpos="-303.685" ypos="284.102" zpos="-1185.88" type="griffon_flying.routes.hard.crystal_desert.finish" GUID="KBTVggNRSkWW1WJpOfVf+A=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_djinnshuffle.trl" Type="griffon_flying.routes.hard.crystal_desert.the_desolation.djinn_shuffle" GUID="xjAUzeZV6kiklPQNqV5G7w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1226" xpos="-380.709" ypos="432.254" zpos="-1136.34" type="griffon_flying.routes.hard.crystal_desert.start" guid="mYrY3uk0c0+8tKmxZnnfNA=="/>
+		<poi mapid="1226" xpos="-384.323" ypos="432.109" zpos="-1132.42" type="griffon_flying.routes.hard.crystal_desert.griffon" guid="i+d0ZFke1EqIkG8vzpSAgQ=="/>
+		<poi mapid="1226" xpos="-303.685" ypos="284.102" zpos="-1185.88" type="griffon_flying.routes.hard.crystal_desert.finish" guid="KBTVggNRSkWW1WJpOfVf+A=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_crystaldesert_thedesolation_djinnshuffle.trl" type="griffon_flying.routes.hard.crystal_desert.the_desolation.djinn_shuffle" guid="xjAUzeZV6kiklPQNqV5G7w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="ascalon" DisplayName="Ascalon">
-					<MarkerCategory Name="iron_marches" DisplayName="Iron Marches">
-						<MarkerCategory Name="charr_fishing_corner" DisplayName="Charr Fishing Corner">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="ascalon" displayname="Ascalon">
+					<markercategory name="iron_marches" displayname="Iron Marches">
+						<markercategory name="charr_fishing_corner" displayname="Charr Fishing Corner">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Iron Marches - Charr Fishing Corner - Creator: Mozzy-->
-		<POI MapID="25" xpos="-129.247" ypos="124.126" zpos="-333.72" type="griffon_flying.routes.medium.ascalon.start" GUID="pgJLuVawf0KfrCejmFthwQ=="/>
-		<POI MapID="25" xpos="-129.017" ypos="124.976" zpos="-337.764" type="griffon_flying.routes.medium.ascalon.springer" GUID="31ZwywwqOUOTuxO1lTXFkQ=="/>
-		<POI MapID="25" xpos="-74.8503" ypos="104.49" zpos="-1098.51" type="griffon_flying.routes.medium.ascalon.finish" GUID="l6QdWsds8EqGg2jnyTdL6w=="/>
-		<Trail TrailData="Data/Trails/routes/2star/routes_2star_ascalon_ironmarches_charrfishingcorner.trl" Type="griffon_flying.routes.medium.ascalon.iron_marches.charr_fishing_corner" GUID="fPNvZrFwE0ObbTJCd54e5A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="25" xpos="-129.247" ypos="124.126" zpos="-333.72" type="griffon_flying.routes.medium.ascalon.start" guid="pgJLuVawf0KfrCejmFthwQ=="/>
+		<poi mapid="25" xpos="-129.017" ypos="124.976" zpos="-337.764" type="griffon_flying.routes.medium.ascalon.springer" guid="31ZwywwqOUOTuxO1lTXFkQ=="/>
+		<poi mapid="25" xpos="-74.8503" ypos="104.49" zpos="-1098.51" type="griffon_flying.routes.medium.ascalon.finish" guid="l6QdWsds8EqGg2jnyTdL6w=="/>
+		<trail traildata="Data/Trails/routes/2star/routes_2star_ascalon_ironmarches_charrfishingcorner.trl" type="griffon_flying.routes.medium.ascalon.iron_marches.charr_fishing_corner" guid="fPNvZrFwE0ObbTJCd54e5A==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

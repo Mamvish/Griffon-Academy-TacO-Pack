@@ -1,20 +1,21 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="domain_of_kourna" DisplayName="Domain of Kourna">
-						<MarkerCategory Name="awakened_roulette" DisplayName="Awakened Roulette">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="domain_of_kourna" displayname="Domain of Kourna">
+						<markercategory name="awakened_roulette" displayname="Awakened Roulette">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Domain of Kourna - Awakened Roulette - Creator: Nilsibus-->
-		<POI MapID="1288" xpos="45.9413" ypos="283.665" zpos="611.458" type="griffon_flying.caves.easy.crystal_desert.start" GUID="PEv76o0tVU+/wajnFjL+Sg=="/>
-		<POI MapID="1288" xpos="-102.129" ypos="146.76" zpos="411.167" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="QCH9vfCdwEeD5dH2NMpXVA=="/>
-		<Trail TrailData="Data\Trails\caves\1star\caves_1star_crystaldesert_domainofkourna_awakenedroulette.trl" Type="griffon_flying.caves.easy.crystal_desert.domain_of_kourna.awakened_roulette" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1288" xpos="45.9413" ypos="283.665" zpos="611.458" type="griffon_flying.caves.easy.crystal_desert.start" guid="PEv76o0tVU+/wajnFjL+Sg=="/>
+		<poi mapid="1288" xpos="-102.129" ypos="146.76" zpos="411.167" type="griffon_flying.caves.easy.crystal_desert.finish" guid="QCH9vfCdwEeD5dH2NMpXVA=="/>
+		<trail traildata="Data\Trails\caves\1star\caves_1star_crystaldesert_domainofkourna_awakenedroulette.trl" type="griffon_flying.caves.easy.crystal_desert.domain_of_kourna.awakened_roulette" guid="CkaN/5NGcEaRUo91RZUHvg==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

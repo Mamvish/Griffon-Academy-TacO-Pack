@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="sandswept_isles" DisplayName="Sandswept Isles">
-						<MarkerCategory Name="retreat_to_the_sea" DisplayName="Retreat to the sea">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="sandswept_isles" displayname="Sandswept Isles">
+						<markercategory name="retreat_to_the_sea" displayname="Retreat to the sea">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Sandswept Isles - Retreat to the sea - Creator: Ash-->
-		<POI MapID="1271" xpos="63.9916" ypos="144.567" zpos="979.143" type="griffon_flying.routes.easy.crystal_desert.start" GUID="lRGR6uQIW0Wa9mXaXCrFCQ=="/>
-		<POI MapID="1271" xpos="69.329" ypos="144.084" zpos="978.75" type="griffon_flying.routes.easy.crystal_desert.springer" GUID="yekfkQ4YbUWDZ38qWzLg2g=="/>
-		<POI MapID="1271" xpos="69.5482" ypos="168.984" zpos="977.647" type="griffon_flying.routes.easy.crystal_desert.griffon" GUID="YpZcbdR7KUub75AWC2+HBg=="/>
-		<POI MapID="1271" xpos="197.208" ypos="103.688" zpos="518.394" type="griffon_flying.routes.easy.crystal_desert.finish" GUID="BbEVie/tGUKfCR4BbQLtEA=="/>
-		<Trail TrailData="Data\Trails\routes\1star\routes_1star_crystaldesert_sandsweptisles_retreattothesea.trl" Type="griffon_flying.routes.easy.crystal_desert.sandswept_isles.retreat_to_the_sea" GUID="7U9C72b7Nk+ycDp1gTKNKw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1271" xpos="63.9916" ypos="144.567" zpos="979.143" type="griffon_flying.routes.easy.crystal_desert.start" guid="lRGR6uQIW0Wa9mXaXCrFCQ=="/>
+		<poi mapid="1271" xpos="69.329" ypos="144.084" zpos="978.75" type="griffon_flying.routes.easy.crystal_desert.springer" guid="yekfkQ4YbUWDZ38qWzLg2g=="/>
+		<poi mapid="1271" xpos="69.5482" ypos="168.984" zpos="977.647" type="griffon_flying.routes.easy.crystal_desert.griffon" guid="YpZcbdR7KUub75AWC2+HBg=="/>
+		<poi mapid="1271" xpos="197.208" ypos="103.688" zpos="518.394" type="griffon_flying.routes.easy.crystal_desert.finish" guid="BbEVie/tGUKfCR4BbQLtEA=="/>
+		<trail traildata="Data\Trails\routes\1star\routes_1star_crystaldesert_sandsweptisles_retreattothesea.trl" type="griffon_flying.routes.easy.crystal_desert.sandswept_isles.retreat_to_the_sea" guid="7U9C72b7Nk+ycDp1gTKNKw==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

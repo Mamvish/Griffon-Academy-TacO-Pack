@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="wayfarer_foothills" DisplayName="Wayfarer Foothills">
-						<MarkerCategory Name="the_dredges_machines" DisplayName="The Dredge's Machines">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="wayfarer_foothills" displayname="Wayfarer Foothills">
+						<markercategory name="the_dredges_machines" displayname="The Dredge's Machines">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Wayfarer Foothills - The Dredge's Machines - Creator: Mozzy-->
-		<POI MapID="28" xpos="-89.7755" ypos="104.311" zpos="-1226.02" type="griffon_flying.caves.hard.shiverpeak_mountains.start" GUID="ACy+Tnv8JkuAl+068jc/Qw=="/>
-		<POI MapID="28" xpos="-94.6709" ypos="105.62" zpos="-1226.93" type="griffon_flying.caves.hard.shiverpeak_mountains.springer" GUID="1eNRs5xzo0mG5h36Swn2sA=="/>
-		<POI MapID="28" xpos="-103.669" ypos="71.1545" zpos="-1111.79" type="griffon_flying.caves.hard.shiverpeak_mountains.finish" GUID="s0C3wXUJVUy0UXTlRjAHKg=="/>
-		<Trail TrailData="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_wayfarerfoothills_thedredgesmachines.trl" Type="griffon_flying.caves.hard.shiverpeak_mountains.wayfarer_foothills.the_dredges_machines" GUID="Z1rv074GO0ukcTguo5Ie1Q==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="28" xpos="-89.7755" ypos="104.311" zpos="-1226.02" type="griffon_flying.caves.hard.shiverpeak_mountains.start" guid="ACy+Tnv8JkuAl+068jc/Qw=="/>
+		<poi mapid="28" xpos="-94.6709" ypos="105.62" zpos="-1226.93" type="griffon_flying.caves.hard.shiverpeak_mountains.springer" guid="1eNRs5xzo0mG5h36Swn2sA=="/>
+		<poi mapid="28" xpos="-103.669" ypos="71.1545" zpos="-1111.79" type="griffon_flying.caves.hard.shiverpeak_mountains.finish" guid="s0C3wXUJVUy0UXTlRjAHKg=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3star_shiverpeakmountains_wayfarerfoothills_thedredgesmachines.trl" type="griffon_flying.caves.hard.shiverpeak_mountains.wayfarer_foothills.the_dredges_machines" guid="Z1rv074GO0ukcTguo5Ie1Q==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

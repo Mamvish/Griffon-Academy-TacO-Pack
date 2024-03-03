@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="stunts" DisplayName="Stunts">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="ascalon" DisplayName="Ascalon">
-					<MarkerCategory Name="iron_marches" DisplayName="Iron Marches">
-						<MarkerCategory Name="the_rivers_bridge" DisplayName="The River's Bridge">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="stunts" displayname="Stunts">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="ascalon" displayname="Ascalon">
+					<markercategory name="iron_marches" displayname="Iron Marches">
+						<markercategory name="the_rivers_bridge" displayname="The River's Bridge">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Iron Marches - The River's Bridge - Creator: Mozzy-->
-		<POI MapID="25" xpos="-103.719" ypos="97.9693" zpos="-508.231" type="griffon_flying.stunts.medium.ascalon.start" GUID="n6R/uGrcVU+cWwPWDrXEfA=="/>
-		<POI MapID="25" xpos="-106.792" ypos="98.1993" zpos="-506.342" type="griffon_flying.stunts.medium.ascalon.griffon" GUID="QCPe/6dHoki8iaWmOqm9ZQ=="/>
-		<POI MapID="25" xpos="-223.48" ypos="44.7357" zpos="-351.164" type="griffon_flying.stunts.medium.ascalon.finish" GUID="jJjuCVpOkU2TLgusuo8wKQ=="/>
-		<Trail TrailData="Data/Trails/stunts/2star/stunts_2star_ascalon_ironmarches_theriversbridge.trl" Type="griffon_flying.stunts.medium.ascalon.iron_marches.the_rivers_bridge" GUID="5glraFT2kk21/WC9QliAtA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="25" xpos="-103.719" ypos="97.9693" zpos="-508.231" type="griffon_flying.stunts.medium.ascalon.start" guid="n6R/uGrcVU+cWwPWDrXEfA=="/>
+		<poi mapid="25" xpos="-106.792" ypos="98.1993" zpos="-506.342" type="griffon_flying.stunts.medium.ascalon.griffon" guid="QCPe/6dHoki8iaWmOqm9ZQ=="/>
+		<poi mapid="25" xpos="-223.48" ypos="44.7357" zpos="-351.164" type="griffon_flying.stunts.medium.ascalon.finish" guid="jJjuCVpOkU2TLgusuo8wKQ=="/>
+		<trail traildata="Data/Trails/stunts/2star/stunts_2star_ascalon_ironmarches_theriversbridge.trl" type="griffon_flying.stunts.medium.ascalon.iron_marches.the_rivers_bridge" guid="5glraFT2kk21/WC9QliAtA==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

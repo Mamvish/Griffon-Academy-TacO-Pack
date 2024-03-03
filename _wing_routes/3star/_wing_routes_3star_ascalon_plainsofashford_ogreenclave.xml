@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="ascalon" DisplayName="Ascalon">
-					<MarkerCategory Name="plains_of_ashford" DisplayName="Plains of Ashford">
-						<MarkerCategory Name="ogre_enclave" DisplayName="Ogre Enclave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="ascalon" displayname="Ascalon">
+					<markercategory name="plains_of_ashford" displayname="Plains of Ashford">
+						<markercategory name="ogre_enclave" displayname="Ogre Enclave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Plains of Ashford - Ogre Enclave - Creator: Mozzy-->
-    	<POI MapID="19" xpos="1146.04" ypos="72.4538" zpos="146.653" type="griffon_flying.routes.hard.ascalon.finish" GUID="o0XYFCd9r069ZA5x3/63Gg=="/>
-		<POI MapID="19" xpos="1202.19" ypos="98.1255" zpos="382.368" type="griffon_flying.routes.hard.ascalon.start" GUID="vPCP4nxqxUq7TwXpEyZaeg=="/>
-		<POI MapID="19" xpos="1197.94" ypos="95.6135" zpos="388.181" type="griffon_flying.routes.hard.ascalon.springer" GUID="0Gwrl5+92UaqITT4eSYZZA=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ascalon_plainsofashford_ogreenclave.trl" Type="griffon_flying.routes.hard.ascalon.plains_of_ashford.ogre_enclave" GUID="wk94FKN89kqgBuyI2FeEdQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+    	<poi mapid="19" xpos="1146.04" ypos="72.4538" zpos="146.653" type="griffon_flying.routes.hard.ascalon.finish" guid="o0XYFCd9r069ZA5x3/63Gg=="/>
+		<poi mapid="19" xpos="1202.19" ypos="98.1255" zpos="382.368" type="griffon_flying.routes.hard.ascalon.start" guid="vPCP4nxqxUq7TwXpEyZaeg=="/>
+		<poi mapid="19" xpos="1197.94" ypos="95.6135" zpos="388.181" type="griffon_flying.routes.hard.ascalon.springer" guid="0Gwrl5+92UaqITT4eSYZZA=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_ascalon_plainsofashford_ogreenclave.trl" type="griffon_flying.routes.hard.ascalon.plains_of_ashford.ogre_enclave" guid="wk94FKN89kqgBuyI2FeEdQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

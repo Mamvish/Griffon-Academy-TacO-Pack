@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="ruins_of_orr" DisplayName="Ruins of Orr">
-					<MarkerCategory Name="straits_of_devastation" DisplayName="Straits of Devastation">
-						<MarkerCategory Name="suboptimal_daily_vista" DisplayName="Sub-optimal Daily Vista">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="ruins_of_orr" displayname="Ruins of Orr">
+					<markercategory name="straits_of_devastation" displayname="Straits of Devastation">
+						<markercategory name="suboptimal_daily_vista" displayname="Sub-optimal Daily Vista">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Straits of Devastation - Sub-optimal Daily Vista - Creator: Yuzik-->
-		<POI MapID="51" xpos="717.248" ypos="101.298" zpos="51.2307" type="griffon_flying.routes.hard.ruins_of_orr.start" GUID="W+d6kpp9aUe0wMT7qaS0+w=="/>
-		<POI MapID="51" xpos="718.351" ypos="103.63" zpos="47.6953" type="griffon_flying.routes.hard.ruins_of_orr.griffon" GUID="mlNd1pdgKUCWEed9ji3SbQ=="/>
-		<POI MapID="51" xpos="491.715" ypos="38.0703" zpos="123.865" type="griffon_flying.routes.hard.ruins_of_orr.finish" GUID="dxQZhZsSp0+OQbsQwyeLkA=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_ruinsoforr_straitsofdevastation_suboptimaldailyvista.trl" Type="griffon_flying.routes.hard.ruins_of_orr.straits_of_devastation.suboptimal_daily_vista" GUID="kChczWamlUu1do/+jFuCGQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="51" xpos="717.248" ypos="101.298" zpos="51.2307" type="griffon_flying.routes.hard.ruins_of_orr.start" guid="W+d6kpp9aUe0wMT7qaS0+w=="/>
+		<poi mapid="51" xpos="718.351" ypos="103.63" zpos="47.6953" type="griffon_flying.routes.hard.ruins_of_orr.griffon" guid="mlNd1pdgKUCWEed9ji3SbQ=="/>
+		<poi mapid="51" xpos="491.715" ypos="38.0703" zpos="123.865" type="griffon_flying.routes.hard.ruins_of_orr.finish" guid="dxQZhZsSp0+OQbsQwyeLkA=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_ruinsoforr_straitsofdevastation_suboptimaldailyvista.trl" type="griffon_flying.routes.hard.ruins_of_orr.straits_of_devastation.suboptimal_daily_vista" guid="kChczWamlUu1do/+jFuCGQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

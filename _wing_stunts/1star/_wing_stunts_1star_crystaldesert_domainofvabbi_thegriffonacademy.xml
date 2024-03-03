@@ -1,19 +1,20 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="domain_of_vabbi" DisplayName="Domain of Vabbi">
-						<MarkerCategory Name="the_griffon_academy" DisplayName="The Griffon Academy">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="domain_of_vabbi" displayname="Domain of Vabbi">
+						<markercategory name="the_griffon_academy" displayname="The Griffon Academy">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Domain of Vabbi - The Griffon Academy - Creator: Nilsibus-->
 		
-		<Trail TrailData="Data\Trails\_gramr\routes_1star_crystaldesert_domainofvabbi_thegriffonacademy.trl" Type="griffon_flying.routes.easy.crystal_desert.domain_of_vabbi.the_griffon_academy" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<trail traildata="Data\Trails\_gramr\routes_1star_crystaldesert_domainofvabbi_thegriffonacademy.trl" type="griffon_flying.routes.easy.crystal_desert.domain_of_vabbi.the_griffon_academy" guid="EN/Sd7WZdk2A81Pr1fT5GQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

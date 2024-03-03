@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="domain_of_istan" DisplayName="Domain of Istan">
-						<MarkerCategory Name="party_with_corsairs" DisplayName="Party With Corsairs">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="domain_of_istan" displayname="Domain of Istan">
+						<markercategory name="party_with_corsairs" displayname="Party With Corsairs">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Domain of Istan - Party With Corsairs - Creator: Corey-->
-		<POI MapID="1263" xpos="-532.93" ypos="171.932" zpos="734.123" type="griffon_flying.routes.hard.crystal_desert.start" GUID="TC26UjaEckSGsAe5hF6WOw=="/>
-		<POI MapID="1263" xpos="-532.24" ypos="171.832" zpos="729.349" type="griffon_flying.routes.hard.crystal_desert.springer" GUID="xkJVRLj3PEqq8ax72g9axg=="/>
-		<POI MapID="1263" xpos="-535.122" ypos="32.6384" zpos="801.89" type="griffon_flying.routes.hard.crystal_desert.finish" GUID="yYXnSFwfPkSBTAoMhIlYiA=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_crystaldesert_domainofistan_partywithcorsairs.trl" Type="griffon_flying.routes.hard.crystal_desert.domain_of_istan.party_with_corsairs" GUID="ZCTn1BFFOEOfcngzWZvniw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1263" xpos="-532.93" ypos="171.932" zpos="734.123" type="griffon_flying.routes.hard.crystal_desert.start" guid="TC26UjaEckSGsAe5hF6WOw=="/>
+		<poi mapid="1263" xpos="-532.24" ypos="171.832" zpos="729.349" type="griffon_flying.routes.hard.crystal_desert.springer" guid="xkJVRLj3PEqq8ax72g9axg=="/>
+		<poi mapid="1263" xpos="-535.122" ypos="32.6384" zpos="801.89" type="griffon_flying.routes.hard.crystal_desert.finish" guid="yYXnSFwfPkSBTAoMhIlYiA=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_crystaldesert_domainofistan_partywithcorsairs.trl" type="griffon_flying.routes.hard.crystal_desert.domain_of_istan.party_with_corsairs" guid="ZCTn1BFFOEOfcngzWZvniw==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

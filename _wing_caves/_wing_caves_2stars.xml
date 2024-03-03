@@ -1,9 +1,8 @@
-<OverlayData>
-    <POIs>
-        <Trail trailData="Data/Trails/crystal_oasis_destinys_gorge_kite_fight_medium.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.crystal_desert.crystal_oasis" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/harathi_hinterland_skritt_cave_long.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.kryta.harathi_hinterlands" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/bitterfrost_frontier_grawl_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.shiverpeak_mountains.bitterfrost_frontier" fadeNear="6000" fadeFar="7000"/>
-    </POIs>
-</OverlayData>
-
-
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <pois>
+        <trail traildata="Data/Trails/crystal_oasis_destinys_gorge_kite_fight_medium.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.crystal_desert.crystal_oasis" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/harathi_hinterland_skritt_cave_long.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.kryta.harathi_hinterlands" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/bitterfrost_frontier_grawl_cave.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.caves.medium.shiverpeak_mountains.bitterfrost_frontier" fadenear="6000" fadefar="7000"/>
+    </pois>
+</overlaydata>

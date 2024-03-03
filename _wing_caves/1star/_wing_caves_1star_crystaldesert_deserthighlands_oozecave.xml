@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="desert_highlands" DisplayName="Desert Highlands">
-						<MarkerCategory Name="ooze_cave" DisplayName="Ooze Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="desert_highlands" displayname="Desert Highlands">
+						<markercategory name="ooze_cave" displayname="Ooze Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Desert Highlands - Ooze Cave - Creator: Nilsibus-->
-		<POI MapID="1211" xpos="-53.155" ypos="338.423" zpos="567.198" type="griffon_flying.caves.easy.crystal_desert.start" GUID="Z8MlOOPTzEu/uRhV++ZIlQ=="/>
-		<POI MapID="1211" xpos="-57.8341" ypos="337.845" zpos="565.539" type="griffon_flying.caves.easy.crystal_desert.springer" GUID="fItL1X2djk+Lw91gNwkXog=="/>
-		<POI MapID="1211" xpos="-376.394" ypos="334.399" zpos="519.779" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="WsDw2FkbvUuNAr1Ge5MNhw=="/>
-		<Trail GUID="c/xK0MRpk0yXN/gt/F23ag==" trailData=".\POIs\Data\Trails\caves\caves_1star_crystaldesert_deserthighlands_oozecave.trl"/>
-		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_deserthighlands_oozecave.trl" Type="griffon_flying.caves.easy.crystal_desert.desert_highlands.oozecave" GUID="CkaN/5NGcEaRUo91RZUHvg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1211" xpos="-53.155" ypos="338.423" zpos="567.198" type="griffon_flying.caves.easy.crystal_desert.start" guid="Z8MlOOPTzEu/uRhV++ZIlQ=="/>
+		<poi mapid="1211" xpos="-57.8341" ypos="337.845" zpos="565.539" type="griffon_flying.caves.easy.crystal_desert.springer" guid="fItL1X2djk+Lw91gNwkXog=="/>
+		<poi mapid="1211" xpos="-376.394" ypos="334.399" zpos="519.779" type="griffon_flying.caves.easy.crystal_desert.finish" guid="WsDw2FkbvUuNAr1Ge5MNhw=="/>
+		<trail guid="c/xK0MRpk0yXN/gt/F23ag==" traildata=".\POIs\Data\Trails\caves\caves_1star_crystaldesert_deserthighlands_oozecave.trl"/>
+		<trail traildata="Data/Trails/caves/1star/caves_1star_crystaldesert_deserthighlands_oozecave.trl" type="griffon_flying.caves.easy.crystal_desert.desert_highlands.oozecave" guid="CkaN/5NGcEaRUo91RZUHvg==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

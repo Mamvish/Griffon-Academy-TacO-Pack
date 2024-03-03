@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="frostgorge_sound" DisplayName="Frostgorge Sound">
-						<MarkerCategory Name="blue_ice_shining" DisplayName="Blue Ice Shining">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="frostgorge_sound" displayname="Frostgorge Sound">
+						<markercategory name="blue_ice_shining" displayname="Blue Ice Shining">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Frostgorge Sound - Blue Ice Shining - Creator: Yuzik-->
-		<POI MapID="30" XPos="-516.421" YPos="107.601" ZPos="-271.757" Type="griffon_flying.routes.hard.shiverpeak_mountains.start" GUID="lD0JCqKt10ijTStwy17NDQ=="/>
-		<POI MapID="30" XPos="-517.476" YPos="107.601" ZPos="-275.242" Type="griffon_flying.routes.hard.shiverpeak_mountains.springer" GUID="MIopavpZPEivUOPuAWR/lg=="/>
-		<POI MapID="30" XPos="-565.673" YPos="47.5445" ZPos="-427.42" Type="griffon_flying.routes.hard.shiverpeak_mountains.finish" GUID="qfcBLVPQHESxhFXEnjgayQ=="/>
-		<POI MapID="30" XPos="-500.774" YPos="45.447" ZPos="-209.502" Type="griffon_flying.routes.hard.shiverpeak_mountains.sharp_turn_right" GUID="DKTY43APikS4MC4Z/OjiTw=="/>
-		<Trail TrailData="Data/Trails/routes/3star/routes_3star_shiverpeakmountains_frostgorgesound_blueiceshining.trl" Type="griffon_flying.routes.hard.shiverpeak_mountains.frostgorge_sound.blue_ice_shining" GUID="hGKvv2ddD0aVPBeuUt1zRw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="30" xpos="-516.421" ypos="107.601" zpos="-271.757" type="griffon_flying.routes.hard.shiverpeak_mountains.start" guid="lD0JCqKt10ijTStwy17NDQ=="/>
+		<poi mapid="30" xpos="-517.476" ypos="107.601" zpos="-275.242" type="griffon_flying.routes.hard.shiverpeak_mountains.springer" guid="MIopavpZPEivUOPuAWR/lg=="/>
+		<poi mapid="30" xpos="-565.673" ypos="47.5445" zpos="-427.42" type="griffon_flying.routes.hard.shiverpeak_mountains.finish" guid="qfcBLVPQHESxhFXEnjgayQ=="/>
+		<poi mapid="30" xpos="-500.774" ypos="45.447" zpos="-209.502" type="griffon_flying.routes.hard.shiverpeak_mountains.sharp_turn_right" guid="DKTY43APikS4MC4Z/OjiTw=="/>
+		<trail traildata="Data/Trails/routes/3star/routes_3star_shiverpeakmountains_frostgorgesound_blueiceshining.trl" type="griffon_flying.routes.hard.shiverpeak_mountains.frostgorge_sound.blue_ice_shining" guid="hGKvv2ddD0aVPBeuUt1zRw==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

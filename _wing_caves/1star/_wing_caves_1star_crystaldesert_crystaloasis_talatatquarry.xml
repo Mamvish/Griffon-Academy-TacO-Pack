@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="crystal_oasis" DisplayName="Crystal Oasis">
-						<MarkerCategory Name="talatat_quarry" DisplayName="Tatalat Quarry">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="crystal_oasis" displayname="Crystal Oasis">
+						<markercategory name="talatat_quarry" displayname="Tatalat Quarry">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Crystal Oasis - Tatalat Quarry - Creator: Nilsibus-->
-		<POI MapID="1210" xpos="-470.958" ypos="137.59" zpos="681.873" type="griffon_flying.caves.easy.crystal_desert.start" GUID="IyHX3+3g2kup51nolQ6Nvw=="/>
-		<POI MapID="1210" xpos="-476.237" ypos="137.19" zpos="679.687" type="griffon_flying.caves.easy.crystal_desert.griffon" GUID="wba5yhZqGEy2HR9FtFlQsg=="/>
-		<POI MapID="1210" xpos="-576.998" ypos="99.5795" zpos="453.052" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="euyTSce3506sglkUaQ0FVg=="/>
-		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_talatatquarry.trl" Type="griffon_flying.caves.easy.crystal_desert.crystal_oasis.talatat_quarry" GUID="jYnpR9ved0iOAGLj94yiHg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1210" xpos="-470.958" ypos="137.59" zpos="681.873" type="griffon_flying.caves.easy.crystal_desert.start" guid="IyHX3+3g2kup51nolQ6Nvw=="/>
+		<poi mapid="1210" xpos="-476.237" ypos="137.19" zpos="679.687" type="griffon_flying.caves.easy.crystal_desert.griffon" guid="wba5yhZqGEy2HR9FtFlQsg=="/>
+		<poi mapid="1210" xpos="-576.998" ypos="99.5795" zpos="453.052" type="griffon_flying.caves.easy.crystal_desert.finish" guid="euyTSce3506sglkUaQ0FVg=="/>
+		<trail traildata="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_talatatquarry.trl" type="griffon_flying.caves.easy.crystal_desert.crystal_oasis.talatat_quarry" guid="jYnpR9ved0iOAGLj94yiHg==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

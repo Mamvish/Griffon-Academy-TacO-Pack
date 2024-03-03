@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="hoelbrak" DisplayName="Hoelbrak">
-						<MarkerCategory Name="back_to_the_start" DisplayName="Back To The Start">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="hoelbrak" displayname="Hoelbrak">
+						<markercategory name="back_to_the_start" displayname="Back To The Start">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Hoelbrak - Back To The Start - Creator: Mozzy-->
-		<POI MapID="326" xpos="259.762" ypos="357.639" zpos="-182.339" type="griffon_flying.routes.medium.shiverpeak_mountains.start" GUID="xxw/VjmVjkijxbWMt6KjwA=="/>
-		<POI MapID="326" xpos="258.518" ypos="358.288" zpos="-176.646" type="griffon_flying.routes.medium.shiverpeak_mountains.springer" GUID="MZmstYJDCkKp+8+LvXuujw=="/>
-		<POI MapID="326" xpos="334.83" ypos="339.517" zpos="-208.636" type="griffon_flying.routes.medium.shiverpeak_mountains.finish" GUID="i4NFvvhSukyGe7j1TtfpRw=="/>
-		<Trail TrailData="Data/Trails/routes/2star/routes_2star_shiverpeakmountains_hoelbrak_backtothestart.trl" Type="griffon_flying.routes.medium.shiverpeak_mountains.hoelbrak.back_to_the_start" GUID="ZLXONbsDtEajbC0d9GMGQA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="326" xpos="259.762" ypos="357.639" zpos="-182.339" type="griffon_flying.routes.medium.shiverpeak_mountains.start" guid="xxw/VjmVjkijxbWMt6KjwA=="/>
+		<poi mapid="326" xpos="258.518" ypos="358.288" zpos="-176.646" type="griffon_flying.routes.medium.shiverpeak_mountains.springer" guid="MZmstYJDCkKp+8+LvXuujw=="/>
+		<poi mapid="326" xpos="334.83" ypos="339.517" zpos="-208.636" type="griffon_flying.routes.medium.shiverpeak_mountains.finish" guid="i4NFvvhSukyGe7j1TtfpRw=="/>
+		<trail traildata="Data/Trails/routes/2star/routes_2star_shiverpeakmountains_hoelbrak_backtothestart.trl" type="griffon_flying.routes.medium.shiverpeak_mountains.hoelbrak.back_to_the_start" guid="ZLXONbsDtEajbC0d9GMGQA==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

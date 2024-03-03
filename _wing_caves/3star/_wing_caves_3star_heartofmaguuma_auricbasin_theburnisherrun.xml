@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
-					<MarkerCategory Name="auric_basin" DisplayName="Auric Basin">
-						<MarkerCategory Name="the_burnisher_run" DisplayName="The Burnisher Run">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="heart_of_maguuma" displayname="Heart of Maguuma">
+					<markercategory name="auric_basin" displayname="Auric Basin">
+						<markercategory name="the_burnisher_run" displayname="The Burnisher Run">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Auric Basin - The Burnisher Run - Creator: Falkna-->
-		<POI MapID="1043" xpos="253.655" ypos="524.597" zpos="769.771" type="griffon_flying.caves.hard.heart_of_maguuma.start" GUID="Jxj1LkheeEWB8RgiNorVKw=="/>
-		<POI MapID="1043" xpos="257.642" ypos="525.39" zpos="766.661" type="griffon_flying.caves.hard.heart_of_maguuma.springer" GUID="44EWgxsym02lRAmlwzqtVQ=="/>
-		<POI MapID="1043" xpos="505.626" ypos="388.557" zpos="93.4388" type="griffon_flying.caves.hard.heart_of_maguuma.finish" GUID="1Z+W9BxVkkScQs0czfqlRg=="/>
-		<Trail trailData="Data/Trails/caves/3star/caves_3star_heartofmaguuma_auricbasin_theburnisherrun.trl" Type="griffon_flying.caves.hard.heart_of_maguuma.auric_basin.the_burnisher_run" GUID="MyJE2bTMkkqA90lz3x55Rw==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1043" xpos="253.655" ypos="524.597" zpos="769.771" type="griffon_flying.caves.hard.heart_of_maguuma.start" guid="Jxj1LkheeEWB8RgiNorVKw=="/>
+		<poi mapid="1043" xpos="257.642" ypos="525.39" zpos="766.661" type="griffon_flying.caves.hard.heart_of_maguuma.springer" guid="44EWgxsym02lRAmlwzqtVQ=="/>
+		<poi mapid="1043" xpos="505.626" ypos="388.557" zpos="93.4388" type="griffon_flying.caves.hard.heart_of_maguuma.finish" guid="1Z+W9BxVkkScQs0czfqlRg=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3star_heartofmaguuma_auricbasin_theburnisherrun.trl" type="griffon_flying.caves.hard.heart_of_maguuma.auric_basin.the_burnisher_run" guid="MyJE2bTMkkqA90lz3x55Rw==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

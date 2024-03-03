@@ -1,22 +1,23 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="cantha" DisplayName="Cantha">
-					<MarkerCategory Name="new_kaineng_city" DisplayName="New Kaineng City">
-						<MarkerCategory Name="sunjiang_lab_loop" DisplayName="Sunjiang Lab Loop">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="cantha" displayname="Cantha">
+					<markercategory name="new_kaineng_city" displayname="New Kaineng City">
+						<markercategory name="sunjiang_lab_loop" displayname="Sunjiang Lab Loop">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--New Kaineng City - Sunjiang Lab Loop - Creator: Kampfhase-->
-		<POI MapID="1438" xpos="700.236" ypos="177.256" zpos="-175.52" type="griffon_flying.routes.easy.cantha.start" GUID="4R7y1SbIKE2sfrKD0Gzkyw=="/>
-		<POI MapID="1438" xpos="706.093" ypos="176.52" zpos="-175.564" type="griffon_flying.routes.medium.cantha.springer" GUID="c+Ko7lvinUi9zmsvDHzsgQ=="/>
-		<POI MapID="1438" xpos="707.3" ypos="201.472" zpos="-175.922" type="griffon_flying.routes.medium.cantha.griffon" GUID="eJj1yqTG9kmaLbs9OH+I5w=="/>
-		<POI MapID="1438" xpos="961.643" ypos="111.494" zpos="-107.432" type="griffon_flying.routes.easy.cantha.finish" GUID="gJMfVX4PbUu9taUqi8BWMA=="/>
-		<Trail trailData="Data/Trails/routes/2star/routes_2star_cantha_newkainengcity_sunjianglabloop.trl" Type="griffon_flying.routes.medium.cantha.new_kaineng_city.sunjiang_lab_loop" GUID="Hzs88Adc40gh8Wa1/7d8w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1438" xpos="700.236" ypos="177.256" zpos="-175.52" type="griffon_flying.routes.easy.cantha.start" guid="4R7y1SbIKE2sfrKD0Gzkyw=="/>
+		<poi mapid="1438" xpos="706.093" ypos="176.52" zpos="-175.564" type="griffon_flying.routes.medium.cantha.springer" guid="c+Ko7lvinUi9zmsvDHzsgQ=="/>
+		<poi mapid="1438" xpos="707.3" ypos="201.472" zpos="-175.922" type="griffon_flying.routes.medium.cantha.griffon" guid="eJj1yqTG9kmaLbs9OH+I5w=="/>
+		<poi mapid="1438" xpos="961.643" ypos="111.494" zpos="-107.432" type="griffon_flying.routes.easy.cantha.finish" guid="gJMfVX4PbUu9taUqi8BWMA=="/>
+		<trail traildata="Data/Trails/routes/2star/routes_2star_cantha_newkainengcity_sunjianglabloop.trl" type="griffon_flying.routes.medium.cantha.new_kaineng_city.sunjiang_lab_loop" guid="Hzs88Adc40gh8Wa1/7d8w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

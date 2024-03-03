@@ -1,20 +1,21 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="shiverpeak_mountains" DisplayName="Shiverpeak Mountains">
-					<MarkerCategory Name="hoelbrak" DisplayName="Hoelbrak">
-						<MarkerCategory Name="icicles" DisplayName="Icicles">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="shiverpeak_mountains" displayname="Shiverpeak Mountains">
+					<markercategory name="hoelbrak" displayname="Hoelbrak">
+						<markercategory name="icicles" displayname="Icicles">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Hoelbrak - Icicles - Creator: Mozzy-->
-		<POI MapID="326" xpos="418.541" ypos="327.92" zpos="167.266" type="griffon_flying.caves.medium.shiverpeak_mountains.start" GUID="2yHiMG8xSEa0RP7qhZfFKw=="/>
-		<POI MapID="326" xpos="522.124" ypos="294.765" zpos="66.5533" type="griffon_flying.caves.medium.shiverpeak_mountains.finish" GUID="qVSLU5fhikSyDS2x1sIr+Q=="/>
-		<Trail TrailData="Data/Trails/caves/2star/caves_2star_shiverpeakmountains_hoelbrak_icicles.trl" Type="griffon_flying.caves.medium.shiverpeak_mountains.hoelbrak.icicles" GUID="PEt93jNoB0aaJIlhILQeug==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="326" xpos="418.541" ypos="327.92" zpos="167.266" type="griffon_flying.caves.medium.shiverpeak_mountains.start" guid="2yHiMG8xSEa0RP7qhZfFKw=="/>
+		<poi mapid="326" xpos="522.124" ypos="294.765" zpos="66.5533" type="griffon_flying.caves.medium.shiverpeak_mountains.finish" guid="qVSLU5fhikSyDS2x1sIr+Q=="/>
+		<trail traildata="Data/Trails/caves/2star/caves_2star_shiverpeakmountains_hoelbrak_icicles.trl" type="griffon_flying.caves.medium.shiverpeak_mountains.hoelbrak.icicles" guid="PEt93jNoB0aaJIlhILQeug==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

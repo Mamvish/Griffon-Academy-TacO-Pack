@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="routes" DisplayName="Routes">
-			<MarkerCategory Name="expert" DisplayName="4 Star - Expert">
-				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
-					<MarkerCategory Name="dragons_stand" DisplayName="Dragon's Stand">
-						<MarkerCategory Name="following_the_river" DisplayName="Following The River">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="routes" displayname="Routes">
+			<markercategory name="expert" displayname="4 Star - Expert">
+				<markercategory name="heart_of_maguuma" displayname="Heart of Maguuma">
+					<markercategory name="dragons_stand" displayname="Dragon's Stand">
+						<markercategory name="following_the_river" displayname="Following The River">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>
 		<!--Dragon's Stand - Following The River - Creator: Kat DreXed-->
-		<POI MapID="1041" xpos="121.196" ypos="164.943" zpos="558.46" type="griffon_flying.routes.expert.heart_of_maguuma.start" GUID="PW66uPjceUiS8RQuOXfrxQ=="/>
-		<POI MapID="1041" xpos="116.042" ypos="165.578" zpos="558.225" type="griffon_flying.routes.expert.heart_of_maguuma.griffon" GUID="jvtgVtms9UqIU7nGrUfDnA=="/>
-		<POI MapID="1041" xpos="771.075" ypos="74.7069" zpos="224.932" type="griffon_flying.routes.expert.heart_of_maguuma.finish" GUID="nfecdh4ttEWWr2OHokHx8A=="/>
-		<Trail trailData="Data/Trails/routes/4star/routes_4star_maguumajungle_dragonsstand_followingtheriver.trl" Type="griffon_flying.routes.expert.heart_of_maguuma.dragons_stand.following_the_river" GUID="fvwgtC4dlUutDSSr20RYIg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="dd0101" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1041" xpos="121.196" ypos="164.943" zpos="558.46" type="griffon_flying.routes.expert.heart_of_maguuma.start" guid="PW66uPjceUiS8RQuOXfrxQ=="/>
+		<poi mapid="1041" xpos="116.042" ypos="165.578" zpos="558.225" type="griffon_flying.routes.expert.heart_of_maguuma.griffon" guid="jvtgVtms9UqIU7nGrUfDnA=="/>
+		<poi mapid="1041" xpos="771.075" ypos="74.7069" zpos="224.932" type="griffon_flying.routes.expert.heart_of_maguuma.finish" guid="nfecdh4ttEWWr2OHokHx8A=="/>
+		<trail traildata="Data/Trails/routes/4star/routes_4star_maguumajungle_dragonsstand_followingtheriver.trl" type="griffon_flying.routes.expert.heart_of_maguuma.dragons_stand.following_the_river" guid="fvwgtC4dlUutDSSr20RYIg==" alpha="0.9" fadenear="4000" fadefar="5000" color="dd0101" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

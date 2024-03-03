@@ -1,18 +1,19 @@
-<OverlayData>
-    <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-        <MarkerCategory Name="guildname" IsSeparator="1"  DisplayName="[Wing] The Griffon Academy"/>
-        <MarkerCategory Name="version" IsSeparator="1"  DisplayName="version: 0.7.2a 06.06.2022"/>
-        <MarkerCategory Name="tutorial" displayName="Tutorial">
-        </MarkerCategory>
-        <MarkerCategory Name="routes" displayName="Routes">
-        </MarkerCategory>
-        <MarkerCategory Name="stunts" DisplayName="Stunts">
-        </MarkerCategory>
-        <MarkerCategory Name="caves" DisplayName="Caves">
-        </MarkerCategory>
-        <MarkerCategory Name="discord" IsSeparator="1"  DisplayName="Click for Discord invite!" copy="https://discord.gg/the-griffon-academy" copy-message="Discord invite copied!">
-        </MarkerCategory>
-        <MarkerCategory Name="contributors" DisplayName="Contributors">
-        </MarkerCategory>
-    </MarkerCategory>
-</OverlayData>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <markercategory name="griffon_flying" displayname="Griffon Flying">
+        <markercategory name="guildname" isseparator="1" displayname="[Wing] The Griffon Academy"/>
+        <markercategory name="version" isseparator="1" displayname="version: 0.7.2a 06.06.2022"/>
+        <markercategory name="tutorial" displayname="Tutorial">
+        </markercategory>
+        <markercategory name="routes" displayname="Routes">
+        </markercategory>
+        <markercategory name="stunts" displayname="Stunts">
+        </markercategory>
+        <markercategory name="caves" displayname="Caves">
+        </markercategory>
+        <markercategory name="discord" isseparator="1" displayname="Click for Discord invite!" copy="https://discord.gg/the-griffon-academy" copy-message="Discord invite copied!">
+        </markercategory>
+        <markercategory name="contributors" displayname="Contributors">
+        </markercategory>
+    </markercategory>
+</overlaydata>

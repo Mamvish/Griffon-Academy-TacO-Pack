@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="crystal_oasis" DisplayName="Crystal Oasis">
-						<MarkerCategory Name="kormirs_tunnel" DisplayName="Kormir's Tunnel">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="crystal_oasis" displayname="Crystal Oasis">
+						<markercategory name="kormirs_tunnel" displayname="Kormir's Tunnel">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Crystal Oasis - Kormir's Tunnel - Creator: Nilsibus-->
-		<POI MapID="1210" xpos="703.071" ypos="231.474" zpos="143.762" type="griffon_flying.caves.easy.crystal_desert.start" GUID="N7Wi0QnSkEeC/9azYV+Psg=="/>
-		<POI MapID="1210" xpos="702.939" ypos="228.646" zpos="150.844" type="griffon_flying.caves.easy.crystal_desert.griffon" GUID="KEWmUOPjA0mm7Cmbz/QNMw=="/>
-		<POI MapID="1210" xpos="704.82" ypos="211.604" zpos="190.726" type="griffon_flying.caves.easy.crystal_desert.finish" GUID="yc0uiewZ20uwiVvPdqF7IQ=="/>
-		<Trail TrailData="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_kormirstunnel.trl" Type="griffon_flying.caves.easy.crystal_desert.crystal_oasis.kormirs_tunnel" GUID="pKXkuK/9JUmd8jh5ETZu8A==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1210" xpos="703.071" ypos="231.474" zpos="143.762" type="griffon_flying.caves.easy.crystal_desert.start" guid="N7Wi0QnSkEeC/9azYV+Psg=="/>
+		<poi mapid="1210" xpos="702.939" ypos="228.646" zpos="150.844" type="griffon_flying.caves.easy.crystal_desert.griffon" guid="KEWmUOPjA0mm7Cmbz/QNMw=="/>
+		<poi mapid="1210" xpos="704.82" ypos="211.604" zpos="190.726" type="griffon_flying.caves.easy.crystal_desert.finish" guid="yc0uiewZ20uwiVvPdqF7IQ=="/>
+		<trail traildata="Data/Trails/caves/1star/caves_1star_crystaldesert_crystaloasis_kormirstunnel.trl" type="griffon_flying.caves.easy.crystal_desert.crystal_oasis.kormirs_tunnel" guid="pKXkuK/9JUmd8jh5ETZu8A==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="stunts" DisplayName="Stunts">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="the_desolation" DisplayName="The Desolation">
-						<MarkerCategory Name="griffon_golf" DisplayName="Griffon Golf">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="stunts" displayname="Stunts">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="the_desolation" displayname="The Desolation">
+						<markercategory name="griffon_golf" displayname="Griffon Golf">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--The Desolation - Griffon Golf - Creator: Gramr-->
-		<POI MapID="1226" xpos="-866.986" ypos="121.975" zpos="814.477" type="griffon_flying.stunts.hard.crystal_desert.start" GUID="gdjLyuE7uU6QBGq2j/DLOw=="/>
-		<POI MapID="1226" xpos="-867.076" ypos="123.089" zpos="819.959" type="griffon_flying.stunts.hard.crystal_desert.griffon" GUID="cbiKtgdl2k+7zeyOzhMCHg=="/>
-		<POI MapID="1226" xpos="-877.979" ypos="75.665" zpos="953.113" type="griffon_flying.stunts.hard.crystal_desert.finish" GUID="jwDevj54jEeyQiobUBCmQw=="/>
-		<Trail TrailData="Data/Trails/stunts/3star/stunts_3star_crystaldesert_thedesolation_griffongolf.trl" Type="griffon_flying.stunts.medium.crystal_desert.the_desolation.griffon_golf" GUID="45dE94zztUmGV1Bkn02rOg==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1226" xpos="-866.986" ypos="121.975" zpos="814.477" type="griffon_flying.stunts.hard.crystal_desert.start" guid="gdjLyuE7uU6QBGq2j/DLOw=="/>
+		<poi mapid="1226" xpos="-867.076" ypos="123.089" zpos="819.959" type="griffon_flying.stunts.hard.crystal_desert.griffon" guid="cbiKtgdl2k+7zeyOzhMCHg=="/>
+		<poi mapid="1226" xpos="-877.979" ypos="75.665" zpos="953.113" type="griffon_flying.stunts.hard.crystal_desert.finish" guid="jwDevj54jEeyQiobUBCmQw=="/>
+		<trail traildata="Data/Trails/stunts/3star/stunts_3star_crystaldesert_thedesolation_griffongolf.trl" type="griffon_flying.stunts.medium.crystal_desert.the_desolation.griffon_golf" guid="45dE94zztUmGV1Bkn02rOg==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

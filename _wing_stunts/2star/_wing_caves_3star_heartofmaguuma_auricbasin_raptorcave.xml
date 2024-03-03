@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="stunts" DisplayName="Stunts">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
-					<MarkerCategory Name="auric_basin" DisplayName="Auric Basin">
-						<MarkerCategory Name="raptor_cave" DisplayName="Raptor Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="stunts" displayname="Stunts">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="heart_of_maguuma" displayname="Heart of Maguuma">
+					<markercategory name="auric_basin" displayname="Auric Basin">
+						<markercategory name="raptor_cave" displayname="Raptor Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Auric Basin - Raptor Cave - Creator: Kampfhase-->
-		<POI MapID="1043" xpos="-433.541" ypos="292.391" zpos="195.55" type="griffon_flying.stunts.medium.heart_of_maguuma.start" GUID="ROqc06uuyES3Hk4FklPk3A=="/>
-		<POI MapID="1043" xpos="-430.982" ypos="292.295" zpos="190.671" type="griffon_flying.stunts.medium.heart_of_maguuma.springer" GUID="3gzxPE3bj0e9z2zLhN0WVw=="/>
-		<POI MapID="1043" xpos="-368.528" ypos="288.126" zpos="110.017" type="griffon_flying.stunts.medium.heart_of_maguuma.finish" GUID="6uzMen85RkmM5I6QEHTNfA=="/>
-		<Trail trailData="Data/Trails/stunts/stunts_2star_heartofmaguuma_auricbasin_raptorcave.trl" Type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.raptor_cave" GUID="AIBFPWRF80unq4LWr4MFaA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1043" xpos="-433.541" ypos="292.391" zpos="195.55" type="griffon_flying.stunts.medium.heart_of_maguuma.start" guid="ROqc06uuyES3Hk4FklPk3A=="/>
+		<poi mapid="1043" xpos="-430.982" ypos="292.295" zpos="190.671" type="griffon_flying.stunts.medium.heart_of_maguuma.springer" guid="3gzxPE3bj0e9z2zLhN0WVw=="/>
+		<poi mapid="1043" xpos="-368.528" ypos="288.126" zpos="110.017" type="griffon_flying.stunts.medium.heart_of_maguuma.finish" guid="6uzMen85RkmM5I6QEHTNfA=="/>
+		<trail traildata="Data/Trails/stunts/stunts_2star_heartofmaguuma_auricbasin_raptorcave.trl" type="griffon_flying.stunts.medium.heart_of_maguuma.auric_basin.raptor_cave" guid="AIBFPWRF80unq4LWr4MFaA==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

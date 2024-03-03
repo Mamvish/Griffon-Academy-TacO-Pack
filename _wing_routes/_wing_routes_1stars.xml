@@ -1,6 +1,7 @@
-<OverlayData>
-    <POIs>
-        <Trail trailData="Data/Trails/malchor_leap_lyssa_temple.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_fyling.routes.easy.ruins_of_orr.malchors_leap" fadeNear="6000" fadeFar="7000"/>
-        <Trail trailData="Data/Trails/queensdale_beginner_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.easy.kryta.queensdale" fadeNear="6000" fadeFar="7000"/>
-    </POIs>
-</OverlayData>
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <pois>
+        <trail traildata="Data/Trails/malchor_leap_lyssa_temple.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_fyling.routes.easy.ruins_of_orr.malchors_leap" fadenear="6000" fadefar="7000"/>
+        <trail traildata="Data/Trails/queensdale_beginner_bridge.trl" texture="Data/Icons/Arrow_Trail.png" color="ff00ff00" alpha="1" type="griffon_flying.routes.easy.kryta.queensdale" fadenear="6000" fadefar="7000"/>
+    </pois>
+</overlaydata>

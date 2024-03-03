@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="heart_of_maguuma" DisplayName="Heart of Maguuma">
-					<MarkerCategory Name="the_silverwastes" DisplayName="The Silverwastes">
-						<MarkerCategory Name="jumping_griffon" DisplayName="Jumping Griffon">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="heart_of_maguuma" displayname="Heart of Maguuma">
+					<markercategory name="the_silverwastes" displayname="The Silverwastes">
+						<markercategory name="jumping_griffon" displayname="Jumping Griffon">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--The Silverwastes - Jumping Griffon - Creator: Kat DreXed-->
-		<POI MapID="1015" xpos="225.834" ypos="226.12" zpos="33.0913" type="griffon_flying.caves.hard.heart_of_maguuma.finish" GUID="n2BRNgV3LU+WPKAR9gEDzw=="/>
-		<POI MapID="1015" xpos="250.974" ypos="477.2" zpos="-357.963" type="griffon_flying.caves.hard.heart_of_maguuma.start" GUID="t653nxAXokqZJ6xGS5lsvg=="/>
-		<POI MapID="1015" xpos="256.637" ypos="477.299" zpos="-358.046" type="griffon_flying.caves.hard.heart_of_maguuma.springer" GUID="cQTQDxbafkCC5Q+Y8yODdQ=="/>
-		<Trail TrailData="Data/Trails/caves/3star/caves_3star_heartofmaguuma_thesilverwastes_jumpinggriffon.trl" Type="griffon_flying.caves.hard.heart_of_maguuma.the_silverwastes.jumping_griffon" GUID="L6xZDethIU6FWfhHg5svQA==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1015" xpos="225.834" ypos="226.12" zpos="33.0913" type="griffon_flying.caves.hard.heart_of_maguuma.finish" guid="n2BRNgV3LU+WPKAR9gEDzw=="/>
+		<poi mapid="1015" xpos="250.974" ypos="477.2" zpos="-357.963" type="griffon_flying.caves.hard.heart_of_maguuma.start" guid="t653nxAXokqZJ6xGS5lsvg=="/>
+		<poi mapid="1015" xpos="256.637" ypos="477.299" zpos="-358.046" type="griffon_flying.caves.hard.heart_of_maguuma.springer" guid="cQTQDxbafkCC5Q+Y8yODdQ=="/>
+		<trail traildata="Data/Trails/caves/3star/caves_3star_heartofmaguuma_thesilverwastes_jumpinggriffon.trl" type="griffon_flying.caves.hard.heart_of_maguuma.the_silverwastes.jumping_griffon" guid="L6xZDethIU6FWfhHg5svQA==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

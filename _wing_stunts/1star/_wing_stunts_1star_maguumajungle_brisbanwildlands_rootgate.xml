@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="stunts" DisplayName="Stunts">
-			<MarkerCategory Name="easy" DisplayName="1 Star - Easy">
-				<MarkerCategory Name="maguuma_jungle" DisplayName="Maguuma Jungle">
-					<MarkerCategory Name="brisban_wildlands" DisplayName="Brisban Wildlands">
-						<MarkerCategory Name="root_gate" DisplayName="Root Gate">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="stunts" displayname="Stunts">
+			<markercategory name="easy" displayname="1 Star - Easy">
+				<markercategory name="maguuma_jungle" displayname="Maguuma Jungle">
+					<markercategory name="brisban_wildlands" displayname="Brisban Wildlands">
+						<markercategory name="root_gate" displayname="Root Gate">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Brisban Wildlands - Root Gate - Creator: Smof-->
-		<POI MapID="54" xpos="-765.95" ypos="76.6789" zpos="-588.079" type="griffon_flying.stunts.easy.maguuma_jungle.start" GUID="69tDODs7LESnpsmIOhkK7Q=="/>
-		<POI MapID="54" xpos="-759.823" ypos="75.9409" zpos="-588.037" type="griffon_flying.stunts.easy.maguuma_jungle.springer" GUID="2EMncXww40qwXAMX6z8pwg=="/>
-		<POI MapID="54" xpos="-565.868" ypos="81.2744" zpos="-364.343" type="griffon_flying.stunts.easy.maguuma_jungle.finish" GUID="rC31RQwac0y+dj2cvvcm1w=="/>
-		<Trail TrailData="Data/Trails/stunts/1star/stunts_1star_maguumajungle_brisbanwildlands_rootgate.trl" Type="griffon_flying.stunts.easy.maguuma_jungle.brisban_wildlands.root_gate" GUID="EN/Sd7WZdk2A81Pr1fT5GQ==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="74c580" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="54" xpos="-765.95" ypos="76.6789" zpos="-588.079" type="griffon_flying.stunts.easy.maguuma_jungle.start" guid="69tDODs7LESnpsmIOhkK7Q=="/>
+		<poi mapid="54" xpos="-759.823" ypos="75.9409" zpos="-588.037" type="griffon_flying.stunts.easy.maguuma_jungle.springer" guid="2EMncXww40qwXAMX6z8pwg=="/>
+		<poi mapid="54" xpos="-565.868" ypos="81.2744" zpos="-364.343" type="griffon_flying.stunts.easy.maguuma_jungle.finish" guid="rC31RQwac0y+dj2cvvcm1w=="/>
+		<trail traildata="Data/Trails/stunts/1star/stunts_1star_maguumajungle_brisbanwildlands_rootgate.trl" type="griffon_flying.stunts.easy.maguuma_jungle.brisban_wildlands.root_gate" guid="EN/Sd7WZdk2A81Pr1fT5GQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

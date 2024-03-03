@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="caves" DisplayName="Caves">
-			<MarkerCategory Name="hard" DisplayName="3 Star - Hard">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="crystal_oasis" DisplayName="Crystal Oasis">
-						<MarkerCategory Name="spider_cave" DisplayName="Spider Cave">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="caves" displayname="Caves">
+			<markercategory name="hard" displayname="3 Star - Hard">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="crystal_oasis" displayname="Crystal Oasis">
+						<markercategory name="spider_cave" displayname="Spider Cave">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Crystal Oasis - Spider Cave - Creator: Smof-->
-		<POI MapID="1210" xpos="512.552" ypos="281.532" zpos="482.423" type="griffon_flying.caves.medium.crystal_desert.start" GUID="EoeXMdn1Hk6BoIZgRQGyMw=="/>
-		<POI MapID="1210" xpos="509.465" ypos="282.297" zpos="487.627" type="griffon_flying.caves.medium.crystal_desert.griffon" GUID="If4TyBmlHkiYBNdnjiMw8Q=="/>
-		<POI MapID="1210" xpos="416.046" ypos="87.2272" zpos="337.746" type="griffon_flying.caves.medium.crystal_desert.finish" GUID="Z+wt+a0FYECkYeNwlzOasQ=="/>
-		<Trail trailData="Data/Trails/caves/2star/caves_2star_crystaldesert_crystaloasis_spidercave.trl" Type="griffon_flying.caves.hard.crystal_desert.crystal_oasis.spider_cave" GUID="XV94CAUQ4UW0AnesnamL4w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ffdd11" AnimSpeed="0.2" Texture="Data/Markers/feather.png" />
-	</POIs>
-</OverlayData>
+		<poi mapid="1210" xpos="512.552" ypos="281.532" zpos="482.423" type="griffon_flying.caves.medium.crystal_desert.start" guid="EoeXMdn1Hk6BoIZgRQGyMw=="/>
+		<poi mapid="1210" xpos="509.465" ypos="282.297" zpos="487.627" type="griffon_flying.caves.medium.crystal_desert.griffon" guid="If4TyBmlHkiYBNdnjiMw8Q=="/>
+		<poi mapid="1210" xpos="416.046" ypos="87.2272" zpos="337.746" type="griffon_flying.caves.medium.crystal_desert.finish" guid="Z+wt+a0FYECkYeNwlzOasQ=="/>
+		<trail traildata="Data/Trails/caves/2star/caves_2star_crystaldesert_crystaloasis_spidercave.trl" type="griffon_flying.caves.hard.crystal_desert.crystal_oasis.spider_cave" guid="XV94CAUQ4UW0AnesnamL4w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>

@@ -1,21 +1,22 @@
-<OverlayData>
-	<MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
-		<MarkerCategory Name="stunts" DisplayName="Stunts">
-			<MarkerCategory Name="medium" DisplayName="2 Star - Medium">
-				<MarkerCategory Name="crystal_desert" DisplayName="Crystal Desert">
-					<MarkerCategory Name="domain_of_vabbi" DisplayName="Domain of Vabbi">
-						<MarkerCategory Name="lich_stairs" DisplayName="Lich Stairs">
-						</MarkerCategory>
-					</MarkerCategory>
-				</MarkerCategory>
-			</MarkerCategory>
-		</MarkerCategory>
-	</MarkerCategory>
-	<POIs>		
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+	<markercategory name="griffon_flying" displayname="Griffon Flying">
+		<markercategory name="stunts" displayname="Stunts">
+			<markercategory name="medium" displayname="2 Star - Medium">
+				<markercategory name="crystal_desert" displayname="Crystal Desert">
+					<markercategory name="domain_of_vabbi" displayname="Domain of Vabbi">
+						<markercategory name="lich_stairs" displayname="Lich Stairs">
+						</markercategory>
+					</markercategory>
+				</markercategory>
+			</markercategory>
+		</markercategory>
+	</markercategory>
+	<pois>		
 		<!--Domain of Vabbi - Lich Stairs - Creator: Kat DreXed-->
-		<POI MapID="1248" xpos="-468.724" ypos="89.6585" zpos="441.162" type="griffon_flying.stunts.hard.crystal_desert.finish" GUID="bG10xlVs5EW/5ASSE8YJ/w=="/>
-		<POI MapID="1248" xpos="-470.969" ypos="91.7744" zpos="633.782" type="griffon_flying.stunts.hard.crystal_desert.start" GUID="y085pKnu5kGwQ70Fxgq/fg=="/>
-		<POI MapID="1248" xpos="-468.121" ypos="91.7409" zpos="633.262" type="griffon_flying.stunts.hard.crystal_desert.springer" GUID="3gcNyyeFO0WfKlZIBOl3Ag=="/>
-		<Trail TrailData="Data/Trails/stunts/3star/stunts_3star_crystaldesert_domainofvabbi_lichstairs.trl" Type="griffon_flying.stunts.medium.crystal_desert.domain_of_vabbi.lich_stairs" GUID="aWMICmm9MEOMWpT3WRAg8w==" Alpha="0.9" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
-	</POIs>
-</OverlayData>
+		<poi mapid="1248" xpos="-468.724" ypos="89.6585" zpos="441.162" type="griffon_flying.stunts.hard.crystal_desert.finish" guid="bG10xlVs5EW/5ASSE8YJ/w=="/>
+		<poi mapid="1248" xpos="-470.969" ypos="91.7744" zpos="633.782" type="griffon_flying.stunts.hard.crystal_desert.start" guid="y085pKnu5kGwQ70Fxgq/fg=="/>
+		<poi mapid="1248" xpos="-468.121" ypos="91.7409" zpos="633.262" type="griffon_flying.stunts.hard.crystal_desert.springer" guid="3gcNyyeFO0WfKlZIBOl3Ag=="/>
+		<trail traildata="Data/Trails/stunts/3star/stunts_3star_crystaldesert_domainofvabbi_lichstairs.trl" type="griffon_flying.stunts.medium.crystal_desert.domain_of_vabbi.lich_stairs" guid="aWMICmm9MEOMWpT3WRAg8w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
+	</pois>
+</overlaydata>
