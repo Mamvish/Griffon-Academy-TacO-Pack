@@ -1,0 +1,11 @@
+name = "Mother Tree"
+kind = "route"
+difficulty = 3
+author = "Kat DreXed"
+waypoint = "[&BLoEAA=]"
+trail = "Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl"
+
+[[springer]]
+xpos = "72.4719"
+ypos = "111.779"
+zpos = "1.70032"

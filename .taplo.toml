@@ -1,0 +1,6 @@
+#:schema taplo://taplo.toml
+[[rule]]
+exclude = [".taplo.toml"]
+
+[rule.schema]
+path = "./Tools/toml-schema.json"

@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Griffon Academy TacO Pack Schema",
+    "description": "Griffon Academy TacO Pack Schema",
+    "type": "object",
+    "$comment": "watch out for cache... rm -r $APPDATA/VSCodium/User/globalStorage/tamasfe.even-better-toml/",
+    "required": ["name", "kind", "difficulty"],
+    "properties": {
+        "name": {
+            "description": "The name of the trail as displayed to the player",
+            "type": "string"
+        },
+        "kind": {
+            "description": "What kind of trail is this?",
+            "type": "string",
+            "enum": ["route", "cave", "stunt"]
+        },
+        "difficulty": {
+            "description": "What is the difficulty or star-rating?",
+            "type": ["string", "integer"],
+            "enum": ["easy", "medium", "hard", "expert", "insane", 1, 2, 3, 4, 5]
+        },
+        "author": {
+            "description": "The author of the trail, shown in a tooltip",
+            "type": "string"
+        },
+        "waypoint": {
+            "description": "The closest or most convenient waypoint, as a chat link (e.g. [&BLoEAA=])",
+            "type": "string",
+            "pattern": "^\\[&[A-Za-z0-9+/]+=*\\]$"
+        },
+        "trail": {
+            "description": "Relative path to the TacO .trl trail file",
+            "type": "string"
+        },
+        "springer": {
+            "description": "Extra Springer markers",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/marker"
+            }
+        },
+        "griffon": {
+            "description": "Extra Griffon markers",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/marker"
+            }
+        },
+        "sharp_turn_left": {
+            "description": "Navigation marker: sharp turn left",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/marker"
+            }
+        },
+        "sharp_turn_right": {
+            "description": "Navigation marker: sharp turn right",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/marker"
+            }
+        }
+    },
+    "definitions": {
+        "marker": {
+            "title": "Marker",
+            "type": "object",
+            "properties": {
+                "xpos": {
+                    "type": ["number", "string"]
+                },
+                "ypos": {
+                    "type": ["number", "string"]
+                },
+                "zpos": {
+                    "type": ["number", "string"]
+                }
+            },
+            "required": ["xpos", "ypos", "zpos"],
+            "additionalProperties": false
+        }
+    }
+}
