@@ -5,7 +5,7 @@
             <MarkerCategory Name="instrux2" IsSeparator="1" DisplayName="Interact with Finish to reset and hide all"/>
             <MarkerCategory Name="instrux3" IsSeparator="1" DisplayName="Interact with Navigation (if applicable) to show/hide hints"/>
         </MarkerCategory>
-        <MarkerCategory Name="hard" DisplayName="Difficulty: Hard">
+        <MarkerCategory Name="hard" DisplayName="3 Star - Hard">
             <MarkerCategory Name="routes" DisplayName="Open-Air Routes">
                 <MarkerCategory Name="mother_tree" DisplayName="The Grove - Mother Tree">
                     <MarkerCategory Name="trail" DisplayName="Trail" DefaultToggle="0">
