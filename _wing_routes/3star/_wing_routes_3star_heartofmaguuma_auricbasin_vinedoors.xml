@@ -15,7 +15,7 @@
 	<pois>		
 		<!--Auric Basin - Vinedoors - Creator: Mozzy-->
         <poi mapid="1043" xpos="95.6399" ypos="461.029" zpos="567.412" type="griffon_flying.routes.hard.heart_of_maguuma.start" guid="DHjYhxbhoEKhvK012oycVA=="/>
-		<poi mapid="1043" xpos="91.715" ypos="461.522" zpos="567.167" type="griffon_flying.routes.expert.heart_of_maguuma.griffon" guid="Qkf2fYYqtEOWFt2DCHCPZQ=="/>
+		<poi mapid="1043" xpos="91.715" ypos="461.522" zpos="567.167" type="griffon_flying.routes.hard.heart_of_maguuma.griffon" guid="Qkf2fYYqtEOWFt2DCHCPZQ=="/>
 		<poi mapid="1043" xpos="524.885" ypos="351.704" zpos="130.926" type="griffon_flying.routes.hard.heart_of_maguuma.finish" guid="YX1Q2F8cqEeFiGFHeGE6vQ=="/>
 		<trail traildata="Data/Trails/routes/3star/routes_3star_heartofmaguuma_auricbasin_vinedoors.trl" type="griffon_flying.routes.hard.heart_of_maguuma.auric_basin.vinedoors" guid="jUQVXFEtGh+Mldnym54p8g==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
 	</pois>

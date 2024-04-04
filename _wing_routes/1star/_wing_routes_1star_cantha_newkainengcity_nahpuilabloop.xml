@@ -15,7 +15,7 @@
 	<pois>		
 		<!--New Kaineng City - Nahpui Lab Loop - Creator: Yuzik-->
 		<poi mapid="1438" xpos="409.258" ypos="236.601" zpos="674.308" type="griffon_flying.routes.easy.cantha.start" guid="uwhkZ1LFak2AQpgN8mju+w=="/>
-		<poi mapid="1438" xpos="452.081" ypos="159.116" zpos="628.554" type="griffon_flying.routes.hard.ruins_of_orr.finish" guid="kxxHw38oKUup8ItEa+AGoA=="/>
-		<trail traildata="Data\Trails\_gramr\routes_1star_cantha_newkainengcity_nahpuilabloop.trl" type="griffon_flying.routes.easy.cantha.new_kaineng_city.nahpui_lab_loop" guid="7U9C72b7Nk+ycDp1gTKNKw==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
+		<poi mapid="1438" xpos="452.081" ypos="159.116" zpos="628.554" type="griffon_flying.routes.easy.cantha.finish" guid="kxxHw38oKUup8ItEa+AGoA=="/>
+		<trail traildata="Data\Trails\routes\1star\routes_1star_cantha_newkainengcity_nahpuilabloop.trl" type="griffon_flying.routes.easy.cantha.new_kaineng_city.nahpui_lab_loop" guid="7U9C72b7Nk+ycDp1gTKNKw==" alpha="0.9" fadenear="4000" fadefar="5000" color="74c580" animspeed="0.2" texture="Data/Markers/feather.png"/>
 	</pois>
 </overlaydata>

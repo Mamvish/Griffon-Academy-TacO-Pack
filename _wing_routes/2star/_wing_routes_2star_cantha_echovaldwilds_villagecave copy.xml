@@ -14,10 +14,10 @@
 	</markercategory>
 	<pois>		
 		<!--New Kaineng City - Sunjiang Lab Loop - Creator: Kampfhase-->
-		<poi mapid="1438" xpos="700.236" ypos="177.256" zpos="-175.52" type="griffon_flying.routes.easy.cantha.start" guid="4R7y1SbIKE2sfrKD0Gzkyw=="/>
+		<poi mapid="1438" xpos="700.236" ypos="177.256" zpos="-175.52" type="griffon_flying.routes.medium.cantha.start" guid="4R7y1SbIKE2sfrKD0Gzkyw=="/>
 		<poi mapid="1438" xpos="706.093" ypos="176.52" zpos="-175.564" type="griffon_flying.routes.medium.cantha.springer" guid="c+Ko7lvinUi9zmsvDHzsgQ=="/>
 		<poi mapid="1438" xpos="707.3" ypos="201.472" zpos="-175.922" type="griffon_flying.routes.medium.cantha.griffon" guid="eJj1yqTG9kmaLbs9OH+I5w=="/>
-		<poi mapid="1438" xpos="961.643" ypos="111.494" zpos="-107.432" type="griffon_flying.routes.easy.cantha.finish" guid="gJMfVX4PbUu9taUqi8BWMA=="/>
+		<poi mapid="1438" xpos="961.643" ypos="111.494" zpos="-107.432" type="griffon_flying.routes.medium.cantha.finish" guid="gJMfVX4PbUu9taUqi8BWMA=="/>
 		<trail traildata="Data/Trails/routes/2star/routes_2star_cantha_newkainengcity_sunjianglabloop.trl" type="griffon_flying.routes.medium.cantha.new_kaineng_city.sunjiang_lab_loop" guid="Hzs88Adc40gh8Wa1/7d8w==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
 	</pois>
 </overlaydata>

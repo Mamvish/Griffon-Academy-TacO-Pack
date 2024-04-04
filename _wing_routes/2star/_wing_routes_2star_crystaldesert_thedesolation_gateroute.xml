@@ -17,6 +17,6 @@
 		<poi mapid="1226" xpos="-433.078" ypos="315.083" zpos="12.7517" type="griffon_flying.routes.medium.crystal_desert.start" guid="V+YOVsXyP0uNvtzfLwP5Ug=="/>
 		<poi mapid="1226" xpos="-435.898" ypos="315.693" zpos="9.89705" type="griffon_flying.routes.medium.crystal_desert.springer" guid="57VVSsdI+UGlQnOgy1qXSA=="/>
 		<poi mapid="1226" xpos="-464.993" ypos="280.981" zpos="-374.026" type="griffon_flying.routes.medium.crystal_desert.finish" guid="T4TA4sUCNU27EvIrKmz9/g=="/>
-		<trail traildata="Data/Trails/routes/2star/routes_2stars_crystaldesert_thedesolation_gateroute.trl" type="griffon_flying.routes.medium.crystal_desert.the_desolation.gate_route" guid="jUQVXnoaPk+Mldnym54p8g==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
+		<trail traildata="Data/Trails/routes/2star/routes_2star_crystaldesert_thedesolation_gateroute.trl" type="griffon_flying.routes.medium.crystal_desert.the_desolation.gate_route" guid="jUQVXnoaPk+Mldnym54p8g==" alpha="0.9" fadenear="4000" fadefar="5000" color="ffdd11" animspeed="0.2" texture="Data/Markers/feather.png"/>
 	</pois>
 </overlaydata>
