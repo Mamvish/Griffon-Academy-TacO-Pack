@@ -3,8 +3,10 @@ import collections.abc as abc
 import datetime
 from functools import reduce
 import os.path
+from pathlib import Path
 import re
 import struct
+import traceback
 import tomllib
 import uuid
 
@@ -16,10 +18,22 @@ def main():
     parser.add_argument('file', type=str, nargs='*')
     args = parser.parse_args()
 
+    files = []
     for f in args.file:
-        out = process_file(f)
-        with open(os.path.splitext(f)[0] + '.xml', 'wb') as outf:
-            outf.write(out)
+        if os.path.isdir(f):
+            files.extend(Path(f).rglob("*.toml"))
+        else:
+            files.append(Path(f))
+
+    for f in files:
+        f: Path
+        try:
+            out = process_file(f)
+            with open(f.with_suffix(".xml"), 'wb') as outf:
+                outf.write(out)
+        except Exception as e:
+            print(f"While processing {f.as_posix()!r}")
+            print(traceback.format_exc())
 
 # based on https://github.com/dlamkins/TmfLib/blob/master/Reader/TrlFileReader.cs
 class TrlReader(abc.Iterator):
@@ -56,7 +70,7 @@ uuidns = "09c70591-b6c3-4e60-9fb9-4ad7b207454c" # a random uuid4
 def process_file(path):
     with open(path, "rb") as f:
         data = tomllib.load(f)
-        trailfile = data['trail']
+        trailfile = data.get('trail', path.with_suffix(".trl"))
 
         mapid, first, last = read_trl(trailfile)
 
