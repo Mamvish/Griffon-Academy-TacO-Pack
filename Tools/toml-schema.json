@@ -33,6 +33,10 @@
             "description": "Relative path to the TacO .trl trail file",
             "type": "string"
         },
+        "hints": {
+            "description": "Override the location of the hints toggle marker",
+            "$ref": "#/definitions/marker"
+        },
         "springer": {
             "description": "Extra Springer markers",
             "type": "array",
