@@ -80,6 +80,7 @@
         <xs:attribute name="copy" type="xs:string"/>
         <xs:attribute name="copy-message" type="xs:string"/>
         <xs:attribute name="heightoffset" type="xs:float"/>
+        <xs:attribute name="hide" type="xs:string"/>
         <xs:attribute name="iconfile" type="xs:anyURI"/>
         <xs:attribute name="iconsize" type="xs:float" default="1"/>
         <xs:attribute name="invertbehaviour" type="xs:boolean" default="0"/>
