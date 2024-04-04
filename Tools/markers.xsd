@@ -3,12 +3,12 @@
     <xs:element name="overlaydata">
         <xs:complexType>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element ref="markercategory" />
+                <xs:element ref="markercategory"/>
                 <xs:element name="pois">
                     <xs:complexType>
                         <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name="poi" type="poi" />
-                            <xs:element name="trail" type="trail" />
+                            <xs:element name="poi" type="poi"/>
+                            <xs:element name="trail" type="trail"/>
                         </xs:choice>
                     </xs:complexType>
                 </xs:element>
@@ -19,36 +19,36 @@
     <xs:element name="markercategory">
         <xs:complexType>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element ref="markercategory" />
+                <xs:element ref="markercategory"/>
             </xs:choice>
-            <xs:attribute name="name" type="xs:string" />
-            <xs:attribute name="defaulttoggle" type="xs:boolean" />
-            <xs:attribute name="bh-defaulttoggle" type="xs:boolean" />
-            <xs:attribute name="displayname" type="xs:string" />
-            <xs:attribute name="isseparator" type="xs:boolean" default="0" />
-            <xs:attributeGroup ref="trail-attrs" />
-            <xs:attributeGroup ref="bh-trail-attrs" />
-            <xs:attributeGroup ref="poi-attrs" />
-            <xs:attributeGroup ref="bh-poi-attrs" />
-            <xs:attributeGroup ref="attrs" />
-            <xs:attributeGroup ref="bh-attrs" />
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="defaulttoggle" type="xs:boolean"/>
+            <xs:attribute name="bh-defaulttoggle" type="xs:boolean"/>
+            <xs:attribute name="displayname" type="xs:string"/>
+            <xs:attribute name="isseparator" type="xs:boolean" default="0"/>
+            <xs:attributeGroup ref="trail-attrs"/>
+            <xs:attributeGroup ref="bh-trail-attrs"/>
+            <xs:attributeGroup ref="poi-attrs"/>
+            <xs:attributeGroup ref="bh-poi-attrs"/>
+            <xs:attributeGroup ref="attrs"/>
+            <xs:attributeGroup ref="bh-attrs"/>
         </xs:complexType>
     </xs:element>
 
     <xs:complexType name="poi">
-        <xs:attribute name="mapid" type="xs:int" use="required" />
-        <xs:attribute name="xpos" type="xs:float" use="required" />
-        <xs:attribute name="ypos" type="xs:float" use="required" />
-        <xs:attribute name="zpos" type="xs:float" use="required" />
-        <xs:attribute name="guid" type="xs:string" />
-        <xs:attribute name="type" type="xs:string" />
-        <xs:attribute name="script-tick" type="xs:string" />
-        <xs:attribute name="script-focus" type="xs:string" />
-        <xs:attribute name="script-trigger" type="xs:string" />
-        <xs:attributeGroup ref="poi-attrs" />
-        <xs:attributeGroup ref="bh-poi-attrs" />
-        <xs:attributeGroup ref="attrs" />
-        <xs:attributeGroup ref="bh-attrs" />
+        <xs:attribute name="mapid" type="xs:int" use="required"/>
+        <xs:attribute name="xpos" type="xs:float" use="required"/>
+        <xs:attribute name="ypos" type="xs:float" use="required"/>
+        <xs:attribute name="zpos" type="xs:float" use="required"/>
+        <xs:attribute name="guid" type="xs:string"/>
+        <xs:attribute name="type" type="xs:string"/>
+        <xs:attribute name="script-tick" type="xs:string"/>
+        <xs:attribute name="script-focus" type="xs:string"/>
+        <xs:attribute name="script-trigger" type="xs:string"/>
+        <xs:attributeGroup ref="poi-attrs"/>
+        <xs:attributeGroup ref="bh-poi-attrs"/>
+        <xs:attributeGroup ref="attrs"/>
+        <xs:attributeGroup ref="bh-attrs"/>
     </xs:complexType>
 
     <xs:complexType name="trail">
@@ -57,132 +57,133 @@
                 <xs:documentation>Optional, because the trail file contains the map ID</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="traildata" type="xs:anyURI" use="required" />
-        <xs:attribute name="guid" type="xs:string" />
-        <xs:attribute name="type" type="xs:string" use="required" />
-        <xs:attribute name="script-tick" type="xs:string" />
-        <xs:attribute name="script-focus" type="xs:string" />
-        <xs:attribute name="script-trigger" type="xs:string" />
-        <xs:attributeGroup ref="trail-attrs" />
-        <xs:attributeGroup ref="bh-trail-attrs" />
-        <xs:attributeGroup ref="attrs" />
-        <xs:attributeGroup ref="bh-attrs" />
+        <xs:attribute name="traildata" type="xs:anyURI" use="required"/>
+        <xs:attribute name="guid" type="xs:string"/>
+        <xs:attribute name="type" type="xs:string" use="required"/>
+        <xs:attribute name="script-tick" type="xs:string"/>
+        <xs:attribute name="script-focus" type="xs:string"/>
+        <xs:attribute name="script-trigger" type="xs:string"/>
+        <xs:attributeGroup ref="trail-attrs"/>
+        <xs:attributeGroup ref="bh-trail-attrs"/>
+        <xs:attributeGroup ref="attrs"/>
+        <xs:attributeGroup ref="bh-attrs"/>
     </xs:complexType>
 
     <xs:attributeGroup name="poi-attrs">
-        <xs:attribute name="autotrigger" type="xs:boolean" default="0" />
-        <xs:attribute name="behavior" type="behavior" />
-        <xs:attribute name="bounce" type="bounce" />
-        <xs:attribute name="bounce-delay" type="xs:float" />
-        <xs:attribute name="bounce-duration" type="xs:float" />
-        <xs:attribute name="bounce-height" type="xs:float" />
-        <xs:attribute name="canfade" type="xs:boolean" />
-        <xs:attribute name="copy" type="xs:string" />
-        <xs:attribute name="copy-message" type="xs:string" />
-        <xs:attribute name="heightoffset" type="xs:float" />
-        <xs:attribute name="iconfile" type="xs:anyURI" />
-        <xs:attribute name="iconsize" type="xs:float" default="1" />
-        <xs:attribute name="invertbehaviour" type="xs:boolean" default="0" />
-        <xs:attribute name="maxsize" type="xs:float" />
-        <xs:attribute name="minsize" type="xs:float" />
-        <xs:attribute name="resetlength" type="xs:float" />
-        <xs:attribute name="rotate" type="xs:string" />
-        <xs:attribute name="rotate-x" type="xs:float" />
-        <xs:attribute name="rotate-y" type="xs:float" />
-        <xs:attribute name="rotate-z" type="xs:float" />
-        <xs:attribute name="scaleonmapwithzoom" type="xs:boolean" default="1" />
-        <xs:attribute name="tip-description" type="xs:string" />
-        <xs:attribute name="tip-name" type="xs:string" />
+        <xs:attribute name="autotrigger" type="xs:boolean" default="0"/>
+        <xs:attribute name="behavior" type="behavior"/>
+        <xs:attribute name="bounce" type="bounce"/>
+        <xs:attribute name="bounce-delay" type="xs:float"/>
+        <xs:attribute name="bounce-duration" type="xs:float"/>
+        <xs:attribute name="bounce-height" type="xs:float"/>
+        <xs:attribute name="canfade" type="xs:boolean"/>
+        <xs:attribute name="copy" type="xs:string"/>
+        <xs:attribute name="copy-message" type="xs:string"/>
+        <xs:attribute name="heightoffset" type="xs:float"/>
+        <xs:attribute name="iconfile" type="xs:anyURI"/>
+        <xs:attribute name="iconsize" type="xs:float" default="1"/>
+        <xs:attribute name="invertbehaviour" type="xs:boolean" default="0"/>
+        <xs:attribute name="maxsize" type="xs:float"/>
+        <xs:attribute name="minsize" type="xs:float"/>
+        <xs:attribute name="resetlength" type="xs:float"/>
+        <xs:attribute name="rotate" type="xs:string"/>
+        <xs:attribute name="rotate-x" type="xs:float"/>
+        <xs:attribute name="rotate-y" type="xs:float"/>
+        <xs:attribute name="rotate-z" type="xs:float"/>
+        <xs:attribute name="scaleonmapwithzoom" type="xs:boolean" default="1"/>
+        <xs:attribute name="tip-description" type="xs:string"/>
+        <xs:attribute name="tip-name" type="xs:string"/>
     </xs:attributeGroup>
 
     <xs:attributeGroup name="bh-poi-attrs">
-        <xs:attribute name="bh-autotrigger" type="xs:boolean" />
-        <xs:attribute name="bh-behavior" type="behavior" />
-        <xs:attribute name="bh-bounce" type="bounce" />
-        <xs:attribute name="bh-bounce-delay" type="xs:float" />
-        <xs:attribute name="bh-bounce-duration" type="xs:float" />
-        <xs:attribute name="bh-bounce-height" type="xs:float" />
-        <xs:attribute name="bh-canfade" type="xs:boolean" />
-        <xs:attribute name="bh-copy" type="xs:string" />
-        <xs:attribute name="bh-copy-message" type="xs:string" />
-        <xs:attribute name="bh-heightoffset" type="xs:float" />
-        <xs:attribute name="bh-iconfile" type="xs:anyURI" />
-        <xs:attribute name="bh-iconsize" type="xs:float" />
-        <xs:attribute name="bh-invertbehaviour" type="xs:boolean" />
-        <xs:attribute name="bh-maxsize" type="xs:float" />
-        <xs:attribute name="bh-minsize" type="xs:float" />
-        <xs:attribute name="bh-resetlength" type="xs:float" />
-        <xs:attribute name="bh-rotate" type="xs:string" />
-        <xs:attribute name="bh-rotate-x" type="xs:float" />
-        <xs:attribute name="bh-rotate-y" type="xs:float" />
-        <xs:attribute name="bh-rotate-z" type="xs:float" />
-        <xs:attribute name="bh-scaleonmapwithzoom" type="xs:boolean" />
-        <xs:attribute name="bh-tip-description" type="xs:string" />
-        <xs:attribute name="bh-tip-name" type="xs:string" />
+        <xs:attribute name="bh-autotrigger" type="xs:boolean"/>
+        <xs:attribute name="bh-behavior" type="behavior"/>
+        <xs:attribute name="bh-bounce" type="bounce"/>
+        <xs:attribute name="bh-bounce-delay" type="xs:float"/>
+        <xs:attribute name="bh-bounce-duration" type="xs:float"/>
+        <xs:attribute name="bh-bounce-height" type="xs:float"/>
+        <xs:attribute name="bh-canfade" type="xs:boolean"/>
+        <xs:attribute name="bh-copy" type="xs:string"/>
+        <xs:attribute name="bh-copy-message" type="xs:string"/>
+        <xs:attribute name="bh-heightoffset" type="xs:float"/>
+        <xs:attribute name="bh-hide" type="xs:string"/>
+        <xs:attribute name="bh-iconfile" type="xs:anyURI"/>
+        <xs:attribute name="bh-iconsize" type="xs:float"/>
+        <xs:attribute name="bh-invertbehaviour" type="xs:boolean"/>
+        <xs:attribute name="bh-maxsize" type="xs:float"/>
+        <xs:attribute name="bh-minsize" type="xs:float"/>
+        <xs:attribute name="bh-resetlength" type="xs:float"/>
+        <xs:attribute name="bh-rotate" type="xs:string"/>
+        <xs:attribute name="bh-rotate-x" type="xs:float"/>
+        <xs:attribute name="bh-rotate-y" type="xs:float"/>
+        <xs:attribute name="bh-rotate-z" type="xs:float"/>
+        <xs:attribute name="bh-scaleonmapwithzoom" type="xs:boolean"/>
+        <xs:attribute name="bh-tip-description" type="xs:string"/>
+        <xs:attribute name="bh-tip-name" type="xs:string"/>
     </xs:attributeGroup>
 
     <xs:attributeGroup name="trail-attrs">
-        <xs:attribute name="animspeed" type="xs:float" default="1.0" />
-        <xs:attribute name="iswall" type="xs:boolean" default="0" />
-        <xs:attribute name="texture" type="xs:anyURI" />
-        <xs:attribute name="trailscale" type="xs:float" />
+        <xs:attribute name="animspeed" type="xs:float" default="1.0"/>
+        <xs:attribute name="iswall" type="xs:boolean" default="0"/>
+        <xs:attribute name="texture" type="xs:anyURI"/>
+        <xs:attribute name="trailscale" type="xs:float"/>
     </xs:attributeGroup>
 
     <xs:attributeGroup name="bh-trail-attrs">
-        <xs:attribute name="bh-animspeed" type="xs:float" />
-        <xs:attribute name="bh-iswall" type="xs:boolean" />
-        <xs:attribute name="bh-texture" type="xs:anyURI" />
-        <xs:attribute name="bh-trailscale" type="xs:float" />
+        <xs:attribute name="bh-animspeed" type="xs:float"/>
+        <xs:attribute name="bh-iswall" type="xs:boolean"/>
+        <xs:attribute name="bh-texture" type="xs:anyURI"/>
+        <xs:attribute name="bh-trailscale" type="xs:float"/>
     </xs:attributeGroup>
 
     <xs:attributeGroup name="attrs">
-        <xs:attribute name="achievementbit" type="xs:int" />
-        <xs:attribute name="achievementid" type="xs:int" />
-        <xs:attribute name="alpha" type="xs:float" default="1.0" />
-        <xs:attribute name="color" type="color" />
-        <xs:attribute name="cull" type="cull" />
-        <xs:attribute name="fadefar" type="xs:float" />
-        <xs:attribute name="fadenear" type="xs:float" />
-        <xs:attribute name="festival" type="festival" />
-        <xs:attribute name="hascountdown" type="xs:boolean" />
-        <xs:attribute name="info" type="xs:string" />
-        <xs:attribute name="inforange" type="xs:float" />
-        <xs:attribute name="ingamevisibility" type="xs:boolean" />
-        <xs:attribute name="mapdisplaysize" type="xs:int" />
-        <xs:attribute name="maptype" type="xs:string" />
-        <xs:attribute name="mapvisibility" type="xs:boolean" />
-        <xs:attribute name="minimapvisibility" type="xs:boolean" />
-        <xs:attribute name="mount" type="mount" />
-        <xs:attribute name="profession" type="profession" />
-        <xs:attribute name="race" type="race" />
-        <xs:attribute name="toggle" type="xs:string" />
-        <xs:attribute name="togglecategory" type="xs:string" />
-        <xs:attribute name="triggerrange" type="xs:float" />
+        <xs:attribute name="achievementbit" type="xs:int"/>
+        <xs:attribute name="achievementid" type="xs:int"/>
+        <xs:attribute name="alpha" type="xs:float" default="1.0"/>
+        <xs:attribute name="color" type="color"/>
+        <xs:attribute name="cull" type="cull"/>
+        <xs:attribute name="fadefar" type="xs:float"/>
+        <xs:attribute name="fadenear" type="xs:float"/>
+        <xs:attribute name="festival" type="festival"/>
+        <xs:attribute name="hascountdown" type="xs:boolean"/>
+        <xs:attribute name="info" type="xs:string"/>
+        <xs:attribute name="inforange" type="xs:float"/>
+        <xs:attribute name="ingamevisibility" type="xs:boolean"/>
+        <xs:attribute name="mapdisplaysize" type="xs:int"/>
+        <xs:attribute name="maptype" type="xs:string"/>
+        <xs:attribute name="mapvisibility" type="xs:boolean"/>
+        <xs:attribute name="minimapvisibility" type="xs:boolean"/>
+        <xs:attribute name="mount" type="mount"/>
+        <xs:attribute name="profession" type="profession"/>
+        <xs:attribute name="race" type="race"/>
+        <xs:attribute name="toggle" type="xs:string"/>
+        <xs:attribute name="togglecategory" type="xs:string"/>
+        <xs:attribute name="triggerrange" type="xs:float"/>
     </xs:attributeGroup>
 
     <xs:attributeGroup name="bh-attrs">
-        <xs:attribute name="bh-achievementbit" type="xs:int" />
-        <xs:attribute name="bh-achievementid" type="xs:int" />
-        <xs:attribute name="bh-alpha" type="xs:float" />
-        <xs:attribute name="bh-color" type="color" />
-        <xs:attribute name="bh-cull" type="cull" />
-        <xs:attribute name="bh-fadefar" type="xs:float" />
-        <xs:attribute name="bh-fadenear" type="xs:float" />
-        <xs:attribute name="bh-festival" type="festival" />
-        <xs:attribute name="bh-hascountdown" type="xs:boolean" />
-        <xs:attribute name="bh-info" type="xs:string" />
-        <xs:attribute name="bh-inforange" type="xs:float" />
-        <xs:attribute name="bh-ingamevisibility" type="xs:boolean" />
-        <xs:attribute name="bh-mapdisplaysize" type="xs:int" />
-        <xs:attribute name="bh-maptype" type="xs:string" />
-        <xs:attribute name="bh-mapvisibility" type="xs:boolean" />
-        <xs:attribute name="bh-minimapvisibility" type="xs:boolean" />
-        <xs:attribute name="bh-mount" type="mount" />
-        <xs:attribute name="bh-profession" type="profession" />
-        <xs:attribute name="bh-race" type="race" />
-        <xs:attribute name="bh-toggle" type="xs:string" />
-        <xs:attribute name="bh-togglecategory" type="xs:string" />
-        <xs:attribute name="bh-triggerrange" type="xs:float" />
+        <xs:attribute name="bh-achievementbit" type="xs:int"/>
+        <xs:attribute name="bh-achievementid" type="xs:int"/>
+        <xs:attribute name="bh-alpha" type="xs:float"/>
+        <xs:attribute name="bh-color" type="color"/>
+        <xs:attribute name="bh-cull" type="cull"/>
+        <xs:attribute name="bh-fadefar" type="xs:float"/>
+        <xs:attribute name="bh-fadenear" type="xs:float"/>
+        <xs:attribute name="bh-festival" type="festival"/>
+        <xs:attribute name="bh-hascountdown" type="xs:boolean"/>
+        <xs:attribute name="bh-info" type="xs:string"/>
+        <xs:attribute name="bh-inforange" type="xs:float"/>
+        <xs:attribute name="bh-ingamevisibility" type="xs:boolean"/>
+        <xs:attribute name="bh-mapdisplaysize" type="xs:int"/>
+        <xs:attribute name="bh-maptype" type="xs:string"/>
+        <xs:attribute name="bh-mapvisibility" type="xs:boolean"/>
+        <xs:attribute name="bh-minimapvisibility" type="xs:boolean"/>
+        <xs:attribute name="bh-mount" type="mount"/>
+        <xs:attribute name="bh-profession" type="profession"/>
+        <xs:attribute name="bh-race" type="race"/>
+        <xs:attribute name="bh-toggle" type="xs:string"/>
+        <xs:attribute name="bh-togglecategory" type="xs:string"/>
+        <xs:attribute name="bh-triggerrange" type="xs:float"/>
     </xs:attributeGroup>
 
     <xs:simpleType name="behavior">
@@ -202,22 +203,22 @@
             </xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:int">
-            <xs:enumeration value="0" />
-            <xs:enumeration value="1" />
-            <xs:enumeration value="2" />
-            <xs:enumeration value="3" />
-            <xs:enumeration value="4" />
-            <xs:enumeration value="5" />
-            <xs:enumeration value="6" />
-            <xs:enumeration value="7" />
-            <xs:enumeration value="101" />
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="6"/>
+            <xs:enumeration value="7"/>
+            <xs:enumeration value="101"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="bounce">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="bounce" />
-            <xs:enumeration value="rise" />
+            <xs:enumeration value="bounce"/>
+            <xs:enumeration value="rise"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -228,20 +229,19 @@
         <xs:union>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern
-                        value="((jackal|griffon|springer|skimmer|raptor|rollerbeetle|warclaw|skyscale)(,(jackal|griffon|springer|skimmer|raptor|rollerbeetle|warclaw|skyscale))*)" />
+                    <xs:pattern value="((jackal|griffon|springer|skimmer|raptor|rollerbeetle|warclaw|skyscale)(,(jackal|griffon|springer|skimmer|raptor|rollerbeetle|warclaw|skyscale))*)"/>
                 </xs:restriction>
             </xs:simpleType>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="raptor" />
-                    <xs:enumeration value="springer" />
-                    <xs:enumeration value="skimmer" />
-                    <xs:enumeration value="jackal" />
-                    <xs:enumeration value="rollerbeetle" />
-                    <xs:enumeration value="warclaw" />
-                    <xs:enumeration value="skyscale" />
-                    <xs:enumeration value="turtle" />
+                    <xs:enumeration value="raptor"/>
+                    <xs:enumeration value="springer"/>
+                    <xs:enumeration value="skimmer"/>
+                    <xs:enumeration value="jackal"/>
+                    <xs:enumeration value="rollerbeetle"/>
+                    <xs:enumeration value="warclaw"/>
+                    <xs:enumeration value="skyscale"/>
+                    <xs:enumeration value="turtle"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:union>
@@ -260,18 +260,17 @@
         <xs:union>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern
-                        value="((halloween|wintersday|superadventurefestival|lunarnewyear|festivalofthefourwinds|dragonbash)(,(halloween|wintersday|superadventurefestival|lunarnewyear|festivalofthefourwinds|dragonbash))*)" />
+                    <xs:pattern value="((halloween|wintersday|superadventurefestival|lunarnewyear|festivalofthefourwinds|dragonbash)(,(halloween|wintersday|superadventurefestival|lunarnewyear|festivalofthefourwinds|dragonbash))*)"/>
                 </xs:restriction>
             </xs:simpleType>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="halloween" />
-                    <xs:enumeration value="wintesrday" />
-                    <xs:enumeration value="superadventurefestival" />
-                    <xs:enumeration value="lunarnewyear" />
-                    <xs:enumeration value="festivalofthefourwinds" />
-                    <xs:enumeration value="dragonbash" />
+                    <xs:enumeration value="halloween"/>
+                    <xs:enumeration value="wintesrday"/>
+                    <xs:enumeration value="superadventurefestival"/>
+                    <xs:enumeration value="lunarnewyear"/>
+                    <xs:enumeration value="festivalofthefourwinds"/>
+                    <xs:enumeration value="dragonbash"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:union>
@@ -284,21 +283,20 @@
         <xs:union>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern
-                        value="((guardian|warrior|engineer|ranger|thief|elementalist|mesmer|necromancer|revenant)(,(guardian|warrior|engineer|ranger|thief|elementalist|mesmer|necromancer|revenant))*)" />
+                    <xs:pattern value="((guardian|warrior|engineer|ranger|thief|elementalist|mesmer|necromancer|revenant)(,(guardian|warrior|engineer|ranger|thief|elementalist|mesmer|necromancer|revenant))*)"/>
                 </xs:restriction>
             </xs:simpleType>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="guardian" />
-                    <xs:enumeration value="warrior" />
-                    <xs:enumeration value="engineer" />
-                    <xs:enumeration value="ranger" />
-                    <xs:enumeration value="thief" />
-                    <xs:enumeration value="elementalist" />
-                    <xs:enumeration value="mesmer" />
-                    <xs:enumeration value="necromancer" />
-                    <xs:enumeration value="revenant" />
+                    <xs:enumeration value="guardian"/>
+                    <xs:enumeration value="warrior"/>
+                    <xs:enumeration value="engineer"/>
+                    <xs:enumeration value="ranger"/>
+                    <xs:enumeration value="thief"/>
+                    <xs:enumeration value="elementalist"/>
+                    <xs:enumeration value="mesmer"/>
+                    <xs:enumeration value="necromancer"/>
+                    <xs:enumeration value="revenant"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:union>
@@ -311,17 +309,16 @@
         <xs:union>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern
-                        value="((asura|human|charr|sylvari|norn)(,(asura|human|charr|sylvari|norn))*)" />
+                    <xs:pattern value="((asura|human|charr|sylvari|norn)(,(asura|human|charr|sylvari|norn))*)"/>
                 </xs:restriction>
             </xs:simpleType>
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="asura" />
-                    <xs:enumeration value="human" />
-                    <xs:enumeration value="charr" />
-                    <xs:enumeration value="sylvari" />
-                    <xs:enumeration value="norn" />
+                    <xs:enumeration value="asura"/>
+                    <xs:enumeration value="human"/>
+                    <xs:enumeration value="charr"/>
+                    <xs:enumeration value="sylvari"/>
+                    <xs:enumeration value="norn"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:union>
@@ -329,15 +326,15 @@
 
     <xs:simpleType name="cull">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="None" />
-            <xs:enumeration value="Clockwise" />
-            <xs:enumeration value="CounterClockwise" />
+            <xs:enumeration value="None"/>
+            <xs:enumeration value="Clockwise"/>
+            <xs:enumeration value="CounterClockwise"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="color">
         <xs:restriction base="xs:token">
-            <xs:pattern value="#?[0-9a-fA-F]{6,8}" />
+            <xs:pattern value="#?[0-9a-fA-F]{6,8}"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
