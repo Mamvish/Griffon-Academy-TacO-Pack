@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<overlaydata>
-	<markercategory name="griffon_flying" displayname="Griffon Flying">
-		<markercategory name="routes" displayname="Routes">
-			<markercategory name="hard" displayname="3 Star - Hard">
-				<markercategory name="maguuma_jungle" displayname="Maguuma Jungle">
-					<markercategory name="the_grove" displayname="The Grove">
-						<markercategory name="mother_tree" displayname="Mother Tree" defaulttoggle="0" mapdisplaysize="2">
-						</markercategory>
-					</markercategory>
-				</markercategory>
-			</markercategory>
-		</markercategory>
-	</markercategory>
-	<pois>		
+<OverlayData>
+    <MarkerCategory Name="griffon_flying" DisplayName="Griffon Flying">
+        <MarkerCategory Name="instrux" DisplayName="Pack Instructions">
+            <MarkerCategory Name="instrux1" IsSeparator="1" DisplayName="Interact with Start to show/hide trail and info"/>
+            <MarkerCategory Name="instrux2" IsSeparator="1" DisplayName="Interact with Finish to reset and hide all"/>
+            <MarkerCategory Name="instrux3" IsSeparator="1" DisplayName="Interact with Navigation (if applicable) to show/hide hints"/>
+        </MarkerCategory>
+        <MarkerCategory Name="hard" DisplayName="Difficulty: Hard">
+            <MarkerCategory Name="routes" DisplayName="Open-Air Routes">
+                <MarkerCategory Name="mother_tree" DisplayName="The Grove - Mother Tree">
+                    <MarkerCategory Name="trail" DisplayName="Trail" DefaultToggle="0">
+                        <MarkerCategory Name="nav" DisplayName="Navigation Hints" DefaultToggle="0"/>
+                    </MarkerCategory>
+                    <MarkerCategory Name="waypoint" IsSeparator="1" DisplayName="Nearest Waypoint: [&amp;BLoEAAA=]" copy="[&amp;BLoEAAA=]"/>
+                    <MarkerCategory Name="creator" IsSeparator="1" DisplayName="Created by Kat DreXed"/>
+                </MarkerCategory>
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+	<POIs>		
 		<!--The Grove - Mother Tree - Creator: Kat DreXed-->
-		<poi mapid="91" xpos="68.3721" ypos="112.249" zpos="4.28248" type="griffon_flying.routes.hard.maguuma_jungle.start" togglecategory="griffon_flying.routes.hard.maguuma_jungle.the_grove.mother_tree" toggle="griffon_flying.routes.hard.maguuma_jungle.the_grove.mother_tree" triggerrange="4" tip-description="The Grove - Mother Tree Creator: Kat DreXed" guid="8ogimQ+2vUiYQl7wZJoeRw=="/>
-		<poi mapid="91" xpos="72.4719" ypos="111.779" zpos="1.70032" type="griffon_flying.routes.hard.maguuma_jungle.springer" guid="8OTFe2Q5iUeZkfjPaFvzyw=="/>
-		<poi mapid="91" xpos="35.927" ypos="66.7729" zpos="43.1109" type="griffon_flying.routes.hard.maguuma_jungle.finish" guid="Dsj9TetePUSYSHdDbxpljw=="/>
-		<trail traildata="Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl" type="griffon_flying.routes.hard.maguuma_jungle.the_grove.mother_tree" guid="+VfofgWhAEyS4yTey5BIeQ==" alpha="0.9" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
-		<trail traildata="Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl" type="griffon_flying.routes.hard.maguuma_jungle.the_grove.mother_tree" alpha="0" bh-alpha="0.9" iswall="1" fadenear="4000" fadefar="5000" color="ff6611" animspeed="0.2" texture="Data/Markers/feather.png"/>
-	</pois>
-</overlaydata>
+        <POI MapID="91" xpos="68.3721" ypos="112.249" zpos="4.28248" type="griffon_flying.hard.routes.mother_tree" IconFile="Data/Markers/wingstart_3star.png" ToggleCategory="griffon_flying.hard.routes.mother_tree.trail" GUID="8ogimQ+2vUiYQl7wZJoeRw=="/>
+		<Trail TrailData="Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl" Type="griffon_flying.hard.routes.mother_tree.trail" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" Texture="Data/Markers/feather.png"/>
+        <Trail TrailData="Data/Trails/routes/3star/routes_3star_maguumajungle_thegrove_mothertree.trl" Type="griffon_flying.hard.routes.mother_tree.trail" FadeNear="4000" FadeFar="5000" Color="ff6611" AnimSpeed="0.2" IsWall="1" Texture="Data/Markers/feather.png"/>
+        <POI MapID="91" xpos="72.4719" ypos="111.779" zpos="1.70032" type="griffon_flying.hard.routes.mother_tree.trail" IconFile="Data/Markers/Springer.png" GUID="8OTFe2Q5iUeZkfjPaFvzyw=="/>
+        <POI MapID="91" xpos="71.67673" ypos="139.2003" zpos="0.96103" type="griffon_flying.hard.routes.mother_tree.trail" IconFile="Data/Markers/winghints.png" ToggleCategory="griffon_flying.hard.routes.mother_tree.trail.nav" GUID="fYTPdazenUyEylLgIMnk8g=="/>
+		<!--<POI MapID="91" xpos="35.927" ypos="66.7729" zpos="43.1109" type="griffon_flying.hard.routes.mother_tree.trail" IconFile="Data/Markers/wingfinish.png" Hide="griffon_flying.hard.routes.mother_tree.trail" GUID="Dsj9TetePUSYSHdDbxpljw=="/>-->
+        <POI MapID="91" xpos="35.927" ypos="66.7729" zpos="43.1109" type="griffon_flying.hard.routes.mother_tree.trail" IconFile="Data/Markers/wingguild.png" alpha="0" Hide="griffon_flying.hard.routes.mother_tree.trail.nav" GUID="Dsj9TetePUSIFthJyxpljw=="/>
+	</POIs>
+</OverlayData>
