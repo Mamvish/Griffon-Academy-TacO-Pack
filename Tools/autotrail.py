@@ -191,7 +191,7 @@ def process_file(path):
                     **{'tip-description': desc}),
 
                 *trail(traildata=trailfile.as_posix(), type=f"{cat}.trail",
-                    fadenear="4000", fadefar="5000", color="ff6611", animspeed="0.2",
+                    fadenear="4000", fadefar="5000", color=data.get('color', 'ff6611'), animspeed="0.2",
                     texture="Data/Markers/wingpath.png"),
 
                 poi(mapid, last, type=f"{cat}.trail",

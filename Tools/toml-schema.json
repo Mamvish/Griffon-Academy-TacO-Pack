@@ -33,6 +33,12 @@
             "description": "Relative path to the TacO .trl trail file",
             "type": "string"
         },
+        "color": {
+            "description": "Trail color",
+            "type": "string",
+            "pattern": "#?[0-9a-fA-F]{6,8}",
+            "default": "ff6611"
+        },
         "hints": {
             "description": "Override the location of the hints toggle marker",
             "$ref": "#/definitions/marker"
