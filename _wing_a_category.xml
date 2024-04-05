@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<overlaydata>
+    <markercategory name="griffon_flying" displayname="Griffon Flying">
+        <markercategory name="guildname" isseparator="1" displayname="[Wing] The Griffon Academy" />
+        <markercategory name="version" isseparator="1" displayname="version: 0.7.2a 06.06.2022" />
+        <markercategory name="routes" displayname="Routes">
+            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
+            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
+            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
+            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
+        </markercategory>
+        <markercategory name="stunts" displayname="Stunts">
+            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
+            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
+            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
+            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
+        </markercategory>
+        <markercategory name="caves" displayname="Caves">
+            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
+            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
+            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
+            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
+        </markercategory>
+        <markercategory name="discord" isseparator="1" displayname="Click for Discord invite!"
+            copy="https://discord.gg/the-griffon-academy" copy-message="Discord invite copied!" />
+        <markercategory name="contributors" displayname="Contributors">
+            <markercategory name="kampfhase" displayname="Dev | Kampfhase" />
+            <markercategory name="gramr" displayname="Dev | Gramr" />
+            <markercategory name="metallis" displayname="Dev | Metallis" />
+            <markercategory name="kat_drexed" displayname="Recorder | Kat Drexed" />
+            <markercategory name="nilsibus" displayname="Recorder | Nilsibus" />
+            <markercategory name="max" displayname="Recorder | Max" />
+            <markercategory name="zeph" displayname="Recorder | Zeph" />
+        </markercategory>
+    </markercategory>
+</overlaydata>
