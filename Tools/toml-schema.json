@@ -39,6 +39,14 @@
             "pattern": "#?[0-9a-fA-F]{6,8}",
             "default": "ff6611"
         },
+        "start": {
+            "description": "Override the location of the start marker",
+            "$ref": "#/definitions/marker"
+        },
+        "finish": {
+            "description": "Override the location of the finish marker",
+            "$ref": "#/definitions/marker"
+        },
         "hints": {
             "description": "Override the location of the hints toggle marker",
             "$ref": "#/definitions/marker"

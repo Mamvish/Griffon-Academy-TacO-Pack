@@ -80,12 +80,25 @@ def prettyprint(element, **kwargs):
 catescape = re.compile('[^a-zA-Z0-9_]')
 uuidns = "09c70591-b6c3-4e60-9fb9-4ad7b207454c" # a random uuid4
 
+def toml_to_pos(obj):
+    return obj['xpos'], obj['ypos'], obj['zpos']
+
 def process_file(path):
     with open(path, "rb") as f:
         data = tomllib.load(f)
         trailfile = data.get('trail', path.with_suffix(".trl"))
 
-        mapid, first, last = read_trl(trailfile)
+        mapid, trl_first, trl_last = read_trl(trailfile)
+
+        if data.get('start'):
+            start = toml_to_pos(data['start'])
+        else:
+            start = trl_first
+
+        if data.get('finish'):
+            finish = toml_to_pos(data['finish'])
+        else:
+            finish = trl_last
 
         kind = data.get('kind', 'route')
 
@@ -145,7 +158,7 @@ def process_file(path):
                 mycat = f"{cat}.trail"
 
             for m in data.get(t, []):
-                pos = (m['xpos'], m['ypos'], m['zpos'])
+                pos = toml_to_pos(m)
 
                 extra_markers.append(poi(mapid, pos, type=mycat,
                                          iconfile=f"Data/Markers/{t.replace('_', '')}.png",
@@ -159,7 +172,7 @@ def process_file(path):
             if 'hints' in data:
                 enable_pos = (data['hints']['xpos'], data['hints']['ypos'], data['hints']['zpos'])
             else:
-                enable_pos = (first[0], first[1] + 24.0, first[2])
+                enable_pos = (start[0], start[1] + 24.0, start[2])
 
             extra_markers.append(
                 poi(mapid, enable_pos,
@@ -172,7 +185,7 @@ def process_file(path):
 
             # hints disable at finish
             extra_markers.append(
-                poi(mapid, last,
+                poi(mapid, finish,
                     type=f"{cat}.trail",
                     hide=f"{cat}.trail.nav",
                     triggerrange="4",
@@ -221,7 +234,7 @@ def process_file(path):
             ),
 
             E.pois(
-                poi(mapid, first, type=cat,
+                poi(mapid, start, type=cat,
                     togglecategory=f"{cat}.trail", toggle=f"{cat}.trail", triggerrange="4",
                     iconfile=f"Data/Markers/wingstart_{stars}star.png",
                     iconsize="1.5", fadenear="4000", fadefar="6000",
@@ -231,7 +244,7 @@ def process_file(path):
                     fadenear="4000", fadefar="5000", color=data.get('color', 'ff6611'), animspeed="0.2",
                     texture="Data/Markers/wingpath.png"),
 
-                poi(mapid, last, type=f"{cat}.trail",
+                poi(mapid, finish, type=f"{cat}.trail",
                     togglecategory=f"{cat}.trail", toggle=f"{cat}.trail", triggerrange="4",
                     iconfile=f"Data/Markers/wingfinish.png",
                     iconsize="1.8", fadenear="4000", fadefar="6000"),
