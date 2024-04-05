@@ -50,12 +50,12 @@ def process_file(path):
         if len(set(t.get('traildata') for t in trails)) > 1:
             raise ValueError(f"found multiple trails pointing to different trl, stopping")
 
-        trailfile = trails[0].get('traildata')
-        if not Path(trailfile).exists():
-            raise ValueError(f"trail file {trailfile!r} not found")
+        trailfile = Path(trails[0].get('traildata'))
+        if not trailfile.exists():
+            raise ValueError(f"trail file {trailfile.as_posix()!r} not found")
         
-        #ret["trail"] = trailfile
-        ret.add(tomlkit.comment(f"trail = {trailfile!r}"))
+        #ret["trail"] = trailfile.as_posix()
+        ret.add(tomlkit.comment(f"trail = {trailfile.as_posix()!r}"))
 
         if trails[0].get('color'):
             ret["color"] = trails[0].get('color')
@@ -96,7 +96,7 @@ def process_file(path):
             aot.append(tomlkit.item({"xpos": p.get("xpos"), "ypos": p.get("ypos"), "zpos": p.get("zpos")}))
             ret.append(kind, aot)
 
-    with open(Path(trailfile).with_suffix(".toml"), 'w') as outf:
+    with open(trailfile.with_suffix(".toml"), 'w') as outf:
         tomlkit.dump(ret, outf)
 
 main()
