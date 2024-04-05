@@ -2,12 +2,13 @@ import argparse
 import collections.abc as abc
 import datetime
 from functools import reduce
+import json
 import os.path
 from pathlib import Path
 import re
 import struct
-import traceback
 import tomllib
+import traceback
 import uuid
 
 from lxml.builder import ElementMaker
@@ -34,6 +35,18 @@ def main():
         except Exception as e:
             print(f"While processing {f.as_posix()!r}")
             print(traceback.format_exc())
+
+maps = {}
+try:
+    # Generated from https://api.guildwars2.com/v2/maps?ids=all
+    # piped through jq -c '.[]' | sed 's/$/,/g;1s/^/[\n/;$s/,$/\n]/' to render it in jsonl style
+    with open('Tools/maps.json') as f:
+        for obj in json.load(f):
+            maps[obj['id']] = obj
+except:
+    print("Failed to load Tools/maps.json")
+    maps = {}
+    pass
 
 # based on https://github.com/dlamkins/TmfLib/blob/master/Reader/TrlFileReader.cs
 class TrlReader(abc.Iterator):
@@ -170,6 +183,20 @@ def process_file(path):
         wp_category = []
         if 'waypoint' in data:
             wp_category = [markercategory("waypoint", isseparator="1", displayname=f"Nearest Waypoint: {data['waypoint']}", copy=data['waypoint'])]
+        elif mapid in maps:
+            obj = maps[mapid]
+            region = obj.get('region_name', '')
+            continent = obj.get('continent_name', '')
+            mapname = obj.get('name', '')
+            if region != '' and continent != '':
+                mapname = f"{mapname}, {region}, {continent}"
+            elif region != '':
+                mapname = f"{mapname}, {region}"
+            elif continent != '':
+                mapname = f"{mapname}, {continent}"
+
+            if mapname:
+                wp_category = [markercategory("mapname", isseparator="1", displayname=f"Map: {mapname}")]
 
         author_category = []
         if 'author' in data:
