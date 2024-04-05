@@ -91,7 +91,7 @@ def process_file(path):
         name = data.get('name', path)
         catname = catescape.sub("_", name).lower()
 
-        cat = f"griffon_flying.{kind}.{difficulty}.{catname}"
+        cat = f"griffon_flying.{kind}s.{difficulty}.{catname}"
 
         if 'description' in data:
             desc = data['description']
@@ -172,7 +172,7 @@ def process_file(path):
 
             markercategory(
                 "griffon_flying", "Griffon Flying",
-                markercategory(kind, kind.title() + "s",
+                markercategory(kind + "s", kind.title() + "s",
                     markercategory(difficulty, f"{stars} Star - {difficulty.title()}",
                         markercategory(catname, name,
                             markercategory("trail", "Trail",
