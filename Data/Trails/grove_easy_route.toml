@@ -1,0 +1,8 @@
+name = "The Grove (Easy)"
+kind = "stunt"
+difficulty = 1
+
+[start]
+xpos = "26.14853"
+ypos = "103.6146"
+zpos = "-59.32775"

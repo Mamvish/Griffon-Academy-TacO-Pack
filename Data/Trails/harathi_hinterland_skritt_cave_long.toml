@@ -1,0 +1,8 @@
+name = "Skritt Cave (Long)"
+kind = "cave"
+difficulty = 2
+
+[start]
+xpos="223.0556"
+ypos="150.8876"
+zpos="563.353"

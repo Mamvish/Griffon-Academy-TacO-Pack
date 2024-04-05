@@ -1,0 +1,8 @@
+name = "The Grove"
+kind = "route"
+difficulty = 2
+
+[start]
+xpos="31.50032"
+ypos="103.163"
+zpos="-52.81179"

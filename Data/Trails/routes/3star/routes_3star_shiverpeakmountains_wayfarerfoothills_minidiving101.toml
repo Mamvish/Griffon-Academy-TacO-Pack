@@ -6,6 +6,11 @@ kind = "route"
 difficulty = "hard"
 author = "Mozzy"
 
+[start]
+xpos = "185.6156"
+ypos = "136.2551"
+zpos = "80.61481"
+
 [[springer]]
 xpos = "192.753"
 ypos = "140.746"

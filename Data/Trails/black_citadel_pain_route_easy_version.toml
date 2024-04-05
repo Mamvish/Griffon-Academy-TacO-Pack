@@ -1,0 +1,8 @@
+name = "Black Citadel Pain Route (Easy)"
+kind = "stunt"
+difficulty = 1
+
+[start]
+xpos="-38.76474"
+ypos="108.2365"
+zpos="-105.1778"

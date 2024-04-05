@@ -1,0 +1,8 @@
+name = "Black Citadel Pain Route"
+kind = "route"
+difficulty = 3
+
+[start]
+xpos = "-32.17952"
+ypos = "108.6353"
+zpos = "-107.0812"

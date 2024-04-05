@@ -6,6 +6,11 @@ kind = "route"
 difficulty = "hard"
 author = "Nemain"
 
+[start]
+xpos = "186.5043"
+ypos = "139.9575"
+zpos = "75.81397"
+
 [[springer]]
 xpos = "192.753"
 ypos = "140.746"
