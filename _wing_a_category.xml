@@ -2,7 +2,8 @@
 <overlaydata>
     <markercategory name="griffon_flying" displayname="Griffon Flying">
         <markercategory name="guildname" isseparator="1" displayname="[Wing] The Griffon Academy" />
-        <markercategory name="version" isseparator="1" displayname="version: 0.7.2a 06.06.2022" />
+        <!-- the following line is modified during publishing by Tools/publish.py -->
+        <markercategory name="version" isseparator="1" displayname="version: [unspecified]" />
         <markercategory name="routes" displayname="Routes">
             <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
             <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
