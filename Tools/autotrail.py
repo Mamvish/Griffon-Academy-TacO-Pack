@@ -184,10 +184,10 @@ def process_file(path):
                     markercategory(difficulty, f"{stars} Star - {difficulty.title()}",
                         markercategory(catname, name,
                             *wp_category,
+                            *author_category,
                             markercategory("trail", "Trail",
                                 *nav_category,
                                 defaulttoggle="0"),
-                            *author_category
                         )
                     )
                 ),

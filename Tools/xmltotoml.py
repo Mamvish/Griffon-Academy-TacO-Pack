@@ -78,7 +78,7 @@ def process_file(path):
         
         for c in root.iter(tag=etree.Comment):
             c : etree.ElementBase
-            match = re.search("Creator: *([A-Za-z0-9.]+)", c.text)
+            match = re.search("Creator: *([A-Za-z0-9. ]+)", c.text)
             if match:
                 ret["author"] = match.group(1)
 
