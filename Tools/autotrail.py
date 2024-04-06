@@ -18,7 +18,7 @@ import lxml.etree as etree
 
 # toggle for minimap merge feature
 # combines nearby start markers into one for minimap/map purposes to avoid clutter & z-fighting
-mm_merge = False
+mm_merge = True
 
 # mapid -> {path -> (x, y, z)} for mm-merge
 start_positions = {}
