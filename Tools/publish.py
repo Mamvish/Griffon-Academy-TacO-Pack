@@ -27,7 +27,7 @@ with zipfile.ZipFile("wing.taco", 'w', compression=zipfile.ZIP_DEFLATED) as zip:
         zip.write(f)
     for f in Path('Data/Markers').rglob('*'):
         zip.write(f)
-    for f in Path('Data/Trails').rglob('*.xml'):
+    for f in Path('Data').rglob('*.xml'):
         zip.write(f)
     for f in Path('Data/Trails').rglob('*.trl'):
         zip.write(f)

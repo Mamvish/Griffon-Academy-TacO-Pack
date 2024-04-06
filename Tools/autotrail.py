@@ -2,7 +2,9 @@ import argparse
 import collections.abc as abc
 import datetime
 from functools import reduce
+import itertools
 import json
+import math
 import os.path
 from pathlib import Path
 import re
@@ -11,8 +13,17 @@ import tomllib
 import traceback
 import uuid
 
-from lxml.builder import ElementMaker
+from lxml.builder import E
 import lxml.etree as etree
+
+# toggle for minimap merge feature
+# combines nearby start markers into one for minimap/map purposes to avoid clutter & z-fighting
+mm_merge = False
+
+# mapid -> {path -> (x, y, z)} for mm-merge
+start_positions = {}
+# path -> short desc for mm-merge
+merge_descriptions = {}
 
 def main():
     parser = argparse.ArgumentParser(description="Given a TOML config, generate a XML file with trail markers etc.")
@@ -29,12 +40,68 @@ def main():
     for f in files:
         f: Path
         try:
-            out = process_file(f)
+            out = process_file(f, True)
             with open(f.with_suffix(".xml"), 'wb') as outf:
                 outf.write(out)
         except Exception as e:
             print(f"While processing {f.as_posix()!r}")
             print(traceback.format_exc())
+
+    if mm_merge:
+        merged_pois = []
+
+        for mapid in sorted(start_positions):
+            map = start_positions[mapid]
+            merges = {}
+
+            for patha, pathb in itertools.combinations(map, 2):
+                a = map[patha]
+                b = map[pathb]
+                # 2d (minimap) distance, not 3d distance
+                if math.dist((a[0], a[2]), (b[0], b[2])) < 16:
+                    merges.setdefault(patha, set()).add(pathb)
+                    merges.setdefault(pathb, set()).add(patha)
+
+            if len(merges) == 0:
+                continue
+
+            merged = {}
+            for patha in merges:
+                if patha in merged:
+                    continue
+
+                avg = [0.0, 0.0, 0.0]
+                for coords in [map[patha], *[map[p] for p in merges[patha]]]:
+                    avg[0] += coords[0]
+                    avg[1] += coords[1]
+                    avg[2] += coords[2]
+                    pass
+
+                avg[0] /= len(merges[patha]) + 1
+                avg[1] /= len(merges[patha]) + 1
+                avg[2] /= len(merges[patha]) + 1
+
+                for p in [patha, *merges[patha]]:
+                    merged[p] = avg
+
+                    out = process_file(p, False)
+                    with open(p.with_suffix(".xml"), 'wb') as outf:
+                        outf.write(out)
+                
+                pos = pos_to_string(avg)
+                merged_pois.append(
+                    E.poi(mapid=str(mapid), xpos=pos[0], ypos=pos[1], zpos=pos[2],
+                          type="griffon_flying",
+                          ingamevisibility="false",
+                          iconfile="Data/Markers/wingstart.png", iconsize="1.5",
+                          mapdisplaysize="40",
+                          **{'tip-name': f"{len(merges[patha]) + 1} routes start here",
+                             'tip-description': "\n".join(merge_descriptions[p] for p in [patha, *merges[patha]])}))
+        
+        with open("Data/merged_map_icons.xml", "wb") as mf:
+            mf.write(etree.tostring(E.overlaydata(E.pois(*merged_pois)), pretty_print=True, encoding='utf-8', xml_declaration=True))
+    else:
+        Path("Data/merged_map_icons.xml").unlink()
 
 maps = {}
 try:
@@ -83,7 +150,19 @@ uuidns = "09c70591-b6c3-4e60-9fb9-4ad7b207454c" # a random uuid4
 def toml_to_pos(obj):
     return obj['xpos'], obj['ypos'], obj['zpos']
 
-def process_file(path):
+def pos_to_number(pos):
+    return float(pos[0]), float(pos[1]), float(pos[2])
+
+def pos_to_string(pos):
+    def maybe_str(x):
+        if isinstance(x, str):
+            return x
+        else:
+            return f"{x:.6g}"
+
+    return (maybe_str(pos[0]), maybe_str(pos[1]), maybe_str(pos[2]))
+
+def process_file(path, map_visible):
     with open(path, "rb") as f:
         data = tomllib.load(f)
         trailfile = data.get('trail', path.with_suffix(".trl"))
@@ -94,6 +173,8 @@ def process_file(path):
             start = toml_to_pos(data['start'])
         else:
             start = trl_first
+
+        start_positions.setdefault(mapid, {})[path] = pos_to_number(start)
 
         if data.get('finish'):
             finish = toml_to_pos(data['finish'])
@@ -125,17 +206,10 @@ def process_file(path):
         if 'author' in data:
             tip_desc = f"{tip_desc}\nCreator: {data['author']}"
 
-        E = ElementMaker()
+        merge_descriptions[path] = f"{difficulty} {kind}: {name}"
 
         def poi(mapid, pos, **kwargs):
-            def maybe_str(x):
-                if isinstance(x, str):
-                    return x
-                else:
-                    return f"{x:.6g}"
-            
-            pos = [maybe_str(x) for x in pos]
-
+            pos = pos_to_string(pos)
             return E.poi(mapid=str(mapid), xpos=pos[0], ypos=pos[1], zpos=pos[2], **kwargs)
         
         def trail(**kwargs):
@@ -243,6 +317,7 @@ def process_file(path):
                     togglecategory=f"{cat}.trail", toggle=f"{cat}.trail", triggerrange="4",
                     iconfile=f"Data/Markers/wingstart_{stars}star.png",
                     iconsize="1.5", mapdisplaysize="40", fadenear="4000", fadefar="6000",
+                    mapvisibility=str(map_visible).lower(), minimapvisibility=str(map_visible).lower(),
                     **{'tip-name': f"start: {tip_name}", 'tip-description': tip_desc}),
 
                 *trail(traildata=trailfile.as_posix(), type=f"{cat}.trail",
