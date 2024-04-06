@@ -1,3 +1,4 @@
 _archive/*
 _gramr/
 Data/Trails/**/*.xml
+*.taco
