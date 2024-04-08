@@ -15,6 +15,7 @@ import uuid
 
 from lxml.builder import E
 import lxml.etree as etree
+from trllib import TrlReader
 
 # toggle for minimap merge feature
 # combines nearby start markers into one for minimap/map purposes to avoid clutter & z-fighting
@@ -114,25 +115,6 @@ except:
     print("Failed to load Tools/maps.json")
     maps = {}
     pass
-
-# based on https://github.com/dlamkins/TmfLib/blob/master/Reader/TrlFileReader.cs
-class TrlReader(abc.Iterator):
-    def __init__(self, path):
-        self._path = path
-    def __enter__(self):
-        self._fh = open(self._path, "rb")
-        self.version = struct.unpack("<i", self._fh.read(4))[0]
-        if self.version != 0:
-            raise ValueError(f"Unknown TRL version {self.version}")
-        self.mapid = struct.unpack("<i", self._fh.read(4))[0]
-        return self
-    def __exit__(self, *args):
-        self._fh.close()
-    def __next__(self):
-        if p := self._fh.read(12):
-            return struct.unpack("<fff", p)
-        else:
-            raise StopIteration
 
 def read_trl(path):
     with TrlReader(path) as t:
@@ -336,4 +318,5 @@ def process_file(path, map_visible):
 
         return etree.tostring(doc, pretty_print=True, encoding='utf-8', xml_declaration=True)
 
-main()
+if __name__ == "__main__":
+    main()
