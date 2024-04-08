@@ -5,11 +5,12 @@ name = "Wayfarer's Playground"
 kind = "route"
 difficulty = "hard"
 author = "Nemain"
+description = "\nalso known as\nMini Diving 101\nCreator: Mozzy"
 
 [start]
-xpos = "186.5043"
-ypos = "139.9575"
-zpos = "75.81397"
+xpos="183.4755"
+ypos="137.1273"
+zpos="75.63006"
 
 [[springer]]
 xpos = "192.753"
