@@ -10,7 +10,7 @@ def main():
             if f.name == "_wing_a_category.xml":
                 try:
                     text = f.read_text()
-                    match = re.search(r'<markercategory name="version" isseparator="1" displayname="version: (\[unspecified\])" />', text)
+                    match = re.search(r'<MarkerCategory name="version" isseparator="1" displayname="version: (\[unspecified\])" />', text)
                     if match:
                         version = date.today().isoformat()
 
@@ -31,7 +31,6 @@ def main():
         for f in Path('Data').rglob('*.xml'):
             zip.write(f)
         for f in Path('Data/Trails').rglob('*.trl'):
-            # zip.write(f)
             munge_trl(zip, f)
 
 def lerp(a, b, t):

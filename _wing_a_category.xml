@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<overlaydata>
-    <markercategory name="griffon_flying" displayname="Griffon Flying">
-        <markercategory name="guildname" isseparator="1" displayname="[Wing] The Griffon Academy" />
+<OverlayData>
+    <MarkerCategory name="griffon_flying" displayname="Griffon Flying">
+        <MarkerCategory name="guildname" isseparator="1" displayname="[Wing] The Griffon Academy" />
         <!-- the following line is modified during publishing by Tools/publish.py -->
-        <markercategory name="version" isseparator="1" displayname="version: [unspecified]" />
-        <markercategory name="routes" displayname="Routes">
-            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
-            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
-            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
-            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
-        </markercategory>
-        <markercategory name="stunts" displayname="Stunts">
-            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
-            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
-            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
-            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
-        </markercategory>
-        <markercategory name="caves" displayname="Caves">
-            <markercategory name="easy" displayname="1 Star - Easy"></markercategory>
-            <markercategory name="medium" displayname="2 Star - Medium"></markercategory>
-            <markercategory name="hard" displayname="3 Star - Hard"></markercategory>
-            <markercategory name="expert" displayname="4 Star - Expert"></markercategory>
-        </markercategory>
-        <markercategory name="discord" isseparator="1" displayname="Click for Discord invite!"
+        <MarkerCategory name="version" isseparator="1" displayname="version: [unspecified]" />
+        <MarkerCategory name="routes" displayname="Routes">
+            <MarkerCategory name="easy" displayname="1 Star - Easy"></MarkerCategory>
+            <MarkerCategory name="medium" displayname="2 Star - Medium"></MarkerCategory>
+            <MarkerCategory name="hard" displayname="3 Star - Hard"></MarkerCategory>
+            <MarkerCategory name="expert" displayname="4 Star - Expert"></MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="stunts" displayname="Stunts">
+            <MarkerCategory name="easy" displayname="1 Star - Easy"></MarkerCategory>
+            <MarkerCategory name="medium" displayname="2 Star - Medium"></MarkerCategory>
+            <MarkerCategory name="hard" displayname="3 Star - Hard"></MarkerCategory>
+            <MarkerCategory name="expert" displayname="4 Star - Expert"></MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="caves" displayname="Caves">
+            <MarkerCategory name="easy" displayname="1 Star - Easy"></MarkerCategory>
+            <MarkerCategory name="medium" displayname="2 Star - Medium"></MarkerCategory>
+            <MarkerCategory name="hard" displayname="3 Star - Hard"></MarkerCategory>
+            <MarkerCategory name="expert" displayname="4 Star - Expert"></MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="discord" isseparator="1" displayname="Click for Discord invite!"
             copy="https://discord.gg/the-griffon-academy" copy-message="Discord invite copied!" />
-        <markercategory name="contributors" displayname="Contributors">
-            <markercategory name="kampfhase" displayname="Dev | Kampfhase" />
-            <markercategory name="gramr" displayname="Dev | Gramr" />
-            <markercategory name="metallis" displayname="Dev | Metallis" />
-            <markercategory name="kat_drexed" displayname="Recorder | Kat Drexed" />
-            <markercategory name="nilsibus" displayname="Recorder | Nilsibus" />
-            <markercategory name="max" displayname="Recorder | Max" />
-            <markercategory name="zeph" displayname="Recorder | Zeph" />
-        </markercategory>
-    </markercategory>
-</overlaydata>
+        <MarkerCategory name="contributors" displayname="Contributors">
+            <MarkerCategory name="kampfhase" displayname="Dev | Kampfhase" />
+            <MarkerCategory name="gramr" displayname="Dev | Gramr" />
+            <MarkerCategory name="metallis" displayname="Dev | Metallis" />
+            <MarkerCategory name="kat_drexed" displayname="Recorder | Kat Drexed" />
+            <MarkerCategory name="nilsibus" displayname="Recorder | Nilsibus" />
+            <MarkerCategory name="max" displayname="Recorder | Max" />
+            <MarkerCategory name="zeph" displayname="Recorder | Zeph" />
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>
